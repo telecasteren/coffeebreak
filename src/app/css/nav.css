@@ -1,0 +1,21 @@
+nav {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  width: 100%;
+  top: 0;
+  padding: 2rem 0 2rem 0;
+  background-color: #191818;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
+.nav-link.active {
+  color: var(--accent);
+  font-weight: 600;
+}

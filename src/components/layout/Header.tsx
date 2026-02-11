@@ -1,18 +1,31 @@
 "use client";
 
-import Typography from "@mui/material/Typography";
+import Link from "next/link";
+import { useActiveNav } from "@/hooks/use-active-nav";
+
+const navItems = [
+  { id: "landing", label: "home" },
+  { id: "projects", label: "projects" },
+  { id: "contact", label: "contact" },
+];
 
 const Header = () => {
+  const sectionIds = navItems.map((n) => n.id);
+  const activeId = useActiveNav(sectionIds);
+
   return (
     <header>
-      <Typography variant="h1" component="h1">
-        FRONTEND DEV AND COFFEE NERD
-      </Typography>
-      <Typography variant="h2" component="h2">
-        <span className="highlight">Notoriously curious</span> about everything,
-        reaching for fullstack. Looking to improve my skills one coffee at the
-        time. All things user centric.
-      </Typography>
+      <nav>
+        {navItems.map((item) => (
+          <Link
+            key={item.id}
+            href={`#${item.id}`}
+            className={item.id === activeId ? "nav-link active" : "nav-link"}
+          >
+            {item.label}
+          </Link>
+        ))}
+      </nav>
     </header>
   );
 };

@@ -1,0 +1,12 @@
+.contact-text {
+  font-size: 28px;
+}
+
+.mailto-link {
+  text-decoration: dashed underline var(--accent);
+  transition: color 0.3s ease-in-out;
+}
+
+.mailto-link:hover {
+  color: var(--accent);
+}
