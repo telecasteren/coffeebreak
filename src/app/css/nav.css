@@ -9,6 +9,7 @@ nav {
   padding: 2rem 0 2rem 0;
   background-color: #191818;
   font-size: 1.2rem;
+  z-index: 100;
 }
 
 nav a:hover {

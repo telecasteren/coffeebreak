@@ -1,22 +1,19 @@
 "use client";
 
 import Typography from "@mui/material/Typography";
+import { ContactText, ContactTitle } from "../data/texts/contact-text";
 
 const Contact = () => {
   return (
     <>
-      <Typography variant="h2" component="h2">
-        REACH OUT
-      </Typography>
-      <p className="contact-text">
-        I&apos;m always open to{" "}
-        <span className="highlight">new opportunities</span> and collaborations.
-        Feel free to reach out to me via email at{" "}
-        <a href="mailto:nilsen.tele@proton.me" className="mailto-link">
-          nilsen.tele@proton.me
-        </a>
-        .
-      </p>
+      <div className="contact-title-wrapper">
+        <span className="hire-me">HIRE ME</span>
+        <Typography variant="h2" component="h2">
+          {ContactTitle}
+        </Typography>
+      </div>
+
+      <p className="contact-text">{ContactText}</p>
     </>
   );
 };

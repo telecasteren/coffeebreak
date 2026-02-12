@@ -1,4 +1,19 @@
 a.case-study-link {
-  margin-top: 50px;
+  display: block;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: fit-content;
+  border-bottom: var(--dashed-border);
+  transition: all 0.3s ease;
+}
+
+a.case-study-link:hover {
   color: var(--accent);
+  border-bottom-color: transparent;
+}
+
+.work-text {
+  font-size: 1.5rem;
+  margin-top: 1rem;
 }

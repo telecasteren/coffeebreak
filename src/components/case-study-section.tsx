@@ -2,9 +2,15 @@
 
 import Typography from "@mui/material/Typography";
 import Link from "next/link";
+import Image from "next/image";
 
 const URL =
   "https://github.com/telecasteren/social-app-noroff/blob/main/ReadMe.md";
+
+const imageStyle = {
+  borderRadius: "6px",
+  opacity: 0.6,
+};
 
 const CaseStudy = () => {
   return (
@@ -24,6 +30,17 @@ const CaseStudy = () => {
       >
         FOODIEGRAM
       </Link>
+
+      <div className="case-study-image">
+        <Image
+          src="/foodiegram_lightmode.webp"
+          alt="Foodiegram app screenshot"
+          className="case-study-img"
+          width={1000}
+          height={500}
+          style={imageStyle}
+        />
+      </div>
 
       <p>Something I&apos;ve learned from this project.</p>
     </>

@@ -1,13 +1,25 @@
 "use client";
 
 import Link from "next/link";
+import { EmailIcon, GitHubIcon, LinkedInIcon } from "../icons/mui-icons";
 
 const footerItems = [
-  { id: "github", label: "GitHub", href: "https://github.com/telecasteren" },
-  { id: "email", label: "Email", href: "mailto:nilsen.tele@proton.me" },
+  {
+    id: "github",
+    label: "GitHub",
+    icon: GitHubIcon,
+    href: "https://github.com/telecasteren",
+  },
+  {
+    id: "email",
+    label: "Email",
+    icon: EmailIcon,
+    href: "mailto:nilsen.tele@proton.me",
+  },
   {
     id: "linkedin",
     label: "LinkedIn",
+    icon: LinkedInIcon,
     href: "https://www.linkedin.com/in/tele-caster-nilsen-7002b9249",
   },
 ];
@@ -24,7 +36,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {item.label}
+            <item.icon /> {item.label}
           </Link>
         ))}
       </footer>

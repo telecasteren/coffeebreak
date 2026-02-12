@@ -1,9 +1,13 @@
 :root {
   --accent: #46ff21;
+
+  --dashed-border: dashed 4px var(--accent);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --accent: #0715b0;
+
+    --dashed-border: dashed 4px var(--accent);
   }
 }

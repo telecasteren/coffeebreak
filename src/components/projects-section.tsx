@@ -1,20 +1,18 @@
 "use client";
 
 import Typography from "@mui/material/Typography";
+import { WorkSubtitle, WorkText, WorkTitle } from "@/data/texts/work-text";
 
 const Projects = () => {
   return (
     <>
       <Typography variant="h1" component="h1">
-        MY WORK
+        {WorkTitle}
       </Typography>
       <Typography variant="h3" component="h3">
-        <span className="highlight">Everything is simple</span>, a bold
-        accusation and one of my main goals when building. I want to create
-        things that are simple to use, intuitive and{" "}
-        <span className="highlight">solve problems</span>.
+        {WorkSubtitle}
       </Typography>
-      <p>Something else about my projects.</p>
+      <p className="work-text">{WorkText}</p>
     </>
   );
 };

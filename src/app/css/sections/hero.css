@@ -1,0 +1,15 @@
+.hero-title-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hero-icon {
+  display: inline-block;
+  padding-bottom: 50px;
+}
+
+.hero-text {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}

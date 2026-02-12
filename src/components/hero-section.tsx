@@ -1,18 +1,19 @@
 "use client";
 
 import Typography from "@mui/material/Typography";
+import { HeroText, HeroSubTitle, HeroTitle } from "../data/texts/hero-text";
 
 const Hero = () => {
   return (
     <>
-      <Typography variant="h1" component="h1">
-        THE COFFEE NERD
+      <Typography variant="h1" component="h1" className="hero-title-container">
+        {HeroTitle}
       </Typography>
+
       <Typography variant="h3" component="h3">
-        <span className="highlight">Barista for over a decade.</span> Drinking
-        coffee fulltime.
+        {HeroSubTitle}
       </Typography>
-      <p>Something else about coffee and my journey into tech.</p>
+      <p className="hero-text">{HeroText}</p>
     </>
   );
 };
