@@ -1,11 +1,11 @@
 "use client";
 
-import CoffeeMug from "../../components/icons/fontawesome-icons";
+import { CoffeeIcon } from "../../components/icons/coffee-icon";
 
 const HeroTitle = (
   <>
     THE COFFEE NERD
-    <CoffeeMug className="hero-icon" />
+    <CoffeeIcon variant="animate" size={110} />
   </>
 );
 

@@ -1,10 +1,12 @@
 "use client";
 
-import { WifiIcon } from "@/components/icons/mui-icons";
+import { WifiIcon } from "@/components/icons/wifi-icon";
 
 const WorkTitle = (
   <>
-    MY WORK <WifiIcon sx={{ fontSize: "6rem" }} />
+    <div className="work-title">
+      MY WORK <WifiIcon size={88} />
+    </div>
   </>
 );
 

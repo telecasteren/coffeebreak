@@ -13,6 +13,12 @@ a.case-study-link:hover {
   border-bottom-color: transparent;
 }
 
+.work-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .work-text {
   font-size: 1.5rem;
   margin-top: 1rem;

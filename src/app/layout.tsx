@@ -24,12 +24,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <Script
-          src="https://kit.fontawesome.com/2669aff4ad.js"
-          crossOrigin="anonymous"
-        ></Script>
-      </head>
       <body className={robotoCondensed.variable}>
         <MuiThemeProvider>{children}</MuiThemeProvider>
       </body>

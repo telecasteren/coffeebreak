@@ -27,19 +27,31 @@ const footerItems = [
 const Footer = () => {
   return (
     <>
-      <footer>
-        {footerItems.map((item) => (
-          <Link
-            key={item.id}
-            href={item.href}
-            className={`footer-link footer-${item.id}`}
+      <div className="footer-container">
+        <footer>
+          {footerItems.map((item) => (
+            <Link
+              key={item.id}
+              href={item.href}
+              className={`footer-link footer-${item.id}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <item.icon /> {item.label}
+            </Link>
+          ))}
+        </footer>
+        <p className="footer-version">
+          © {new Date().getFullYear()} Tele Caster Nilsen |<a href="#"> v2</a> |
+          <a
+            href="https://telecasternilsen.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <item.icon /> {item.label}
-          </Link>
-        ))}
-      </footer>
+            v1
+          </a>
+        </p>
+      </div>
     </>
   );
 };

@@ -1,5 +1,6 @@
 :root {
   --accent: #46ff21;
+  --nav-bg: #fff;
 
   --dashed-border: dashed 4px var(--accent);
 }
@@ -7,6 +8,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --accent: #0715b0;
+    --nav-bg: #191818;
 
     --dashed-border: dashed 4px var(--accent);
   }

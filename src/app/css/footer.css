@@ -17,3 +17,17 @@ footer {
 .footer-link:hover {
   color: var(--accent);
 }
+
+.footer-version {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.footer-version a {
+  margin: 0 0.4rem;
+}
+
+.footer-version a:hover {
+  border-bottom: var(--dashed-border);
+}

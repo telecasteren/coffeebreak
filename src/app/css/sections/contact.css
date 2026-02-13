@@ -18,10 +18,10 @@
   top: 40%;
   left: 0;
   transform: translateY(-50%);
-  font-size: clamp(8rem, 14vw, 14rem);
+  font-size: clamp(10rem, 20vw, 16rem);
   font-weight: 800;
   color: #fff;
-  opacity: 0.04;
+  opacity: 0.02;
   letter-spacing: 0.1em;
   white-space: nowrap;
   pointer-events: none;
