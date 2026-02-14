@@ -4,9 +4,11 @@ import Link from "next/link";
 import { useActiveNav } from "@/hooks/use-active-nav";
 
 const navItems = [
-  { id: "landing", label: "home" },
-  { id: "projects", label: "projects" },
+  { id: "hero", label: "home" },
+  { id: "dev", label: "the man" },
+  { id: "work", label: "projects" },
   { id: "contact", label: "contact" },
+  // { id: "cv", label: "cv" },
 ];
 
 const Header = () => {

@@ -14,8 +14,8 @@ const WorkSubtitle = (
   <>
     <span className="highlight">Everything is simple,</span> a bold statement
     and one of my main goals when building. I want to create things that are
-    simple to use, intuitive and{" "}
-    <span className="highlight">solve problems</span>.
+    easy to use, intuitive and <span className="highlight">solve problems</span>
+    .
   </>
 );
 

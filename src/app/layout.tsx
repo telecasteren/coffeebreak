@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import "./css/globals.css";
 import { MuiThemeProvider } from "@/components/theme/mui-theme-provider";
 import { Roboto_Condensed } from "next/font/google";

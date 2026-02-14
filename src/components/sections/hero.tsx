@@ -2,10 +2,10 @@
 
 import { LandingTitle, LandingText } from "@/data/texts/landing-text";
 import Typography from "@mui/material/Typography";
-import { CoffeeIcon } from "./icons/coffee-icon";
+import { CoffeeIcon } from "@/components/icons/coffee-icon";
 import { useState } from "react";
 
-const Landing = () => {
+const Hero = () => {
   const [isAnimating, setIsAnimating] = useState(false);
 
   const startAnimation = () => {
@@ -25,7 +25,7 @@ const Landing = () => {
         {LandingText}
       </Typography>
       <a
-        href="#hero"
+        href="#about"
         className="start-link"
         onMouseEnter={startAnimation}
         onMouseLeave={stopAnimation}
@@ -37,4 +37,4 @@ const Landing = () => {
   );
 };
 
-export default Landing;
+export default Hero;

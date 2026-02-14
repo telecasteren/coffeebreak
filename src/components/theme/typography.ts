@@ -13,4 +13,9 @@ export const typography: ThemeOptions["typography"] = {
     fontSize: "3rem",
     fontWeight: 400,
   },
+  h3: {
+    fontFamily: "Newake, system-ui, -apple-system, sans-serif",
+    fontSize: "2.5rem",
+    fontWeight: 400,
+  },
 };

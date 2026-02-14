@@ -2,31 +2,36 @@
 
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-import Landing from "@/components/landing-section";
-import Hero from "@/components/hero-section";
-import Projects from "@/components/projects-section";
-import CaseStudy from "@/components/case-study-section";
-import Contact from "@/components/contact-section";
+import Hero from "@/components/sections/hero";
+import Work from "@/components/sections/work";
+import Projects from "@/components/sections/projects";
+import Contact from "@/components/sections/contact";
+import Dev from "@/components/sections/dev";
+import Barista from "@/components/sections/barista";
 
 export default function App() {
   return (
     <main>
       <Header />
 
-      <section id="landing">
-        <Landing />
-      </section>
-
       <section id="hero">
         <Hero />
       </section>
 
-      <section id="projects">
-        <Projects />
+      <section id="dev">
+        <Dev />
       </section>
 
-      <section id="case-studies">
-        <CaseStudy />
+      <section id="barista">
+        <Barista />
+      </section>
+
+      <section id="work">
+        <Work />
+      </section>
+
+      <section id="projects">
+        <Projects />
       </section>
 
       <section id="contact">

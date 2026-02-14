@@ -1,0 +1,60 @@
+#cards {
+  list-style: none;
+  margin: 0;
+}
+
+.card {
+  position: sticky;
+  top: 8rem;
+  margin-bottom: 2rem;
+}
+
+.card-content {
+  display: grid;
+  grid-template-areas: "text img";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  align-items: stretch;
+  border-radius: 8px;
+  overflow: hidden;
+  min-height: var(--card-height);
+
+  background: rgb(255, 255, 255);
+  color: rgb(10, 5, 7);
+  box-shadow:
+    0 0.2em 1em rgba(0, 0, 0, 0.1),
+    0 1em 2em rgba(0, 0, 0, 0.1);
+}
+
+.card-content > div {
+  display: grid;
+  grid-area: text;
+  gap: 1em;
+  width: 80%;
+  place-self: center;
+  border-right: 1px solid rgb(0 0 0 / 0.1);
+}
+
+.card-content img {
+  grid-area: img;
+  width: 90%;
+  height: 100%;
+  padding-right: 10%;
+  justify-self: center;
+  object-fit: contain;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5em;
+  width: max-content;
+  border-radius: 4px;
+  background: var(--accent);
+  filter: brightness(1.4);
+  color: rgb(255 255 255);
+  transition: filter 0.3s ease-in-out;
+}
+
+.btn:hover {
+  filter: brightness(1);
+}

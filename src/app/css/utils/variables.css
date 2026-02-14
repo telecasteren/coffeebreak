@@ -3,6 +3,7 @@
   --nav-bg: #fff;
 
   --dashed-border: dashed 4px var(--accent);
+  --card-height: min(40rem, 80vh);
 }
 
 @media (prefers-color-scheme: dark) {

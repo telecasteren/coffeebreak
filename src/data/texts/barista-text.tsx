@@ -1,22 +1,20 @@
-"use client";
+import { CoffeeIcon } from "@/components/icons/coffee-icon";
 
-import { CoffeeIcon } from "../../components/icons/coffee-icon";
-
-const HeroTitle = (
+const title = (
   <>
     THE COFFEE NERD
     <CoffeeIcon variant="animate" size={110} />
   </>
 );
 
-const HeroSubTitle = (
+const subtitle = (
   <>
     <span className="highlight">Barista for over a decade.</span> Drinking
     coffee fulltime.
   </>
 );
 
-const HeroText = (
+const paragraph = (
   <>
     Rocked the grinder behind the espresso machine, brewing coffee for over a
     decade. Managed cafés in fast-paced environments, serving the people their
@@ -27,4 +25,4 @@ const HeroText = (
   </>
 );
 
-export { HeroTitle, HeroSubTitle, HeroText };
+export { title, subtitle, paragraph };

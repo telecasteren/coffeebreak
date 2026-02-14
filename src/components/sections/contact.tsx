@@ -1,7 +1,7 @@
 "use client";
 
 import Typography from "@mui/material/Typography";
-import { ContactText, ContactTitle } from "../data/texts/contact-text";
+import { ContactText, ContactTitle } from "@/data/texts/contact-text";
 
 const Contact = () => {
   return (
