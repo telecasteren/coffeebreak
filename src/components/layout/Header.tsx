@@ -18,15 +18,17 @@ const Header = () => {
   return (
     <header>
       <nav>
-        {navItems.map((item) => (
-          <Link
-            key={item.id}
-            href={`#${item.id}`}
-            className={item.id === activeId ? "nav-link active" : "nav-link"}
-          >
-            {item.label}
-          </Link>
-        ))}
+        <div className="nav-inner">
+          {navItems.map((item) => (
+            <Link
+              key={item.id}
+              href={`#${item.id}`}
+              className={item.id === activeId ? "nav-link active" : "nav-link"}
+            >
+              {item.label}
+            </Link>
+          ))}
+        </div>
       </nav>
     </header>
   );
