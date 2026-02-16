@@ -5,10 +5,10 @@ import { useActiveNav } from "@/hooks/use-active-nav";
 
 const navItems = [
   { id: "hero", label: "home" },
-  { id: "dev", label: "the man" },
   { id: "work", label: "projects" },
+  { id: "dev", label: "the man" },
   { id: "contact", label: "contact" },
-  // { id: "cv", label: "cv" },
+  { id: "cv", label: "cv" },
 ];
 
 const Header = () => {
@@ -19,15 +19,21 @@ const Header = () => {
     <header>
       <nav>
         <div className="nav-inner">
-          {navItems.map((item) => (
-            <Link
-              key={item.id}
-              href={`#${item.id}`}
-              className={item.id === activeId ? "nav-link active" : "nav-link"}
-            >
-              {item.label}
-            </Link>
-          ))}
+          {navItems.map((item) => {
+            const href = item.id === "cv" ? "/curriculum" : `/#${item.id}`;
+
+            return (
+              <Link
+                key={item.id}
+                href={href}
+                className={
+                  item.id === activeId ? "nav-link active" : "nav-link"
+                }
+              >
+                {item.label}
+              </Link>
+            );
+          })}
         </div>
       </nav>
     </header>

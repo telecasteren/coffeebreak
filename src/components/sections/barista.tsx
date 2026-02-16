@@ -1,7 +1,7 @@
 "use client";
 
 import Typography from "@mui/material/Typography";
-import { title, subtitle, paragraph } from "@/data/texts/barista-text";
+import { title, subtitle, paragraph } from "@/data/sections/barista-text";
 
 const Barista = () => {
   return (

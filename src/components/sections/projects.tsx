@@ -13,6 +13,10 @@ const Projects = () => {
         <span className="highlight">Proof of concept.</span>
       </Typography>
 
+      <Typography variant="h4" component="h4">
+        Selected projects focused on user experience and maintainable code.
+      </Typography>
+
       <ProjectCards />
     </>
   );

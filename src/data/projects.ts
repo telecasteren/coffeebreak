@@ -21,22 +21,22 @@ const projects = [
   },
   {
     id: 3,
-    title: "Gamehub.",
-    desc: "Ecommerce Gaming platform.",
-    url: "#top",
-    media: {
-      src: "/gamehub-blob.webp",
-      alt: "Gamehub screenshot",
-    },
-  },
-  {
-    id: 4,
     title: "Bits Auctions.",
     desc: "Online auction platform.",
     url: "#top",
     media: {
       src: "/bits-auctions.png",
       alt: "Bits Auctions screenshot",
+    },
+  },
+  {
+    id: 4,
+    title: "Gamehub.",
+    desc: "Ecommerce Gaming platform.",
+    url: "#top",
+    media: {
+      src: "/gamehub-blob.webp",
+      alt: "Gamehub screenshot",
     },
   },
 ];

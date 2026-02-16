@@ -1,7 +1,7 @@
 "use client";
 
 import Typography from "@mui/material/Typography";
-import { WorkSubtitle, WorkText, WorkTitle } from "@/data/texts/work-text";
+import { WorkSubtitle, WorkText, WorkTitle } from "@/data/sections/work-text";
 
 const Work = () => {
   return (

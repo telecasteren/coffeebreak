@@ -1,7 +1,7 @@
 "use client";
 
 import Typography from "@mui/material/Typography";
-import { title, subtitle, paragraph } from "@/data/texts/dev-text";
+import { title, subtitle, paragraph } from "@/data/sections/dev-text";
 import SkillCards from "../cards/skills-cards";
 
 const Dev = () => {

@@ -1,0 +1,52 @@
+.cv-timeline {
+  margin-top: 4rem;
+}
+
+.cv-timeline-inner {
+  position: relative;
+  padding-left: 3rem;
+}
+
+.cv-timeline-inner::before {
+  content: "";
+  position: absolute;
+  left: 1.25rem;
+  top: 0;
+  width: 3px;
+  height: calc(100% + 10rem);
+  background: linear-gradient(to bottom, var(--accent), var(--accent));
+  transform-origin: top;
+  /* from 0 to 1 in js css value*/
+  transform: scaleY(var(--timeline-progress, 0));
+}
+
+.cv-timeline-item {
+  position: relative;
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+  transition:
+    opacity 0.3s ease-out,
+    transform 0.3s ease-out;
+}
+
+.cv-timeline-dot {
+  position: absolute;
+  left: 1.1rem;
+  top: 0.4rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 999px;
+  background-color: var(--accent);
+}
+
+.cv-timeline-content {
+  margin-left: 2.5rem;
+}
+
+.cv-timeline-year {
+  font-weight: 700;
+  display: block;
+  margin-bottom: 0.25rem;
+  opacity: 0.8;
+}

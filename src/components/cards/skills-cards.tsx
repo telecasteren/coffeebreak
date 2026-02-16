@@ -16,7 +16,7 @@ const SkillCards = () => {
               <Typography variant="h4" component="h4">
                 Frontend
               </Typography>
-              <p>React, Next.js, TypeScript, HTML, CSS, Tailwind CSS</p>
+              <p>React, Next.js, TypeScript, HTML, CSS, Tailwind CSS, MUI</p>
 
               <div className="slider-container">
                 <InputRange id="frontend-slider" value={80} />
@@ -40,9 +40,12 @@ const SkillCards = () => {
             <div className="skills-card">
               <p>03</p>
               <Typography variant="h4" component="h4">
-                Tools
+                Tools & AI
               </Typography>
-              <p>Git, Docker, VS Code, Postman</p>
+              <p>
+                Git, Docker, Neon, Prisma ORM, Bunny Storage, Cursor, Copilot,
+                Claude
+              </p>
 
               <div className="slider-container">
                 <InputRange id="tools-slider" value={60} />

@@ -1,6 +1,6 @@
 "use client";
 
-import { LandingTitle, LandingText } from "@/data/texts/landing-text";
+import { LandingTitle, LandingText } from "@/data/sections/landing-text";
 import Typography from "@mui/material/Typography";
 import { CoffeeIcon } from "@/components/icons/coffee-icon";
 import { useState } from "react";
@@ -25,7 +25,7 @@ const Hero = () => {
         {LandingText}
       </Typography>
       <a
-        href="#about"
+        href="#work"
         className="start-link"
         onMouseEnter={startAnimation}
         onMouseLeave={stopAnimation}

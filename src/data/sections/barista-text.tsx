@@ -18,10 +18,11 @@ const paragraph = (
   <>
     Rocked the grinder behind the espresso machine, brewing coffee for over a
     decade. Managed cafés in fast-paced environments, serving the people their
-    daily dose of caffeine.
-    <span className="highlight">Emerging into tech,</span> I use my client
-    facing skills focusing on a <i>digital customer experience</i>, creating
-    clean and interactive user interfaces. Improving my skills every day.
+    daily dose of caffeine. Those years taught me to listen, understand needs
+    quickly and simplify choices.{" "}
+    <span className="highlight">Now I bring that mindset into tech,</span>{" "}
+    focusing on a <i>digital customer experience</i> and building interfaces
+    that feel as friendly and intuitive as a good coffee shop.
   </>
 );
 

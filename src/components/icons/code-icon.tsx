@@ -20,7 +20,7 @@ const CODE_VARIANTS: Variants = {
     opacity: 1,
     transition: {
       // repeat: Number.POSITIVE_INFINITY,
-      repeat: 2,
+      repeat: 20,
       duration: 0.5,
       ease: "easeInOut",
       delay: 0.2 * direction,

@@ -18,20 +18,20 @@ export default function App() {
         <Hero />
       </section>
 
-      <section id="dev">
-        <Dev />
-      </section>
-
-      <section id="barista">
-        <Barista />
-      </section>
-
       <section id="work">
         <Work />
       </section>
 
       <section id="projects">
         <Projects />
+      </section>
+
+      <section id="dev">
+        <Dev />
+      </section>
+
+      <section id="barista">
+        <Barista />
       </section>
 
       <section id="contact">
