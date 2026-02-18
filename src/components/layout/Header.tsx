@@ -5,7 +5,7 @@ import { useActiveNav } from "@/hooks/use-active-nav";
 
 const navItems = [
   { id: "hero", label: "home" },
-  { id: "work", label: "projects" },
+  { id: "work", label: "my work" },
   { id: "dev", label: "the man" },
   { id: "contact", label: "contact" },
   { id: "cv", label: "cv" },

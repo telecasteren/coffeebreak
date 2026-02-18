@@ -2,9 +2,9 @@
 
 import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import Typography from "@mui/material/Typography";
 import cardData from "@/data/projects";
+import Dialogue from "@/components/layout/Dialogue";
 
 const ProjectCards = () => {
   const cardsRef = useRef<HTMLUListElement>(null);
@@ -53,14 +53,14 @@ const ProjectCards = () => {
               <div className="card-text">
                 <Typography variant="h3">{card.title}</Typography>
                 <p>{card.desc}</p>
-                <Link
-                  href={card.url}
+                <Dialogue
                   className="btn"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Read more
-                </Link>
+                  buttonText="Show Project"
+                  title={card.title}
+                  intro={card.desc}
+                  content={card.desc}
+                  media={card.media ? [card.media] : []}
+                />
               </div>
               <Image
                 src={card.media?.src || "/noimage.png"}
@@ -69,7 +69,6 @@ const ProjectCards = () => {
                 height={300}
               />
             </div>
-            <p>Something I&apos;ve learned from this project.</p>
           </li>
         );
       })}

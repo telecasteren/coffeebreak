@@ -1,3 +1,5 @@
+import { title } from "process";
+
 const projects = [
   {
     id: 1,
@@ -5,6 +7,7 @@ const projects = [
     desc: "A social media platform for foodies.",
     url: "https://github.com/telecasteren/social-app-noroff/blob/main/ReadMe.md",
     media: {
+      title: "View Foodiegram",
       src: "/foodiegram_lightmode.webp",
       alt: "Foodiegram screenshot",
     },
@@ -15,26 +18,29 @@ const projects = [
     desc: "A music catalogue.",
     url: "#top",
     media: {
+      title: "View Grammofon",
       src: "/music-catalogue.png",
       alt: "Grammofon screenshot",
     },
   },
   {
     id: 3,
-    title: "Bits Auctions.",
+    title: "BITS AUCTIONS.",
     desc: "Online auction platform.",
     url: "#top",
     media: {
+      title: "View Bits Auctions",
       src: "/bits-auctions.png",
       alt: "Bits Auctions screenshot",
     },
   },
   {
     id: 4,
-    title: "Gamehub.",
+    title: "GAMEHUB.",
     desc: "Ecommerce Gaming platform.",
     url: "#top",
     media: {
+      title: "View Gamehub",
       src: "/gamehub-blob.webp",
       alt: "Gamehub screenshot",
     },
