@@ -43,8 +43,8 @@ const SkillCards = () => {
                 Tools & AI
               </Typography>
               <p>
-                Git, Docker, Neon, Prisma ORM, Bunny Storage, Cursor, Copilot,
-                Claude
+                Git, Docker, Neon, Prisma ORM, Bunny Storage, VS Code, Cursor,
+                Copilot, Claude
               </p>
 
               <div className="slider-container">

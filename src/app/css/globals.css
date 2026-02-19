@@ -8,6 +8,7 @@
 @import url("./cards/project-cards.css");
 @import url("./cards/skills-cards.css");
 @import url("./timelines/cv-timeline.css");
+@import url("./dialogue/dialogue.css");
 
 html,
 body {

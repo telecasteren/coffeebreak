@@ -1,6 +1,6 @@
 ### TO DO
 
-- CV text content
-- Work + Projects section gap: closer together?
-- Projects: add read more dialogue and links
-- Mobile friendly screens
+- Add screenshots of projects
+- Add descriptions for projects (grammofon and foodiegram)
+- Mobile friendly screens (headings)
+- Style the Controllers and Close btn in Dialogue

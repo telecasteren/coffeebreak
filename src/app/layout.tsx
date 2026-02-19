@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./css/globals.css";
-import { MuiThemeProvider } from "@/components/theme/mui-theme-provider";
+import MuiThemeProvider from "@/components/theme/mui-theme-provider";
 import { Roboto_Condensed } from "next/font/google";
 
 const robotoCondensed = Roboto_Condensed({

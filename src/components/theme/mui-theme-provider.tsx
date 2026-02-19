@@ -7,7 +7,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import { colors } from "./colours";
 import { typography } from "./typography";
 
-export const MuiThemeProvider = ({ children }: { children: ReactNode }) => {
+const MuiThemeProvider = ({ children }: { children: ReactNode }) => {
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)", {
     noSsr: true,
   });
@@ -55,3 +55,4 @@ export const MuiThemeProvider = ({ children }: { children: ReactNode }) => {
     </ThemeProvider>
   );
 };
+export default MuiThemeProvider;

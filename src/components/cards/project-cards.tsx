@@ -4,7 +4,7 @@ import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Typography from "@mui/material/Typography";
 import cardData from "@/data/projects";
-import Dialogue from "@/components/layout/Dialogue";
+import Dialogue from "@/components/layout/dialogue/Dialogue";
 
 const ProjectCards = () => {
   const cardsRef = useRef<HTMLUListElement>(null);
@@ -57,14 +57,14 @@ const ProjectCards = () => {
                   className="btn"
                   buttonText="Show Project"
                   title={card.title}
-                  intro={card.desc}
+                  media={card.media}
                   content={card.desc}
-                  media={card.media ? [card.media] : []}
+                  urls={card.urls}
                 />
               </div>
               <Image
-                src={card.media?.src || "/noimage.png"}
-                alt={card.media?.alt || "Image description"}
+                src={card.media?.[0]?.src || "/noimage.png"}
+                alt={card.media?.[0]?.alt || "Image description"}
                 width={500}
                 height={300}
               />
