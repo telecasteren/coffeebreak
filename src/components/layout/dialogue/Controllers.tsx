@@ -16,6 +16,16 @@ export const Controllers = ({
       disabled={disabled}
       size="small"
       variant="outlined"
+      sx={{
+        maxWidth: "fit-content",
+        color: "var(--controller)",
+        borderColor: "var(--controller-border)",
+        "&:hover": {
+          borderColor: "var(--controller-hover)",
+          color: "var(--controller-hover)",
+        },
+        // Add more custom styles here
+      }}
     >
       {direction === "prev" ? <ArrowBackIosNewIcon /> : <ArrowForwardIosIcon />}
     </Button>

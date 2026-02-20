@@ -1,6 +1,11 @@
 ### TO DO
 
-- Add screenshots of projects
-- Add descriptions for projects (grammofon and foodiegram)
+- Add screenshots of projects (grammofon and foodiegram)
+- Add descriptions for projects
 - Mobile friendly screens (headings)
-- Style the Controllers and Close btn in Dialogue
+
+### Theme
+
+**LIGHT MODE:**
+
+- Create CSS variables and MUI theme colours

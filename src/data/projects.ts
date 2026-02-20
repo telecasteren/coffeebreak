@@ -102,7 +102,7 @@ const projects = [
     ],
     media: [
       {
-        src: "/gamehub-blob.webp",
+        src: "/gamehub/gamehub-blob.webp",
         alt: "Gamehub screenshot 0",
       },
       {

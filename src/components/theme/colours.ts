@@ -11,5 +11,6 @@ export const colors = {
   background: {
     light: "#ffffff",
     dark: "#191818",
+    dialog: "#232222",
   },
 };

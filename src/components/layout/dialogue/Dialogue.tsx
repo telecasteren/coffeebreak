@@ -44,13 +44,16 @@ const Dialogue = ({
   };
 
   const handlePrevImage = () => {
-    if (currentImage > 0 && !nextImage) {
-      setNextImage(currentImage - 1);
+    if (!media) return;
+    if (!nextImage) {
+      const prevIndex =
+        currentImage === 0 ? media.length - 1 : currentImage - 1;
+      setNextImage(prevIndex);
       setSlideDirection("left");
 
       if (timeoutRef.current) clearTimeout(timeoutRef.current);
       timeoutRef.current = setTimeout(() => {
-        setCurrentImage((prev) => (prev > 0 ? prev - 1 : prev));
+        setCurrentImage(prevIndex);
         setNextImage(null);
         setSlideDirection(null);
       }, 800);
@@ -58,13 +61,16 @@ const Dialogue = ({
   };
 
   const handleNextImage = () => {
-    if (media && currentImage < media.length - 1 && !nextImage) {
-      setNextImage(currentImage + 1);
+    if (!media) return;
+    if (!nextImage) {
+      const nextIndex =
+        currentImage === media.length - 1 ? 0 : currentImage + 1;
+      setNextImage(nextIndex);
       setSlideDirection("right");
 
       if (timeoutRef.current) clearTimeout(timeoutRef.current);
       timeoutRef.current = setTimeout(() => {
-        setCurrentImage((prev) => prev + 1);
+        setCurrentImage(nextIndex);
         setNextImage(null);
         setSlideDirection(null);
       }, 800);
@@ -156,13 +162,13 @@ const Dialogue = ({
                 <Controllers
                   onClick={handlePrevImage}
                   direction="prev"
-                  disabled={currentImage === 0}
+                  disabled={false}
                 />
                 <Typography variant="caption">{`${currentImage + 1} / ${media.length}`}</Typography>
                 <Controllers
                   onClick={handleNextImage}
                   direction="next"
-                  disabled={media && currentImage === media.length - 1}
+                  disabled={false}
                 />
               </div>
             </>
@@ -186,7 +192,11 @@ const Dialogue = ({
           </div>
         </DialogContent>
         <DialogActions>
-          <Button autoFocus onClick={handleClose}>
+          <Button
+            autoFocus
+            onClick={handleClose}
+            sx={{ color: "#fff", "&:hover": { color: "#ccc" } }}
+          >
             Close
           </Button>
         </DialogActions>

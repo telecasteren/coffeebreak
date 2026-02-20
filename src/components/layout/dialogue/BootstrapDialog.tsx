@@ -6,18 +6,18 @@ import Dialog from "@mui/material/Dialog";
 
 export const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   "& .MuiDialogTitle-root": {
-    backgroundColor: colors.background.dark,
+    backgroundColor: colors.background.dialog,
   },
   "& .MuiDialogContent-root": {
     padding: theme.spacing(2),
-    backgroundColor: colors.background.dark,
+    backgroundColor: colors.background.dialog,
   },
   "& .MuiDialogActions-root": {
     padding: theme.spacing(1),
-    backgroundColor: colors.background.dark,
+    backgroundColor: colors.background.dialog,
   },
   "& .MuiDialog-paper": {
-    backgroundColor: colors.background.dark,
+    backgroundColor: colors.background.dialog,
     maxWidth: "700px",
     width: "100%",
   },

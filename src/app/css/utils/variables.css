@@ -2,6 +2,10 @@
   --accent: #46ff21;
   --nav-bg: #fff;
 
+  --controller: #f3f3f3;
+  --controller-border: #f3f3f3;
+  --controller-hover: #0000cd;
+
   --dashed-border: dashed 4px var(--accent);
   --card-height: min(40rem, 80vh);
 }
@@ -10,6 +14,10 @@
   :root {
     --accent: #0715b0;
     --nav-bg: #191818;
+
+    --controller: #f3f3f3;
+    --controller-border: #f3f3f3;
+    --controller-hover: #0000cd;
 
     --dashed-border: dashed 4px var(--accent);
   }
