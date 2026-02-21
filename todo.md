@@ -1,6 +1,6 @@
 ### TO DO
 
-- Add screenshots of projects (grammofon and foodiegram)
+- Add screenshots of projects (foodiegram)
 - Add descriptions for projects
 - Mobile friendly screens (headings)
 

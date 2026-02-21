@@ -16,7 +16,7 @@ const projects = [
     media: [
       {
         src: "/foodiegram_lightmode.webp",
-        alt: "Foodiegram screenshot",
+        alt: "Foodiegram landing page",
       },
     ],
   },
@@ -36,8 +36,20 @@ const projects = [
     ],
     media: [
       {
-        src: "/music-catalogue.png",
-        alt: "Grammofon screenshot",
+        src: "/grammofon/collection.png",
+        alt: "Grammofon collection page",
+      },
+      {
+        src: "/grammofon/new-entry.png",
+        alt: "Grammofon add new entry page",
+      },
+      {
+        src: "/grammofon/pagination.png",
+        alt: "Grammofon collection list see more",
+      },
+      {
+        src: "/grammofon/wishlist.png",
+        alt: "Grammofon wishlist page",
       },
     ],
   },
@@ -58,31 +70,31 @@ const projects = [
     media: [
       {
         src: "/bits-auctions/bits-landing.png",
-        alt: "Bits Auctions screenshot 0",
+        alt: "Bits Auctions landing page dark theme",
       },
       {
         src: "/bits-auctions/landing.png",
-        alt: "Bits Auctions screenshot 1",
+        alt: "Bits Auctions landing page light theme",
       },
       {
         src: "/bits-auctions/listings.png",
-        alt: "Bits Auctions screenshot 2",
+        alt: "Bits Auctions listings page",
       },
       {
         src: "/bits-auctions/overview.png",
-        alt: "Bits Auctions screenshot 3",
+        alt: "Bits Auctions overview page",
       },
       {
         src: "/bits-auctions/single-listing.png",
-        alt: "Bits Auctions screenshot 4",
+        alt: "Bits Auctions single listing page",
       },
       {
         src: "/bits-auctions/account.png",
-        alt: "Bits Auctions screenshot 5",
+        alt: "Bits Auctions account page",
       },
       {
         src: "/bits-auctions/create-listing.png",
-        alt: "Bits Auctions screenshot 6",
+        alt: "Bits Auctions create new listing modal",
       },
     ],
   },
@@ -103,27 +115,27 @@ const projects = [
     media: [
       {
         src: "/gamehub/gamehub-blob.webp",
-        alt: "Gamehub screenshot 0",
+        alt: "Gamehub landing page",
       },
       {
         src: "/gamehub/article-modal.png",
-        alt: "Gamehub screenshot 1",
+        alt: "Gamehub open article modal",
       },
       {
         src: "/gamehub/game-view-top.png",
-        alt: "Gamehub screenshot 2",
+        alt: "Gamehub single game view",
       },
       {
         src: "/gamehub/games-list.png",
-        alt: "Gamehub screenshot 3",
+        alt: "Gamehub list of games",
       },
       {
         src: "/gamehub/checkout-top.png",
-        alt: "Gamehub screenshot 4",
+        alt: "Gamehub checkout top view",
       },
       {
         src: "/gamehub/checkout-bottom.png",
-        alt: "Gamehub screenshot 5",
+        alt: "Gamehub checkout bottom view",
       },
     ],
   },
