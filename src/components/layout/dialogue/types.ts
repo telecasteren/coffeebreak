@@ -3,6 +3,7 @@ export interface DialogueProps {
   buttonText: string;
   title: string;
   content: string;
+  subcontent?: string;
   media?: {
     src: string;
     alt: string;

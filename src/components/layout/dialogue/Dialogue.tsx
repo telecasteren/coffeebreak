@@ -19,6 +19,7 @@ const Dialogue = ({
   buttonText,
   title,
   content,
+  subcontent,
   media,
   urls,
 }: DialogueProps) => {
@@ -174,7 +175,14 @@ const Dialogue = ({
             </>
           )}
           <div className="dialogue-desc-content">
-            <Typography gutterBottom>{content}</Typography>
+            <Typography>{content}</Typography>
+            <Typography gutterBottom>
+              <b>Stack:</b> {subcontent}
+            </Typography>
+          </div>
+        </DialogContent>
+        <DialogActions>
+          <div className="dialogue-actions">
             <div className="dialogue-links">
               {urls &&
                 urls.map(({ src, title }, index) => (
@@ -189,16 +197,14 @@ const Dialogue = ({
                   </Link>
                 ))}
             </div>
+            <Button
+              autoFocus
+              onClick={handleClose}
+              sx={{ color: "#fff", "&:hover": { color: "#ccc" } }}
+            >
+              Close
+            </Button>
           </div>
-        </DialogContent>
-        <DialogActions>
-          <Button
-            autoFocus
-            onClick={handleClose}
-            sx={{ color: "#fff", "&:hover": { color: "#ccc" } }}
-          >
-            Close
-          </Button>
         </DialogActions>
       </BootstrapDialog>
     </React.Fragment>

@@ -2,7 +2,9 @@ const projects = [
   {
     id: 1,
     title: "FOODIEGRAM.",
-    desc: "A social media platform for foodies.",
+    tagline: "A social media platform for foodies.",
+    desc: "A SoMe platform built intentionally for foodies. Providing a space to share recipes, restaurant and food tips, without the modern noise of conventional social media platforms.",
+    tech: "Javascript, HTML, CSS, Tailwind CSS, Noroff REST API",
     urls: [
       {
         title: "View Foodiegram",
@@ -23,7 +25,9 @@ const projects = [
   {
     id: 2,
     title: "GRAMMOFON.",
-    desc: "A music catalogue.",
+    tagline: "A music catalogue.",
+    desc: "I struggled with getting an overview of my LP records, so I built this online music library. It handles searching through the collection, sorting the table by column header, and I added a wishlist feature, so I can add the LPs I'm missing.",
+    tech: "React, Typescript, MUI, Prisma ORM, Neon database",
     urls: [
       {
         title: "View Grammofon",
@@ -40,12 +44,12 @@ const projects = [
         alt: "Grammofon collection page",
       },
       {
-        src: "/grammofon/new-entry.png",
-        alt: "Grammofon add new entry page",
-      },
-      {
         src: "/grammofon/pagination.png",
         alt: "Grammofon collection list see more",
+      },
+      {
+        src: "/grammofon/new-entry.png",
+        alt: "Grammofon add new entry page",
       },
       {
         src: "/grammofon/wishlist.png",
@@ -56,7 +60,9 @@ const projects = [
   {
     id: 3,
     title: "BITS AUCTIONS.",
-    desc: "Online auction platform.",
+    tagline: "Online auction platform.",
+    desc: "An auction platform where you can view site listings, create an account and sell or bid on items.",
+    tech: "Typescript, Vite, Tailwind CSS, Noroff REST API.",
     urls: [
       {
         title: "View Bits Auctions",
@@ -101,7 +107,9 @@ const projects = [
   {
     id: 4,
     title: "GAMEHUB.",
-    desc: "Ecommerce Gaming platform.",
+    tagline: "Ecommerce Gaming platform.",
+    desc: "Ecommerce Gaming platform where users can buy and sell games, learn and get connected.",
+    tech: "Javascript, HTML, CSS, Wordpress, WooCommerce API",
     urls: [
       {
         title: "View Gamehub",

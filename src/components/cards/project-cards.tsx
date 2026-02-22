@@ -52,13 +52,14 @@ const ProjectCards = () => {
             <div className="card-content">
               <div className="card-text">
                 <Typography variant="h3">{card.title}</Typography>
-                <p>{card.desc}</p>
+                <p>{card.tagline}</p>
                 <Dialogue
                   className="btn"
                   buttonText="Show Project"
                   title={card.title}
                   media={card.media}
                   content={card.desc}
+                  subcontent={card.tech}
                   urls={card.urls}
                 />
               </div>

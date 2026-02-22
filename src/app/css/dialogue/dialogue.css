@@ -1,6 +1,13 @@
+.dialogue-actions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .dialogue-links {
   display: flex;
   gap: 1em;
+  margin-left: 1em;
 }
 
 .dialogue-desc-content {
@@ -9,10 +16,6 @@
   gap: 1em;
   margin: 1em;
 }
-
-/*-------
-Dialogue images swipe to next/prev effect
----------*/
 
 .dialogue-image-wrapper {
   position: relative;
@@ -27,6 +30,10 @@ Dialogue images swipe to next/prev effect
   left: 0;
   transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+/*-------
+Dialogue images swipe to next/prev effect
+---------*/
 
 .slide-in-right {
   transform: translateX(100%);
