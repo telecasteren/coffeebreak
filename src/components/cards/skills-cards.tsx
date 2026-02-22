@@ -1,5 +1,6 @@
 import Typography from "@mui/material/Typography";
 import { InputRange } from "@/components/layout/input-range";
+import { frontend, backend, tools } from "@/data/skills/skills";
 
 const SkillCards = () => {
   return (
@@ -7,7 +8,7 @@ const SkillCards = () => {
       <div className="grid-background">
         <div className="skills-container">
           <Typography variant="h2" component="h2">
-            Skills and technologies
+            Experience and technologies
           </Typography>
 
           <div className="skills-cards-container">
@@ -16,8 +17,30 @@ const SkillCards = () => {
               <Typography variant="h4" component="h4">
                 Frontend
               </Typography>
-              <p>React, Next.js, TypeScript, HTML, CSS, Tailwind CSS, MUI</p>
-
+              {frontend.lang.map((skill, index) => (
+                <span key={skill.tech}>
+                  <a
+                    className="skill-item"
+                    key={skill.tech}
+                    href={skill.url || "#"}
+                  >
+                    {skill.tech}
+                  </a>
+                  {index < frontend.lang.length - 1 && ", "}
+                </span>
+              ))}{" "}
+              {frontend.frameworks.map((skill, index) => (
+                <span key={skill.tech}>
+                  <a
+                    className="skill-item"
+                    key={skill.tech}
+                    href={skill.url || "#"}
+                  >
+                    {skill.tech}
+                  </a>
+                  {index < frontend.frameworks.length - 1 && ", "}
+                </span>
+              ))}
               <div className="slider-container">
                 <InputRange id="frontend-slider" value={80} />
               </div>
@@ -28,10 +51,32 @@ const SkillCards = () => {
               <Typography variant="h4" component="h4">
                 Backend
               </Typography>
-              <p>
-                Node.js, Express, SQL, <i>Rust</i>, <i>C#</i>
-              </p>
+              {backend.lang.map((skill, index) => (
+                <span key={skill.tech}>
+                  <a
+                    className="skill-item"
+                    key={skill.tech}
+                    href={skill.url || "#"}
+                  >
+                    {skill.tech}
+                  </a>
+                  {index < backend.lang.length - 1 && ", "}
+                </span>
+              ))}
+              {", "}
 
+              {backend.frameworks.map((skill, index) => (
+                <span key={skill.tech}>
+                  <a
+                    className="skill-item"
+                    key={skill.tech}
+                    href={skill.url || "#"}
+                  >
+                    {skill.tech}
+                  </a>
+                  {index < backend.frameworks.length - 1 && ", "}
+                </span>
+              ))}
               <div className="slider-container">
                 <InputRange id="backend-slider" value={30} />
               </div>
@@ -40,12 +85,21 @@ const SkillCards = () => {
             <div className="skills-card">
               <p>03</p>
               <Typography variant="h4" component="h4">
-                Tools & AI
+                Tools and Database
               </Typography>
-              <p>
-                Git, Docker, Neon, Prisma ORM, Bunny Storage, VS Code, Cursor,
-                Copilot, Claude
-              </p>
+
+              {tools.map((skill, index) => (
+                <span key={skill.tech}>
+                  <a
+                    className="skill-item"
+                    key={skill.tech}
+                    href={skill.url || "#"}
+                  >
+                    {skill.tech}
+                  </a>
+                  {index < tools.length - 1 && ", "}
+                </span>
+              ))}
 
               <div className="slider-container">
                 <InputRange id="tools-slider" value={60} />

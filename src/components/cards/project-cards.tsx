@@ -3,7 +3,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Typography from "@mui/material/Typography";
-import cardData from "@/data/projects";
+import cardData from "@/data/projects/projects";
 import Dialogue from "@/components/layout/dialogue/Dialogue";
 
 const ProjectCards = () => {

@@ -15,12 +15,11 @@ interface FolderCodeIconProps extends HTMLAttributes<HTMLDivElement> {
 const CODE_VARIANTS: Variants = {
   normal: { x: 0, rotate: 0, opacity: 1 },
   animate: (direction: number) => ({
-    x: [0, direction * 2, 0],
+    x: [0, direction * 1, 0],
     rotate: [0, direction * -8, 0],
     opacity: 1,
     transition: {
-      // repeat: Number.POSITIVE_INFINITY,
-      repeat: 20,
+      repeat: Number.POSITIVE_INFINITY,
       duration: 0.5,
       ease: "easeInOut",
       delay: 0.2 * direction,
