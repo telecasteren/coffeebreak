@@ -17,8 +17,32 @@ const projects = [
     ],
     media: [
       {
-        src: "/foodiegram_lightmode.webp",
-        alt: "Foodiegram landing page",
+        src: "/foodiegram/foodiegram_lightmode.webp",
+        alt: "Foodiegram landing page in light theme",
+      },
+      {
+        src: "/foodiegram/landing-dark.png",
+        alt: "Foodiegram landing page in dark theme",
+      },
+      {
+        src: "/foodiegram/login.png",
+        alt: "Foodiegram login page",
+      },
+      {
+        src: "/foodiegram/profile-settings.png",
+        alt: "Foodiegram profile page",
+      },
+      {
+        src: "/foodiegram/feed.png",
+        alt: "Foodiegram posts feed page",
+      },
+      {
+        src: "/foodiegram/search.png",
+        alt: "Foodiegram feed page with search",
+      },
+      {
+        src: "/foodiegram/single-post.png",
+        alt: "Foodiegram single post page",
       },
     ],
   },

@@ -7,15 +7,24 @@ export const typography: ThemeOptions["typography"] = {
     fontFamily: "Newake, system-ui, -apple-system, sans-serif",
     fontSize: "8rem",
     fontWeight: 400,
+    "@media (max-width:600px)": {
+      fontSize: "3rem",
+    },
   },
   h2: {
     fontFamily: "Newake, system-ui, -apple-system, sans-serif",
     fontSize: "3rem",
     fontWeight: 400,
+    "@media (max-width:600px)": {
+      fontSize: "2rem",
+    },
   },
   h3: {
     fontFamily: "Newake, system-ui, -apple-system, sans-serif",
     fontSize: "2.5rem",
     fontWeight: 400,
+    "@media (max-width:600px)": {
+      fontSize: "1.5rem",
+    },
   },
 };

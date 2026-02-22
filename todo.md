@@ -1,7 +1,5 @@
 ### TO DO
 
-- Add screenshots of projects (foodiegram)
-- Add descriptions for projects
 - Mobile friendly screens (headings)
 
 ### Theme
