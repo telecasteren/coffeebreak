@@ -1,7 +1,5 @@
 ### TO DO
 
-- Mobile friendly screens (headings)
-
 ### Theme
 
 **LIGHT MODE:**
