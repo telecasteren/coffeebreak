@@ -15,6 +15,7 @@ const MuiThemeProvider = ({ children }: { children: ReactNode }) => {
   const theme = useMemo(
     () =>
       createTheme({
+        cssVariables: true,
         palette: {
           mode: prefersDarkMode ? "dark" : "light",
           primary: {
@@ -29,6 +30,7 @@ const MuiThemeProvider = ({ children }: { children: ReactNode }) => {
               : colors.background.light,
           },
         },
+
         components: {
           MuiCssBaseline: {
             styleOverrides: {

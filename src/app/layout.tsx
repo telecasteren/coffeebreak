@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import "./css/globals.css";
-import MuiThemeProvider from "@/components/theme/mui-theme-provider";
+import * as React from "react";
 import { Roboto_Condensed } from "next/font/google";
+import MuiThemeProvider from "@/components/theme/mui-theme-provider";
+import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
 
 const robotoCondensed = Roboto_Condensed({
   subsets: ["latin"],
@@ -10,7 +12,7 @@ const robotoCondensed = Roboto_Condensed({
 
 export const metadata: Metadata = {
   title: "Tele Caster Nilsen - dev & coffee",
-  description: "A Next.js. showcasing website.",
+  description: "My take on my website portfolio.",
   icons: {
     icon: "/favicon.ico?v=2",
   },
@@ -24,7 +26,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={robotoCondensed.variable}>
-        <MuiThemeProvider>{children}</MuiThemeProvider>
+        <AppRouterCacheProvider>
+          <MuiThemeProvider>{children}</MuiThemeProvider>
+        </AppRouterCacheProvider>
       </body>
     </html>
   );
