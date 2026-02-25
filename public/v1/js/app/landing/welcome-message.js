@@ -1,0 +1,38 @@
+import {
+  welcomeContent,
+  pageContent,
+  loader,
+} from "/v1/js/app/utils/constants.js";
+import { displayLandingImage } from "/v1/js/app/landing/display-landing-image.js";
+
+export function welcomeMessage() {
+  const container = document.createElement("div");
+  container.className = "welcomeMessage";
+
+  const title = document.createElement("h1");
+  title.id = "title";
+  title.setAttribute("data-i18n", "welcome");
+
+  const location = document.createElement("p");
+  location.id = "location";
+  location.setAttribute("data-i18n", "location");
+
+  const subMessage = document.createElement("h2");
+  subMessage.id = "subMessage";
+  subMessage.setAttribute("data-i18n", "pitch");
+
+  const message = document.createElement("h3");
+  message.id = "landingMessage";
+  message.setAttribute("data-i18n", "keys");
+
+  loader.style.display = "none";
+
+  container.prepend(message);
+  container.prepend(subMessage);
+  container.prepend(location);
+  container.prepend(title);
+  welcomeContent.appendChild(container);
+  pageContent.appendChild(welcomeContent);
+
+  displayLandingImage();
+}

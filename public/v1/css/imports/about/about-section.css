@@ -1,0 +1,46 @@
+.aboutSection {
+  margin: 180px 0 0 0;
+}
+
+.aboutTitle {
+  width: 180px;
+  border-bottom: 2px solid var(--accent-color);
+}
+
+#aboutTitle,
+#experienceTitle {
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+#aboutText {
+  font-family: "Open sans", serif;
+  font-weight: 350;
+  font-size: 1.2rem;
+}
+
+#aboutText span {
+  font-weight: 500;
+}
+
+.subtitle {
+  font-weight: 600;
+}
+
+.experienceText i {
+  font-weight: lighter;
+}
+
+#closeAbout {
+  display: flex;
+  gap: 10px;
+  justify-self: end;
+  align-items: center;
+  font-weight: 500;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+#closeAbout:hover {
+  color: var(--accent-color);
+}

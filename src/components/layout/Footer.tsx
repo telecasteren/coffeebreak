@@ -43,11 +43,7 @@ const Footer = () => {
         </footer>
         <p className="footer-version">
           © {new Date().getFullYear()} Tele Caster Nilsen |<a href="#"> v2</a> |
-          <a
-            href="https://telecasternilsen.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="/v1/" target="_blank" rel="noopener noreferrer">
             v1
           </a>
         </p>

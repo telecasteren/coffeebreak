@@ -1,0 +1,17 @@
+.toggleSwitch {
+  margin: 0 0 20px 0;
+}
+
+.projectsSwitch {
+  margin: 0 0 20px 80px;
+}
+
+@media screen and (max-width: 778px) {
+  .toggleSwitch {
+    display: flex;
+    justify-content: center;
+    right: 0;
+    position: absolute;
+    margin: -60px 20px;
+  }
+}

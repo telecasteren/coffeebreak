@@ -1,0 +1,49 @@
+.skillContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 180px;
+  max-width: 100%;
+}
+
+#skillSetTitle {
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin-top: 40px;
+}
+
+.skillText {
+  font-weight: 400;
+  font-size: 1.2rem;
+  max-width: 450px;
+  flex: 1 1 200px;
+}
+
+.skill-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+  min-width: 280px;
+  flex: 1 1 320px;
+}
+
+.skill-label {
+  font-weight: 200;
+}
+
+@media (max-width: 1024px) {
+  .skillContainer {
+    gap: 20px 100px;
+  }
+}
+
+@media (max-width: 778px) {
+  .skillContainer {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .skillText {
+    max-width: 300px;
+  }
+}

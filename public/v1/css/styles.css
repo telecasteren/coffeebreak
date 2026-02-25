@@ -1,0 +1,111 @@
+@import url(./imports/components/loader.css);
+/* @import url(/css/imports/components/cursor.css); */
+@import url(./imports/utils/messages/error-message.css);
+@import url(./imports/utils/messages/user-message.css);
+@import url(./imports/utils/messages/alert-message.css);
+@import url(./imports/utils/messages/form-errors.css);
+@import url(./imports/components/navigation/menu.css);
+@import url(./imports/components/navigation/mobile-menu.css);
+
+/* COLORMODE */
+@import url(./imports/utils/theme-variables.css);
+
+/* BUTTONS */
+@import url(./imports/components/buttons/glow-border-btn.css);
+@import url(./imports/components/buttons/switch.css);
+@import url(./imports/components/buttons/skills-button.css);
+
+/* HOME */
+@import url(./imports/landing.css);
+
+/* PROJECTS */
+@import url(./imports/projects/text-content.css);
+@import url(./imports/projects/cards/cards.css);
+@import url(./imports/projects/cards/video.css);
+
+/* CONTACT */
+@import url(./imports/contact/contact-section.css);
+
+/* ABOUT */
+@import url(./imports/about/about-section.css);
+@import url(./imports/about/skillset/skillset.css);
+@import url(./imports/about/skillset/range-inputs.css);
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: var(--primary-text);
+  background-color: var(--background);
+
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: #7aed07e7;
+  color: #beff7ce7;
+}
+
+body.dark ::selection {
+  background: var(--accent-color);
+  color: #4a074a;
+}
+
+.not-found-link {
+  color: var(--card-container);
+}
+
+.not-found-link:hover {
+  color: var(--accent-color);
+}
+
+.top-bar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: 50px;
+}
+
+#en-btn,
+#no-btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: var(--accent-color);
+  transition: 0.3s;
+}
+
+#no-btn {
+  margin-right: 20px;
+}
+
+#en-btn:hover,
+#no-btn:hover {
+  transform: scale(1.05);
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 4% 0 4%;
+}
+
+.hidden {
+  display: none;
+}
+
+.page-content {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 778px) {
+  .page-content {
+    margin-top: 20px;
+  }
+}
