@@ -5,12 +5,13 @@ export const colors = {
     tertiary: "#005784",
   },
   text: {
-    primary: "#000000",
-    secondary: "#666666",
+    light: "#000000",
+    dark: "#fff",
   },
   background: {
     light: "#ffffff",
-    dark: "#191818",
-    dialog: "#232222",
+    dark: "#060813",
+    dialogDark: "#232222",
+    dialogLight: "#fff",
   },
 };

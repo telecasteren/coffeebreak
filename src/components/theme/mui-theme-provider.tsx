@@ -28,7 +28,12 @@ const MuiThemeProvider = ({ children }: { children: ReactNode }) => {
             default: prefersDarkMode
               ? colors.background.dark
               : colors.background.light,
-            dialog: prefersDarkMode ? colors.background.dialog : "#fff",
+            dialog: prefersDarkMode
+              ? colors.background.dialogDark
+              : colors.background.dialogLight,
+          },
+          text: {
+            primary: prefersDarkMode ? colors.text.dark : colors.text.light,
           },
         },
 

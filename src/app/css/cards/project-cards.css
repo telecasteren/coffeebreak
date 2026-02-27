@@ -50,8 +50,8 @@
   width: max-content;
   border-radius: 4px;
   background: var(--accent);
-  filter: brightness(1.4);
-  color: rgb(255 255 255);
+  filter: brightness(1.2);
+  color: var(--card-btn);
   transition: filter 0.3s ease-in-out;
 }
 

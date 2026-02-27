@@ -197,11 +197,7 @@ const Dialogue = ({
                   </Link>
                 ))}
             </div>
-            <Button
-              autoFocus
-              onClick={handleClose}
-              sx={{ color: "#fff", "&:hover": { color: "#ccc" } }}
-            >
+            <Button className="close-btn" autoFocus onClick={handleClose}>
               Close
             </Button>
           </div>

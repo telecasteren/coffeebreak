@@ -26,4 +26,7 @@ export const BootstrapDialog = styled(Dialog)(({ theme }) => ({
     margin: 0,
     boxSizing: "border-box",
   },
+  ".mui-102onwa-MuiButtonBase-root-MuiButton-root": {
+    color: theme.palette.text.primary,
+  },
 }));
