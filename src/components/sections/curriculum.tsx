@@ -36,7 +36,7 @@ const Curriculum = () => {
           Tele Caster Nilsen
         </Typography>
         <Image
-          src="/tele-avatar-blue.png"
+          src="/tele-avatar-blue.webp"
           alt="avatar of the author"
           width={200}
           height={200}
