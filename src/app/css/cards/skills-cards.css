@@ -23,15 +23,15 @@
   background-image:
     repeating-linear-gradient(
       to right,
-      rgba(200, 200, 200, 0.08) 0,
-      rgba(200, 200, 200, 0.08) 1px,
+      rgba(91, 91, 91, 0.237) 0,
+      rgba(91, 91, 91, 0.237) 1px,
       transparent 1px,
       transparent 60px
     ),
     repeating-linear-gradient(
       to bottom,
-      rgba(200, 200, 200, 0.08) 0,
-      rgba(200, 200, 200, 0.08) 1px,
+      rgba(91, 91, 91, 0.237) 0,
+      rgba(91, 91, 91, 0.237) 1px,
       transparent 1px,
       transparent 60px
     );

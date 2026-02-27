@@ -42,6 +42,8 @@
 
 .cv-timeline-content {
   margin-left: 2.5rem;
+  font-size: 1.2rem;
+  max-width: 800px;
 }
 
 .cv-timeline-year {

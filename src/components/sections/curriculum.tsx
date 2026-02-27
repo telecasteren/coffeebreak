@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import Typography from "@mui/material/Typography";
 import { cvItems as items } from "@/data/curriculum/cv-texts";
+import Image from "next/image";
 
 const Curriculum = () => {
   const timelineRef = useRef<HTMLDivElement>(null);
@@ -30,9 +31,17 @@ const Curriculum = () => {
 
   return (
     <>
-      <Typography variant="h4" component="h4">
-        My Professional Journey
-      </Typography>
+      <div className="cv-header">
+        <Typography variant="h4" component="h4">
+          Tele Caster Nilsen
+        </Typography>
+        <Image
+          src="/tele-avatar-blue.png"
+          alt="avatar of the author"
+          width={200}
+          height={200}
+        />
+      </div>
       <section className="cv-timeline" ref={timelineRef}>
         <div
           className="cv-timeline-inner"
