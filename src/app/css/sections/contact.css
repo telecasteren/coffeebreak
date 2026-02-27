@@ -21,8 +21,8 @@
   transform: translateY(-50%);
   font-size: clamp(10rem, 20vw, 16rem);
   font-weight: 800;
-  color: #fff;
-  opacity: 0.02;
+  color: var(--hire-me);
+  opacity: 0.05;
   letter-spacing: 0.1em;
   white-space: nowrap;
   pointer-events: none;

@@ -1,9 +1,8 @@
 ### TO DO
 
-- Add a route back to v2 from v1 ?
+- Hire me Light Mode presence
+- /bits-auctions path, e.g. sub-domains
 
 ### Theme
 
-**LIGHT MODE:**
-
-- Create CSS variables and MUI theme colours
+- Refactor possible CSS variables
