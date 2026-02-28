@@ -4,11 +4,13 @@ export const cvItems = [
     year: "2024 - now",
     title: "Tele Caster Nilsen",
     subtitle: "Hobby and Freelance Web Developer",
-    desc: "Building various projects, gaining practical experience and honing my skills in web development. Focused technologies include React, TypeScript, Next.js, Node.js, Express and MySQL.",
+    desc: `Building various projects and designing websites, gaining practical experience and honing my skills in web development. Focused technologies include React, TypeScript, Next.js, Node.js, Express, MySQL and more.
+    I find that learning is the ultimate activity, and I'm not shy about taking on projects or introduce new technologies.`,
     links: [
+      // links are just an idea and not rendered p.t.
       { text: "Projects", url: "/#projects" },
-      { text: "My portfolio v1", url: "https://telecasternilsen.com" },
-    ], // optional URLs for more info about this
+      { text: "My portfolio v1", url: "https://telecasternilsen.com/v1" },
+    ],
   },
   {
     id: 2,
@@ -21,21 +23,31 @@ export const cvItems = [
     id: 3,
     year: "August 2022 - now",
     title: "Cubit AS",
-    subtitle: "Onboarding Specialist",
-    desc: "Joined the company as a Training Specialist, after 6 months I took the role as Onboarding Specialist, building the team and Onboarding process from A-Z.",
+    subtitle: "Onboarding Specialist & Business Tech Liaison",
+    desc: `Joined the company as a Training Specialist, after 6 months I took the role as Onboarding Specialist, building the team and streamlining the Onboarding process from A-Z.
+    We streamlined the onboarding process from taking over a year to just a few weeks.
+    Working with both governmental and private clients in complex domains, my responsibilities spans converting data, technical documentation, training, project management and product development.`,
   },
   {
     id: 4,
-    year: "May 2016 - August 2022",
+    year: "May 2016 - July 2022",
     title: "Supreme Roastworks AS",
     subtitle: "Barista and Bar Manager",
-    desc: "Honing my skills in customer service, user experience, and operations management in a fast-paced environment.",
+    desc: `Further developed my skills in customer service, user experience and operations management in a fast-paced environment.
+    The coffee shop is a quality-focused place where the customer journey and customer experience are always in focus.`,
   },
   {
     id: 5,
     year: "July 2012 - April 2016",
     title: "Fabel - Litteraturhuset i Fredrikstad",
     subtitle: "Barista and Event Coordinator",
-    desc: "Managing the café and bar. Worked on various events, gaining practical experience with event planning and customer service.",
+    desc: "Managing the café and bar. Worked with several events and conferences, gaining experience with process, structure and planning, as well as customer service and user experience.",
+  },
+  {
+    id: 6,
+    year: "2008 - 2012",
+    title: "The Barista- and service industry",
+    subtitle: "Barista",
+    desc: "Various jobs within the barista and service industry during the period.",
   },
 ];
