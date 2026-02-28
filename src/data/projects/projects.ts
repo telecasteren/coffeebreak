@@ -90,7 +90,7 @@ const projects = [
     urls: [
       {
         title: "View Bits Auctions",
-        src: "https://telecasternilsen.com/bits-auctions/",
+        src: "https://bits.telecasternilsen.com",
       },
       {
         title: "View Code",
