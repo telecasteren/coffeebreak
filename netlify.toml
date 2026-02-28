@@ -1,5 +1,0 @@
-[[redirects]]
-  from = "/bits-auctions/*"
-  to = "https://bits-auctions.netlify.app:splat"
-  status = 200
-  force = true
