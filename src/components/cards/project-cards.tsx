@@ -68,6 +68,7 @@ const ProjectCards = () => {
                 alt={card.media?.[0]?.alt || "Image description"}
                 width={500}
                 height={300}
+                loading="eager"
               />
             </div>
           </li>

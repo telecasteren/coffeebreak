@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useActiveNav } from "@/hooks/use-active-nav";
 import { useState, useEffect } from "react";
 import { AlignRightIcon } from "@/components/icons/menu-icon";
+import { BREAKPOINT } from "../../lib/config";
 
 const navItems = [
   { id: "hero", label: "home" },
@@ -12,8 +13,6 @@ const navItems = [
   { id: "contact", label: "contact" },
   { id: "cv", label: "cv" },
 ];
-
-const BREAKPOINT = 768;
 
 const Header = () => {
   const sectionIds = navItems.map((n) => n.id);
