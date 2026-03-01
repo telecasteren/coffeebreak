@@ -36,29 +36,31 @@ const Header = () => {
   return (
     <header>
       <nav>
-        {isMobile && (
-          <AlignRightIcon className="menu-icon" onClick={openMobileMenu} />
-        )}
+        <div className="nav-container">
+          {(showMobileMenu || !isMobile) && (
+            <div className="nav-inner">
+              {navItems.map((item) => {
+                const href = item.id === "cv" ? "/curriculum" : `/#${item.id}`;
 
-        {(showMobileMenu || !isMobile) && (
-          <div className="nav-inner">
-            {navItems.map((item) => {
-              const href = item.id === "cv" ? "/curriculum" : `/#${item.id}`;
+                return (
+                  <Link
+                    key={item.id}
+                    href={href}
+                    className={
+                      item.id === activeId ? "nav-link active" : "nav-link"
+                    }
+                  >
+                    {item.label}
+                  </Link>
+                );
+              })}
+            </div>
+          )}
 
-              return (
-                <Link
-                  key={item.id}
-                  href={href}
-                  className={
-                    item.id === activeId ? "nav-link active" : "nav-link"
-                  }
-                >
-                  {item.label}
-                </Link>
-              );
-            })}
-          </div>
-        )}
+          {isMobile && (
+            <AlignRightIcon className="menu-icon" onClick={openMobileMenu} />
+          )}
+        </div>
       </nav>
     </header>
   );

@@ -3,13 +3,17 @@
   --nav-bg: #fffffffa;
   --card-btn: #000000;
   --hire-me: #000000;
+  --grid-bg: rgba(91, 91, 91, 0.237);
+  --dashed-border: dashed 4px var(--accent);
 
   --controller: #9c9a9a;
   --controller-border: #9c9a9a;
   --controller-hover: #37d618;
 
-  --dashed-border: dashed 4px var(--accent);
-  --card-height: min(40rem, 80vh);
+  /* General */
+  --box-sh: rgba(250, 250, 250, 0.1);
+  --box-sh-hover: rgba(250, 250, 250, 0.2);
+  --card-height: min(40rem, fit-content);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,11 +22,11 @@
     --nav-bg: #060813fa;
     --card-btn: #ffffff;
     --hire-me: #fff;
+    --grid-bg: rgba(167, 167, 167, 0.237);
+    --dashed-border: dashed 4px var(--accent);
 
     --controller: #f3f3f3;
     --controller-border: #f3f3f3;
     --controller-hover: #0000cd;
-
-    --dashed-border: dashed 4px var(--accent);
   }
 }

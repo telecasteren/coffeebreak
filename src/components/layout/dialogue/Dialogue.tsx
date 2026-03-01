@@ -128,9 +128,9 @@ const Dialogue = ({
                   }`}
                   src={media[currentImage]?.src || "/noimage.png"}
                   alt={media[currentImage]?.alt || "Image description"}
-                  width={700}
-                  height={350}
-                  style={{ zIndex: 1 }}
+                  fill
+                  sizes="(max-width: 700px) 100vw, 700px"
+                  style={{ objectFit: "cover", zIndex: 1 }}
                 />
                 {nextImage !== null && (
                   <Image
@@ -143,9 +143,9 @@ const Dialogue = ({
                     }`}
                     src={media[nextImage]?.src || "/noimage.png"}
                     alt={media[nextImage]?.alt || "Image description"}
-                    width={700}
-                    height={350}
-                    style={{ zIndex: 2 }}
+                    fill
+                    sizes="(max-width: 700px) 100vw, 700px"
+                    style={{ objectFit: "cover", zIndex: 1 }}
                   />
                 )}
               </div>

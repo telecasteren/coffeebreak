@@ -2,8 +2,6 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  margin: 4rem;
-  margin-bottom: 10rem;
 }
 
 .grid-background {
@@ -13,6 +11,15 @@
   gap: 20px;
   isolation: isolate;
   margin-top: 8rem;
+  padding: 2rem;
+  padding-bottom: 4rem;
+}
+
+@media screen and (min-width: 450px) {
+  .grid-background {
+    padding: 5rem;
+    padding-bottom: 8rem;
+  }
 }
 
 .grid-background::before {
@@ -23,22 +30,27 @@
   background-image:
     repeating-linear-gradient(
       to right,
-      rgba(91, 91, 91, 0.237) 0,
-      rgba(91, 91, 91, 0.237) 1px,
+      var(--grid-bg) 0,
+      var(--grid-bg) 1px,
       transparent 1px,
       transparent 60px
     ),
     repeating-linear-gradient(
       to bottom,
-      rgba(91, 91, 91, 0.237) 0,
-      rgba(91, 91, 91, 0.237) 1px,
+      var(--grid-bg) 0,
+      var(--grid-bg) 1px,
       transparent 1px,
       transparent 60px
     );
 }
 
+.skill-item {
+  transition: all ease-in-out 0.2s;
+}
+
 .skill-item:hover {
   color: var(--accent);
+  font-weight: bolder;
 }
 
 .skills-cards-container {
@@ -54,7 +66,7 @@
   color: #333;
   border-radius: 2px;
   padding: 20px;
-  box-shadow: 0 4px 6px rgba(250, 250, 250, 0.1);
+  box-shadow: 0 4px 6px var(--box-sh);
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease;
@@ -62,7 +74,7 @@
 
 .skills-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 8px 12px rgba(250, 250, 250, 0.2);
+  box-shadow: 0 8px 12px var(--box-sh-hover);
 }
 
 .slider-container {
