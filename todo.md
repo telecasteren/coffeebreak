@@ -1,8 +1,8 @@
 ### TO DO
 
-- Hire me Light Mode presence
-- /bits-auctions path, e.g. sub-domains
+- Move projects to site subdomains: GameHub, Unwired
 
-### Theme
+### Theme and styles
 
 - Refactor possible CSS variables
+- selector color offsets

@@ -184,8 +184,10 @@ const Dialogue = ({
         <DialogActions>
           <div className="dialogue-actions">
             <div className="dialogue-links">
-              {urls &&
-                urls.map(({ src, title }, index) => (
+              {urls?.map(({ src, title }, index) => {
+                if (!src) return null;
+
+                return (
                   <Link
                     className="btn"
                     key={index}
@@ -195,7 +197,8 @@ const Dialogue = ({
                   >
                     {title}
                   </Link>
-                ))}
+                );
+              })}
             </div>
             <Button className="close-btn" autoFocus onClick={handleClose}>
               Close

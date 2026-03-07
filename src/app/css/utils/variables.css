@@ -11,8 +11,8 @@
   --controller-hover: #37d618;
 
   /* General */
-  --box-sh: rgba(250, 250, 250, 0.1);
-  --box-sh-hover: rgba(250, 250, 250, 0.2);
+  --box-sh: rgba(84, 84, 84, 0.2);
+  --box-sh-hover: rgba(26, 26, 26, 0.2);
   --card-height: min(40rem, fit-content);
 }
 
@@ -25,6 +25,9 @@
     --grid-bg: rgba(167, 167, 167, 0.237);
     --dashed-border: dashed 4px var(--accent);
 
+    /* General */
+    --box-sh: rgba(250, 250, 250, 0.1);
+    --box-sh-hover: rgba(250, 250, 250, 0.2);
     --controller: #f3f3f3;
     --controller-border: #f3f3f3;
     --controller-hover: #0000cd;

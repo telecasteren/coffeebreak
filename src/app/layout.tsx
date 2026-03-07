@@ -12,7 +12,7 @@ const robotoCondensed = Roboto_Condensed({
 
 export const metadata: Metadata = {
   title: "Tele Caster Nilsen - dev & coffee",
-  description: "My take on my website portfolio.",
+  description: "My take on a portfolio website.",
   icons: {
     icon: "/favicon.ico?v=2",
   },

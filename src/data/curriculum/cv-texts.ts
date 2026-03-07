@@ -2,15 +2,11 @@ export const cvItems = [
   {
     id: 1,
     year: "2024 - now",
-    title: "Tele Caster Nilsen",
+    title: "Devtones Studio - Tele Caster Nilsen",
     subtitle: "Hobby and Freelance Web Developer",
     desc: `Building various projects and designing websites, gaining practical experience and honing my skills in web development. Focused technologies include React, TypeScript, Next.js, Node.js, Express, MySQL and more.
-    I find that learning is the ultimate activity, and I'm not shy about taking on projects or introduce new technologies.`,
-    links: [
-      // links are just an idea and not rendered p.t.
-      { text: "Projects", url: "/#projects" },
-      { text: "My portfolio v1", url: "https://telecasternilsen.com/v1" },
-    ],
+    I've integrated AI in my development workflow, using it to accelerate prototyping, debugging and development, while maintaining a deep understanding of the technologies.
+    To me, learning is the ultimate activity, and I'm not shy about taking on projects or introduce new technologies.`,
   },
   {
     id: 2,
