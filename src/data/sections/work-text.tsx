@@ -1,6 +1,7 @@
 "use client";
 
 import { WifiIcon } from "@/components/icons/wifi-icon";
+import { Highlight } from "../../components/Highlight";
 
 const WorkTitle = (
   <>
@@ -12,10 +13,9 @@ const WorkTitle = (
 
 const WorkSubtitle = (
   <>
-    <span className="highlight">Everything is simple,</span> a bold statement
-    and one of my main goals when building. I want to create things that are
-    easy to use, intuitive and <span className="highlight">solve problems</span>
-    .
+    <Highlight>Everything is simple,</Highlight> a bold statement and one of my
+    main goals when building. I want to create things that are easy to use,
+    intuitive and <Highlight>solve problems</Highlight>.
   </>
 );
 

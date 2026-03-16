@@ -1,12 +1,13 @@
 "use client";
 
 const LandingTitle = "FRONTEND DEV AND COFFEE NERD";
+import { Highlight } from "../../components/Highlight";
 
 const LandingText = (
   <>
-    <span className="highlight">Notoriously curious</span> about everything,
-    reaching for fullstack. Looking to improve my skills one coffee at the time.
-    All things <span className="highlight">user centric</span>.
+    <Highlight>Notoriously curious</Highlight> about everything, reaching for
+    fullstack. Looking to improve my skills one coffee at the time. All things{" "}
+    <Highlight>user centric</Highlight>.
   </>
 );
 

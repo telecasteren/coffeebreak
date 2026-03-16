@@ -2,12 +2,13 @@
 
 import Typography from "@mui/material/Typography";
 import ProjectCards from "@/components/cards/project-cards";
+import { Highlight } from "../../components/Highlight";
 
 const Projects = () => {
   return (
     <>
       <Typography variant="h3" component="h3">
-        <span className="highlight">Selected projects.</span>
+        <Highlight>Selected projects.</Highlight>
       </Typography>
 
       <Typography variant="h5" component="h5">

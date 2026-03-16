@@ -1,4 +1,5 @@
 import { CoffeeIcon } from "@/components/icons/coffee-icon";
+import { Highlight } from "../../components/Highlight";
 
 const title = (
   <>
@@ -9,8 +10,7 @@ const title = (
 
 const subtitle = (
   <>
-    <span className="highlight">Barista for over a decade.</span> Drinking
-    coffee fulltime.
+    <Highlight>Barista for over a decade.</Highlight> Drinking coffee fulltime.
   </>
 );
 
@@ -20,9 +20,9 @@ const paragraph = (
     decade. Managed cafés in fast-paced environments, serving the people their
     daily dose of caffeine. Those years taught me to listen, understand needs
     quickly and simplify choices.{" "}
-    <span className="highlight">Now I bring that mindset into tech,</span>{" "}
-    focusing on a <i>digital customer experience</i> and building interfaces
-    that feel as friendly and intuitive as a good coffee shop.
+    <Highlight>Now I bring that mindset into tech,</Highlight> focusing on a{" "}
+    <i>digital customer experience</i> and building interfaces that feel as
+    friendly and intuitive as a good coffee shop.
   </>
 );
 
