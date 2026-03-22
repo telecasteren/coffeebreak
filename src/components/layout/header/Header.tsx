@@ -66,11 +66,14 @@ const Header = () => {
             </div>
           )}
 
+          {(showMobileMenu || !isMobile) && (
+            <LangSwitch className="lang-switch" />
+          )}
+
           {isMobile && (
             <AlignRightIcon className="menu-icon" onClick={openMobileMenu} />
           )}
         </div>
-        <LangSwitch className="lang-switch" />
       </nav>
     </header>
   );

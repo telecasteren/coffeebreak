@@ -30,7 +30,9 @@ const SkillCards = () => {
                   </a>
                   {index < frontend.lang.length - 1 && ", "}
                 </span>
-              ))}{" "}
+              ))}
+              {", "}
+
               {frontend.frameworks.map((skill, index) => (
                 <span key={skill.tech}>
                   <a
