@@ -1,4 +1,4 @@
-export const cvItems = [
+export const cvItemsEn = [
   {
     id: 1,
     year: "2024 - now",
@@ -13,7 +13,7 @@ export const cvItems = [
     year: "March 2023 - now",
     title: "Noroff University",
     subtitle: "Front-End Development",
-    desc: "Part-time studies in front-end development, gaining a strong foundation in modern web technologies including HTML, CSS, TypeScript, React, Express.js and MySQL.",
+    desc: "Studies in front-end development, gaining a strong foundation in modern web technologies including HTML, CSS, TypeScript, React, Express.js and SQL.",
   },
   {
     id: 3,
@@ -30,13 +30,13 @@ export const cvItems = [
     title: "Supreme Roastworks AS",
     subtitle: "Barista and Bar Manager",
     desc: `Further developed my skills in customer service, user experience and operations management in a fast-paced environment.
-    The coffee shop is a quality-focused place where the customer journey and customer experience are always in focus.`,
+    The coffee shop was a quality-focused place where the customer journey and customer experience are always in focus.`,
   },
   {
     id: 5,
     year: "July 2012 - April 2016",
     title: "Fabel - Litteraturhuset i Fredrikstad",
-    subtitle: "Barista and Event Coordinator",
+    subtitle: "Barista and Bar Manager",
     desc: "Managing the café and bar. Worked with several events and conferences, gaining experience with process, structure and planning, as well as customer service and user experience.",
   },
   {

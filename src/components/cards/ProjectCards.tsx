@@ -3,12 +3,17 @@
 import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Typography from "@mui/material/Typography";
-import cardData from "@/data/projects/projects";
+import projectsEn from "@/data/projects/projects.en";
+import projectsNo from "@/data/projects/projects.no";
 import Dialogue from "@/components/layout/dialogue/Dialogue";
+import { useLocale } from "next-intl";
 
 const ProjectCards = () => {
   const cardsRef = useRef<HTMLUListElement>(null);
   const [progress, setProgress] = useState(0);
+
+  const locale = useLocale();
+  const cardData = locale === "no" ? projectsNo : projectsEn;
 
   useEffect(() => {
     const handleScroll = () => {

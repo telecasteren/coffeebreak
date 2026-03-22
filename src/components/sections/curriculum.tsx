@@ -2,12 +2,16 @@
 
 import { useEffect, useRef, useState } from "react";
 import Typography from "@mui/material/Typography";
-import { cvItems as items } from "@/data/curriculum/cv-texts";
+import { cvItemsEn } from "@/data/curriculum/cv-texts.en";
+import { cvItemsNo } from "@/data/curriculum/cv-texts.no";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 
 const Curriculum = () => {
   const t = useTranslations("cv");
+  const locale = useLocale();
+
+  const items = locale === "no" ? cvItemsNo : cvItemsEn;
   const timelineRef = useRef<HTMLDivElement>(null);
   const [progress, setProgress] = useState(0);
 
@@ -42,6 +46,7 @@ const Curriculum = () => {
           alt="avatar of the author"
           width={200}
           height={200}
+          loading="eager"
         />
       </div>
       <section className="cv-timeline" ref={timelineRef}>
