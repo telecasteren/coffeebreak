@@ -1,14 +1,16 @@
 import Typography from "@mui/material/Typography";
 import { InputRange } from "@/components/layout/input-range";
 import { frontend, backend, tools } from "@/data/skills/skills";
+import { useTranslations } from "next-intl";
 
 const SkillCards = () => {
+  const t = useTranslations("about.dev");
   return (
     <>
       <div className="grid-background">
         <div className="skills-container">
           <Typography variant="h2" component="h2">
-            Experience and technologies
+            {t("experience")}
           </Typography>
 
           <div className="skills-cards-container">

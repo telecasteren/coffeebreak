@@ -5,6 +5,8 @@
   --hire-me: #000000;
   --grid-bg: rgba(91, 91, 91, 0.237);
   --dashed-border: dashed 4px var(--accent);
+  --highlight-change: #f23a3a;
+  --highlight-change-hover: #b90c0c;
 
   --controller: #9c9a9a;
   --controller-border: #9c9a9a;
@@ -24,6 +26,8 @@
     --hire-me: #fff;
     --grid-bg: rgba(167, 167, 167, 0.237);
     --dashed-border: dashed 4px var(--accent);
+    --highlight-change: #b90c0c;
+    --highlight-change-hover: #f23a3a;
 
     /* General */
     --box-sh: rgba(250, 250, 250, 0.1);

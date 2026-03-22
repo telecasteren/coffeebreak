@@ -8,9 +8,7 @@ import { colors } from "./colours";
 import { typography } from "./typography";
 
 const MuiThemeProvider = ({ children }: { children: ReactNode }) => {
-  const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)", {
-    noSsr: true,
-  });
+  const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
 
   const theme = useMemo(
     () =>
@@ -39,16 +37,7 @@ const MuiThemeProvider = ({ children }: { children: ReactNode }) => {
 
         components: {
           MuiCssBaseline: {
-            styleOverrides: {
-              // body: {
-              //   backgroundColor: colors.background.light,
-              //   backgroundImage: prefersDarkMode
-              //     ? colors.background.gradient.        ---- this block is needed if I set bg to gradient ----
-              //     : "none",
-              //   backgroundRepeat: "no-repeat",
-              //   backgroundAttachment: "fixed",
-              // },
-            },
+            styleOverrides: {},
           },
         },
         typography,

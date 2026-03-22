@@ -1,20 +1,24 @@
-"use client";
-
 import Typography from "@mui/material/Typography";
-import { title, subtitle, paragraph } from "@/data/sections/dev-text";
-import SkillCards from "../cards/skills-cards";
+import SkillCards from "../cards/SkillCards";
+import { FolderCodeIcon } from "@/components/icons/code-icon";
+import { Highlight } from "@/components/Highlight";
+import { useTranslations } from "next-intl";
 
 const Dev = () => {
+  const t = useTranslations("about.dev");
   return (
     <>
       <div className="dev-section">
-        <Typography variant="h1" component="h1" className="title-container">
-          {title}
-        </Typography>
+        <div className="title-container">
+          <Typography variant="h1" component="h1" className="title-container">
+            {t("devTitle")}
+          </Typography>
+          <FolderCodeIcon variant="animate" size={110} />
+        </div>
         <Typography variant="h3" component="h3">
-          {subtitle}
+          <Highlight>{t("devTagline")}</Highlight> {t("devSubtitle")}
         </Typography>
-        <p className="paragraph-text">{paragraph}</p>
+        <p className="paragraph-text">{t("devDescription")}</p>
 
         <SkillCards />
       </div>

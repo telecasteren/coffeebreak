@@ -1,19 +1,25 @@
-"use client";
-
 import Typography from "@mui/material/Typography";
-import { ContactText, ContactTitle } from "@/data/sections/contact-text";
+import { Highlight } from "@/components/Highlight";
+import { useTranslations } from "next-intl";
 
 const Contact = () => {
+  const t = useTranslations("contact");
   return (
     <>
       <div className="contact-title-wrapper">
-        <span className="hire-me">HIRE ME</span>
+        <span className="hire-me">{t("tagline")}</span>
         <Typography variant="h2" component="h2">
-          {ContactTitle}
+          {t("title")}
         </Typography>
       </div>
 
-      <p className="contact-text">{ContactText}</p>
+      <p className="contact-text">
+        {t("descPart1")} <Highlight>{t("highlightDescLine")}</Highlight>{" "}
+        {t("descPart2")}{" "}
+        <a href={t("mailto")} className="mailto-link">
+          {t("email")}
+        </a>
+      </p>
     </>
   );
 };

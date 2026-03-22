@@ -4,8 +4,10 @@ import { useEffect, useRef, useState } from "react";
 import Typography from "@mui/material/Typography";
 import { cvItems as items } from "@/data/curriculum/cv-texts";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 const Curriculum = () => {
+  const t = useTranslations("cv");
   const timelineRef = useRef<HTMLDivElement>(null);
   const [progress, setProgress] = useState(0);
 
@@ -33,7 +35,7 @@ const Curriculum = () => {
     <>
       <div className="cv-header">
         <Typography variant="h4" component="h4">
-          Tele Caster Nilsen
+          {t("fullname")}
         </Typography>
         <Image
           src="/tele-avatar-blue.webp"

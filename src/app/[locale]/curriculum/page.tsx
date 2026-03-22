@@ -1,12 +1,12 @@
-"use client";
-
-import Header from "@/components/layout/Header";
-import Footer from "@/components/layout/Footer";
+import Header from "@/components/layout/header/Header";
+import Footer from "@/components/layout/footer/Footer";
 import Typography from "@mui/material/Typography";
 import CurriculumVitae from "@/components/sections/curriculum";
 import Contact from "@/components/sections/contact";
+import { useTranslations } from "next-intl";
 
 export default function Curriculum() {
+  const t = useTranslations("cv");
   return (
     <main>
       <Header />
@@ -16,9 +16,9 @@ export default function Curriculum() {
           component="h1"
           sx={{ fontSize: "3rem", mt: 4 }}
         >
-          Curriculum Vitae
+          {t("title")}
         </Typography>
-        <p>The journey I&apos;ve been on.</p>
+        <p>{t("subtitle")}</p>
         <CurriculumVitae />
       </section>
       <Contact />

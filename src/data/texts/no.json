@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "home": "hjem",
+    "projects": "prosjekter",
+    "about": "om",
+    "contact": "kontakt",
+    "curriculum": "cv"
+  },
+  "footer": {
+    "author": "Tele Caster Nilsen",
+    "rights": "Alle rettigheter forbeholdt.",
+    "github": "GitHub",
+    "email": "E-post",
+    "linkedin": "LinkedIn"
+  },
+  "meta": {
+    "title": "Coffebreak Portfolio",
+    "description": "Utviklerportefølje for Tele Caster Nilsen"
+  },
+  "buttons": {
+    "showMore": "Vis prosjekt",
+    "liveSite": "Nettside",
+    "github": "Se kode"
+  },
+  "hero": {
+    "title": "FRONTEND UTVIKLER OG KAFFENERD",
+    "descStart": "Notorisk nysgjerrig",
+    "description": "på alt mulig, strekker meg mot fullstack. Videreutvikler meg en kaffe om gangen. Lever for",
+    "descEnd": "brukeropplevelse",
+    "link": "Start brygget"
+  },
+  "mission": {
+    "title": "OPPDRAG",
+    "content": "Trent i front-end utvikling, jobber over hele stacken. Solid bakgrunn i menneskelig kontakt, struktur og prosjektledelse, med et fokus på å levere høy kvalitet og gjøre det komplekse enkelt.",
+    "tagline": "Hjelper folk med å lykkes med digitale produkter."
+  },
+  "projects": {
+    "title": "Utvalgte prosjekter",
+    "tagline": "Alt er enkelt",
+    "description": "en heftig påstand og et av hovedmålene mine når jeg bygger. Jeg liker å lage programvare som er enkel å bruke, intuitiv og som løser problemer.",
+    "seeMore": "Finn flere prosjekter på",
+    "github": "GitHub"
+  },
+  "about": {
+    "dev": {
+      "devTitle": "FRONTEND NERDEN",
+      "devTagline": "Brukerfokusert, leken og effektiv.",
+      "devSubtitle": "Gjør ideer om til intuitive og kraftige brukergrensesnitt.",
+      "devDescription": "Jeg liker å bygge moderne webapplikasjoner, med fokus på tydelighet, tilgjengelighet og konsekvent kode. Erfaringen min fra kunde fokusert arbeid hjelper meg å oversette reelle behov til enkle flyter og ryddige komponenter. Jeg bryr meg om navngivning, struktur og mønstre som gjør kode lett å lese, utvide og vedlikeholde.",
+      "experience": "Erfaring og teknologier"
+    },
+    "coffee": {
+      "coffeeTitle": "KAFFENERDEN",
+      "coffeeTagline": "Barista i over et tiår.",
+      "coffeeSubtitle": "Kaffedrikker på fulltid.",
+      "coffeeDescPart1": "Rocket kverna bak espressomaskinen og brygget kaffe i over et tiår. Drevet kafeer i høyt tempo og servert folk sin daglige dose med koffein. De årene lærte meg å lytte, forstå behov raskt og gjøre valgene enkle.",
+      "highlightCoffeeLine": "Nå har jeg med det samme tankesettet inn i tech",
+      "coffeeDescPart2": "med fokus på digitale kundeopplevelser og grensesnitt som føles like vennlige og intuitive som en god kaffebar."
+    }
+  },
+  "contact": {
+    "title": "Ta kontakt",
+    "tagline": "HIRE ME",
+    "descPart1": "Jeg er alltid åpen for",
+    "highlightDescLine": "nye muligheter",
+    "descPart2": "og samarbeid. Kontakt meg på",
+    "email": "e-post",
+    "mailto": "mailto:nilsen.tele@proton.me"
+  },
+  "cv": {
+    "title": "Curriculum Vitae",
+    "subtitle": "Reisen jeg er på.",
+    "fullname": "Tele Caster Nilsen"
+  }
+}

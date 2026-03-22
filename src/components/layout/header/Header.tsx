@@ -1,24 +1,31 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useActiveNav } from "@/hooks/use-active-nav";
 import { useState, useEffect } from "react";
 import { AlignRightIcon } from "@/components/icons/menu-icon";
-import { BREAKPOINT } from "../../lib/config";
-
-const navItems = [
-  { id: "hero", label: "home" },
-  { id: "work", label: "my work" },
-  { id: "dev", label: "the man" },
-  { id: "contact", label: "contact" },
-  { id: "cv", label: "cv" },
-];
+import { BREAKPOINT } from "@/lib/config";
+import { useTranslations } from "next-intl";
+import LangSwitch from "@/components/layout/toggle/LangSwitch";
 
 const Header = () => {
-  const sectionIds = navItems.map((n) => n.id);
+  const t = useTranslations("nav");
+  const items = [
+    { id: "hero", label: t("home") },
+    { id: "mission", label: t("projects") },
+    { id: "dev", label: t("about") },
+    { id: "contact", label: t("contact") },
+    { id: "cv", label: t("curriculum") },
+  ];
+
+  const sectionIds = items.map((n) => n.id);
   const activeId = useActiveNav(sectionIds);
   const [isMobile, setIsMobile] = useState(false);
   const [showMobileMenu, setShowMobileMenu] = useState(false);
+
+  const pathname = usePathname();
+  const locale = pathname.split("/")[1] || "en";
 
   useEffect(() => {
     const handleResize = () => {
@@ -38,8 +45,11 @@ const Header = () => {
         <div className="nav-container">
           {(showMobileMenu || !isMobile) && (
             <div className="nav-inner">
-              {navItems.map((item) => {
-                const href = item.id === "cv" ? "/curriculum" : `/#${item.id}`;
+              {items.map((item) => {
+                const href =
+                  item.id === "cv"
+                    ? `/${locale}/curriculum`
+                    : `/${locale}/#${item.id}`;
 
                 return (
                   <Link
@@ -60,6 +70,7 @@ const Header = () => {
             <AlignRightIcon className="menu-icon" onClick={openMobileMenu} />
           )}
         </div>
+        <LangSwitch className="lang-switch" />
       </nav>
     </header>
   );

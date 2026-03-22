@@ -1,15 +1,4 @@
-@import url("./utils/variables.css");
-@import url("./utils/font-face.css");
-@import url("./layout/nav.css");
-@import url("./layout/footer.css");
-@import url("./sections/hero.css");
-@import url("./sections/contact.css");
-@import url("./sections/projects.css");
-@import url("./cards/project-cards.css");
-@import url("./cards/skills-cards.css");
-@import url("./timelines/cv-timeline.css");
-@import url("./dialogue/dialogue.css");
-@import url("./sections/curriculum.css");
+@import url("./utils/imports.css");
 
 html,
 body {
@@ -56,20 +45,32 @@ a {
 }
 
 .highlight {
-  position: relative;
-  z-index: 0;
+  background: linear-gradient(
+    to top,
+    var(--accent) 0,
+    var(--accent) 0.6em,
+    transparent 0.6em
+  );
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 
-.highlight::before {
-  content: "";
-  position: absolute;
-  left: -0.1em;
-  right: -0.1em;
-  bottom: 0.1em;
-  height: 0.8em;
-  background: var(--accent);
-  transform: skewX(-10deg);
-  z-index: -1;
+.change-highlight.highlight {
+  background: linear-gradient(
+    to top,
+    var(--highlight-change) 0,
+    var(--highlight-change) 0.6em,
+    transparent 0.6em
+  );
+}
+
+.change-highlight.highlight:hover {
+  background: linear-gradient(
+    to top,
+    var(--highlight-change-hover) 0,
+    var(--highlight-change-hover) 0.6em,
+    transparent 0.6em
+  );
 }
 
 .title-container {

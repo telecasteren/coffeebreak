@@ -6,6 +6,13 @@ nav {
   background-color: var(--nav-bg);
   font-size: 1.2rem;
   z-index: 100;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang-switch {
+  margin-right: 2em;
 }
 
 .nav-inner {
@@ -34,13 +41,26 @@ nav {
   }
 }
 
-nav a:hover {
-  color: var(--accent);
+.nav-link {
+  position: relative;
 }
 
-.nav-link.active {
-  color: var(--accent);
-  font-weight: 600;
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.4rem;
+  height: 0.3rem;
+  width: 100%;
+  background-color: var(--accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  transform: scaleX(1);
 }
 
 .menu-icon {

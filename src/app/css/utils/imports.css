@@ -1,0 +1,12 @@
+@import url("./variables.css");
+@import url("./font-face.css");
+@import url("../layout/nav.css");
+@import url("../layout/footer.css");
+@import url("../sections/hero.css");
+@import url("../sections/contact.css");
+@import url("../sections/projects.css");
+@import url("../cards/project-cards.css");
+@import url("../cards/skills-cards.css");
+@import url("../timelines/cv-timeline.css");
+@import url("../dialogue/dialogue.css");
+@import url("../sections/curriculum.css");

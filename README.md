@@ -5,7 +5,8 @@ Welcome! Grab a cup and let's get to work!
 ---
 
 **Author:** Tele Caster Nilsen<br/>
-**v1:** [telecasternilsen.com](https://telecasternilsen.com)
+**Current version:** v2<br/>
+**Previous version:** v1 - [telecasternilsen.com](https://telecasternilsen.com/v1/)
 
 ---
 
@@ -15,9 +16,9 @@ E N J O Y
   \  \    /   /
 ___________________
 |                 |
-|                 |---|
- \               /___/
-  \_____________/
+|░░░░░░░░░░░░░░░░░|---|
+ \███████████████/___/
+  \█████████████/
 
 
 ```
@@ -29,10 +30,11 @@ ___________________
 | frontend   | backend     | frameworks  | database/cloud | tools   |
 | :--------- | :---------- | :---------- | :------------- | :------ |
 | Typescript | SQL / MYSQL | React       | Prisma ORM     | Git     |
-| Javascript | _C#_        | Tanstack    | Neon Console   | VS Code |
+| Javascript | _C#_        | Next.js     | Neon Console   | VS Code |
 | HTML       | _Rust_      | Node.js     |                | Docker  |
-| CSS        |             | Express     |                |         |
-| _Elm_      |             | Next.js     |                |         |
+| CSS        |             | Express     |                | Postman |
+| _Java_     |             | Tanstack    |                |         |
+| _Elm_      |             |             |                |         |
 
 - Italic = _beginner_
 
@@ -42,6 +44,11 @@ ___________________
 
 ```bash
 Next.js - React - TypeScript - CSS - MUI
+```
+
+```bash
+Translations
+This portfolio uses next-intl with locale-based routing [locale] and translations from JSON files loaded automatically. useTranslations hook + NextIntlClientProvider makes sure the components can access the correct translations, and that the apps layout provides the current locale.
 ```
 
 ### Acknowledgements
