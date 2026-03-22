@@ -27,17 +27,17 @@
     "descStart": "Notorisk nysgjerrig",
     "description": "på alt mulig, strekker meg mot fullstack. Videreutvikler meg en kaffe om gangen. Lever for",
     "descEnd": "brukeropplevelse",
-    "link": "Start brygget"
+    "link": "Begynne å brygge"
   },
   "mission": {
-    "title": "OPPDRAG",
+    "title": "AMBISJON",
+    "tagline1": "Alt er enkelt",
+    "description": "en heftig påstand og et av hovedmålene mine når jeg bygger. Jeg liker å lage programvare som er enkel å bruke, intuitiv og som løser problemer.",
     "content": "Trent i front-end utvikling, jobber over hele stacken. Solid bakgrunn i menneskelig kontakt, struktur og prosjektledelse, med et fokus på å levere høy kvalitet og gjøre det komplekse enkelt.",
-    "tagline": "Hjelper folk med å lykkes med digitale produkter."
+    "tagline2": "Hjelper folk med å lykkes med digitale produkter."
   },
   "projects": {
     "title": "Utvalgte prosjekter",
-    "tagline": "Alt er enkelt",
-    "description": "en heftig påstand og et av hovedmålene mine når jeg bygger. Jeg liker å lage programvare som er enkel å bruke, intuitiv og som løser problemer.",
     "seeMore": "Finn flere prosjekter på",
     "github": "GitHub"
   },

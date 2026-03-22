@@ -11,11 +11,6 @@ const Projects = () => {
         <Highlight>{t("title")}.</Highlight>
       </Typography>
 
-      <Typography variant="h4" component="h4">
-        <Highlight>{t("tagline")}</Highlight>
-        {", "} {t("description")}
-      </Typography>
-
       <Typography variant="h5" component="h5">
         {t("seeMore")}{" "}
         <a

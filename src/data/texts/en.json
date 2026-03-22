@@ -31,13 +31,13 @@
   },
   "mission": {
     "title": "MISSION",
+    "tagline1": "Everything is simple",
+    "description": "a bold statement and one of my main goals when building. I enjoy creating software that is easy to use, intuitive and solve problems.",
     "content": "Trained in front-end development, working across the full stack. With a solid background in human connection, structure and project management, I focus on delivering high-quality and make the complex simple.",
-    "tagline": "Helping people to succeed with digital products."
+    "tagline2": "Helping people to succeed with digital products."
   },
   "projects": {
     "title": "Selected projects",
-    "tagline": "Everything is simple",
-    "description": "a bold statement and one of my main goals when building. I enjoy creating software that is easy to use, intuitive and solve problems.",
     "seeMore": "Find more projects on",
     "github": "GitHub"
   },
