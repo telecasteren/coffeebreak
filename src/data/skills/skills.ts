@@ -19,6 +19,7 @@ const frontend = {
 const backend = {
   lang: [
     { tech: "SQL", url: "" },
+    { tech: "Java", url: "https://www.java.com/en/" },
     { tech: "C#", url: "https://learn.microsoft.com/en-us/dotnet/csharp/" },
     { tech: "Rust", url: "https://rust-lang.org" },
   ],
@@ -33,7 +34,9 @@ const tools = [
   { tech: "Git", url: "https://git-scm.com" },
   { tech: "VS Code", url: "https://code.visualstudio.com" },
   { tech: "Docker", url: "https://www.docker.com" },
+  { tech: "MySQL Workbench", url: "https://www.mysql.com/products/workbench/" },
   { tech: "Cursor", url: "https://cursor.com" },
+  { tech: "Figma", url: "https://www.figma.com" },
   { tech: "Neon", url: "https://neon.com" },
   { tech: "Prisma ORM", url: "https://www.prisma.io" },
   { tech: "Bunny Storage", url: "https://bunny.net" },
