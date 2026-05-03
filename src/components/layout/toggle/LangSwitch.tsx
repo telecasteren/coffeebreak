@@ -33,7 +33,7 @@ const LangSwitch = ({ className }: LangSwitchProps) => {
       <AntSwitch
         checked={locale === "no"}
         onChange={handleToggle}
-        inputProps={{ "aria-label": "toggle language" }}
+        slotProps={{ input: { "aria-label": "toggle language" } }}
       />
       <Typography>no</Typography>
     </Stack>

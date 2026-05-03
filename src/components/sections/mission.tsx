@@ -14,14 +14,14 @@ const Mission = () => {
         <WifiIcon size={88} />
       </div>
 
-      <Typography variant="h4" component="h4">
+      <Typography variant="h2" component="h2">
         <Highlight>{t("tagline1")}</Highlight>
         {", "} {t("description")}
       </Typography>
 
-      <Typography variant="h4" component="h4" className="mission-text">
+      <p className="paragraph-text">
         {t("content")} <Highlight>{t("tagline2")}</Highlight>
-      </Typography>
+      </p>
     </>
   );
 };

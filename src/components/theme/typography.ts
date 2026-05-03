@@ -13,7 +13,7 @@ export const typography: ThemeOptions["typography"] = {
   },
   h2: {
     fontFamily: "Newake, system-ui, -apple-system, sans-serif",
-    fontSize: "3rem",
+    fontSize: "2.5rem",
     fontWeight: 400,
     "@media (max-width:600px)": {
       fontSize: "2rem",
@@ -21,10 +21,18 @@ export const typography: ThemeOptions["typography"] = {
   },
   h3: {
     fontFamily: "Newake, system-ui, -apple-system, sans-serif",
-    fontSize: "2.5rem",
+    fontSize: "2rem",
     fontWeight: 400,
     "@media (max-width:600px)": {
       fontSize: "1.5rem",
+    },
+  },
+  h4: {
+    fontFamily: "Newake, system-ui, -apple-system, sans-serif",
+    fontSize: "1.5rem",
+    fontWeight: 400,
+    "@media (max-width:600px)": {
+      fontSize: "1rem",
     },
   },
 };

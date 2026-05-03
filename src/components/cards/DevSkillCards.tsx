@@ -3,13 +3,13 @@ import { InputRange } from "@/components/layout/input-range";
 import { frontend, backend, tools } from "@/data/skills/skills";
 import { useTranslations } from "next-intl";
 
-const SkillCards = () => {
+const DevSkillCards = () => {
   const t = useTranslations("about.dev");
   return (
     <>
       <div className="grid-background">
         <div className="skills-container">
-          <Typography variant="h2" component="h2">
+          <Typography variant="h3" component="h3">
             {t("experience")}
           </Typography>
 
@@ -47,7 +47,11 @@ const SkillCards = () => {
                 </span>
               ))}
               <div className="slider-container">
-                <InputRange id="frontend-slider" value={80} />
+                <InputRange
+                  id="frontend-slider"
+                  label="frontend-slider"
+                  value={80}
+                />
               </div>
             </div>
 
@@ -84,7 +88,11 @@ const SkillCards = () => {
                 </span>
               ))}
               <div className="slider-container">
-                <InputRange id="backend-slider" value={30} />
+                <InputRange
+                  id="backend-slider"
+                  label="backend-slider"
+                  value={30}
+                />
               </div>
             </div>
 
@@ -108,51 +116,7 @@ const SkillCards = () => {
               ))}
 
               <div className="slider-container">
-                <InputRange id="tools-slider" value={60} />
-              </div>
-            </div>
-
-            <div className="skills-card">
-              <p>04</p>
-              <Typography variant="h4" component="h4">
-                Project and Product Management
-              </Typography>
-              <p>
-                Leading small and large projects has made me structured and
-                taught me the importance of good planning, architectural
-                thinking and design.
-              </p>
-              <div className="slider-container">
-                <InputRange id="project-slider" value={90} />
-              </div>
-            </div>
-
-            <div className="skills-card">
-              <p>05</p>
-              <Typography variant="h4" component="h4">
-                Communication and Leadership
-              </Typography>
-              <p>
-                I view communication as a continuous growth cycle that enables
-                me to always become a better person and colleague.
-              </p>
-              <div className="slider-container">
-                <InputRange id="comms-slider" value={90} />
-              </div>
-            </div>
-
-            <div className="skills-card">
-              <p>06</p>
-              <Typography variant="h4" component="h4">
-                AI and Agentic Programming
-              </Typography>
-              <p>
-                With my project and communication skills, in accordance to my
-                technical skills, I&apos;m learning to reap the benefits of AI
-                and AI driven development.
-              </p>
-              <div className="slider-container">
-                <InputRange id="comms-slider" value={50} />
+                <InputRange id="tools-slider" label="tools-slider" value={60} />
               </div>
             </div>
           </div>
@@ -162,4 +126,4 @@ const SkillCards = () => {
   );
 };
 
-export default SkillCards;
+export default DevSkillCards;

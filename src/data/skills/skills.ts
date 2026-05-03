@@ -4,7 +4,6 @@ const frontend = {
     { tech: "Javascript", url: "https://ecma-international.org" },
     { tech: "HTML", url: "https://html.spec.whatwg.org/multipage/" },
     { tech: "CSS", url: "https://www.w3.org/Style/CSS/" },
-    { tech: "Java", url: "https://www.java.com/en/" },
     { tech: "Elm", url: "https://elm-lang.org" },
   ],
   frameworks: [
@@ -41,6 +40,8 @@ const tools = [
   { tech: "Prisma ORM", url: "https://www.prisma.io" },
   { tech: "Bunny Storage", url: "https://bunny.net" },
   { tech: "Postman", url: "https://www.postman.com" },
+  { tech: "Zod", url: "https://zod.dev" },
+  { tech: "Redux", url: "https://redux-toolkit.js.org" },
 ];
 
 export { frontend, backend, tools };

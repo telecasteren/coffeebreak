@@ -1,12 +1,14 @@
 interface InputRangeProps {
   id: string;
   value: number;
+  label: string;
 }
 
-export const InputRange = ({ id, value }: InputRangeProps) => (
+export const InputRange = ({ id, value, label }: InputRangeProps) => (
   <>
     <input
       id={id}
+      aria-label={label}
       type="range"
       disabled={true}
       min="0"

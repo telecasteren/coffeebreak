@@ -38,7 +38,7 @@ const Curriculum = () => {
   return (
     <>
       <div className="cv-header">
-        <Typography variant="h4" component="h4">
+        <Typography variant="h2" component="h2">
           {t("fullname")}
         </Typography>
         <Image

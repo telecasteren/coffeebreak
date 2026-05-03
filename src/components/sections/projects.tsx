@@ -11,7 +11,7 @@ const Projects = () => {
         <Highlight>{t("title")}.</Highlight>
       </Typography>
 
-      <Typography variant="h5" component="h5">
+      <p className="paragraph-text">
         {t("seeMore")}{" "}
         <a
           className="highlight change-highlight"
@@ -21,7 +21,7 @@ const Projects = () => {
         >
           {t("github")}.
         </a>
-      </Typography>
+      </p>
 
       <ProjectCards />
     </>
