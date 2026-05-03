@@ -9,12 +9,12 @@ const Dev = () => {
   return (
     <div className="dev-section">
       <div className="title-container">
-        <Typography variant="h1" component="h1" className="title-container">
+        <Typography variant="h1" component="h2" className="title-container">
           {t("devTitle")}
         </Typography>
         <FolderCodeIcon variant="animate" size={110} />
       </div>
-      <Typography variant="h2" component="h2">
+      <Typography variant="h2" component="h3">
         <Highlight>{t("devTagline")}</Highlight> {t("devSubtitle")}
       </Typography>
       <p className="paragraph-text">{t("devDescription")}</p>

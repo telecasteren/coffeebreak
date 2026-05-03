@@ -8,13 +8,13 @@ const Mission = () => {
   return (
     <>
       <div className="title-container">
-        <Typography variant="h1" component="h1">
+        <Typography variant="h1" component="h2">
           {t("title")}
         </Typography>
         <WifiIcon size={88} />
       </div>
 
-      <Typography variant="h2" component="h2">
+      <Typography variant="h2" component="h3">
         <Highlight>{t("tagline1")}</Highlight>
         {", "} {t("description")}
       </Typography>

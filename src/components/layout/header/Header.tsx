@@ -71,7 +71,13 @@ const Header = () => {
           )}
 
           {isMobile && (
-            <AlignRightIcon className="menu-icon" onClick={openMobileMenu} />
+            <AlignRightIcon
+              label="Open navigation menu"
+              aria-expanded={showMobileMenu}
+              aria-controls="primary-navigation"
+              className="menu-icon"
+              onClick={openMobileMenu}
+            />
           )}
         </div>
       </nav>

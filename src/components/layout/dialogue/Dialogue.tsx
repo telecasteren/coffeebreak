@@ -127,7 +127,7 @@ const Dialogue = ({
                         : ""
                   }`}
                   src={media[currentImage]?.src || "/noimage.png"}
-                  alt={media[currentImage]?.alt || "Image description"}
+                  alt={media[currentImage]?.alt || "Project image"}
                   fill
                   sizes="(max-width: 700px) 100vw, 700px"
                   style={{ objectFit: "cover", zIndex: 1 }}
@@ -142,7 +142,7 @@ const Dialogue = ({
                           : ""
                     }`}
                     src={media[nextImage]?.src || "/noimage.png"}
-                    alt={media[nextImage]?.alt || "Image description"}
+                    alt={media[nextImage]?.alt || "Project image"}
                     fill
                     sizes="(max-width: 700px) 100vw, 700px"
                     style={{ objectFit: "cover", zIndex: 1 }}
@@ -161,12 +161,14 @@ const Dialogue = ({
                 }}
               >
                 <Controllers
+                  label="Previous item"
                   onClick={handlePrevImage}
                   direction="prev"
                   disabled={false}
                 />
                 <Typography variant="caption">{`${currentImage + 1} / ${media.length}`}</Typography>
                 <Controllers
+                  label="Next item"
                   onClick={handleNextImage}
                   direction="next"
                   disabled={false}

@@ -2,7 +2,6 @@
 
 import type { Transition } from "motion/react";
 import { motion, useAnimation } from "motion/react";
-import type { HTMLAttributes } from "react";
 import { forwardRef, useCallback, useImperativeHandle, useRef } from "react";
 
 import { cn } from "@/lib/utils";
@@ -12,8 +11,9 @@ export interface AlignRightIconHandle {
   stopAnimation: () => void;
 }
 
-interface AlignRightIconProps extends HTMLAttributes<HTMLDivElement> {
+interface AlignRightIconProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   size?: number;
+  label: string;
 }
 
 const DEFAULT_TRANSITION: Transition = {
@@ -24,7 +24,18 @@ const DEFAULT_TRANSITION: Transition = {
 };
 
 const AlignRightIcon = forwardRef<AlignRightIconHandle, AlignRightIconProps>(
-  ({ onMouseEnter, onMouseLeave, className, size = 28, ...props }, ref) => {
+  (
+    {
+      onMouseEnter,
+      onMouseLeave,
+      className,
+      size = 28,
+      label,
+      type = "button",
+      ...props
+    },
+    ref,
+  ) => {
     const controls = useAnimation();
     const isControlledRef = useRef(false);
 
@@ -38,7 +49,7 @@ const AlignRightIcon = forwardRef<AlignRightIconHandle, AlignRightIconProps>(
     });
 
     const handleMouseEnter = useCallback(
-      (e: React.MouseEvent<HTMLDivElement>) => {
+      (e: React.MouseEvent<HTMLButtonElement>) => {
         if (isControlledRef.current) {
           onMouseEnter?.(e);
         } else {
@@ -49,7 +60,7 @@ const AlignRightIcon = forwardRef<AlignRightIconHandle, AlignRightIconProps>(
     );
 
     const handleMouseLeave = useCallback(
-      (e: React.MouseEvent<HTMLDivElement>) => {
+      (e: React.MouseEvent<HTMLButtonElement>) => {
         if (isControlledRef.current) {
           onMouseLeave?.(e);
         } else {
@@ -60,7 +71,9 @@ const AlignRightIcon = forwardRef<AlignRightIconHandle, AlignRightIconProps>(
     );
 
     return (
-      <div
+      <button
+        type={type}
+        aria-label={label}
         className={cn(className)}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
@@ -116,7 +129,7 @@ const AlignRightIcon = forwardRef<AlignRightIconHandle, AlignRightIconProps>(
             y2="18"
           />
         </svg>
-      </div>
+      </button>
     );
   },
 );

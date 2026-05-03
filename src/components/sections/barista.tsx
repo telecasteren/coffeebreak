@@ -8,10 +8,10 @@ const Barista = () => {
   const t = useTranslations("about.coffee");
   return (
     <div className="coffee-section">
-      <Typography variant="h1" component="h1" className="title-container">
+      <Typography variant="h1" component="h2" className="title-container">
         {t("coffeeTitle")} <CoffeeIcon variant="animate" size={110} />
       </Typography>
-      <Typography variant="h2" component="h2">
+      <Typography variant="h2" component="h3">
         <Highlight>{t("coffeeTagline")}</Highlight> {t("coffeeSubtitle")}
       </Typography>
       <p className="paragraph-text">

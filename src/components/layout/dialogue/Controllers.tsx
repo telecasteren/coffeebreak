@@ -9,9 +9,11 @@ export const Controllers = ({
   onClick,
   direction,
   disabled,
+  label,
 }: ControllersProps) => {
   return (
     <Button
+      aria-label={label}
       onClick={onClick}
       disabled={disabled}
       size="small"

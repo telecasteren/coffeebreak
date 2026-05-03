@@ -70,7 +70,7 @@ const ProjectCards = () => {
               </div>
               <Image
                 src={card.media?.[0]?.src || "/noimage.png"}
-                alt={card.media?.[0]?.alt || "Image description"}
+                alt={card.media?.[0]?.alt || "Project image"}
                 width={500}
                 height={300}
                 loading="eager"

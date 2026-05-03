@@ -18,4 +18,5 @@ export interface ControllersProps {
   onClick: () => void;
   direction: "prev" | "next";
   disabled: boolean;
+  label: string;
 }

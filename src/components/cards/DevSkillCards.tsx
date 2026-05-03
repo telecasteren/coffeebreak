@@ -22,13 +22,18 @@ const DevSkillCards = () => {
 
               {frontend.lang.map((skill, index) => (
                 <span key={skill.tech}>
-                  <a
-                    className="skill-item"
-                    key={skill.tech}
-                    href={skill.url || "#"}
-                  >
-                    {skill.tech}
-                  </a>
+                  {skill.url ? (
+                    <a
+                      className="skill-item"
+                      href={skill.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {skill.tech}
+                    </a>
+                  ) : (
+                    <span className="skill-item">{skill.tech}</span>
+                  )}
                   {index < frontend.lang.length - 1 && ", "}
                 </span>
               ))}
@@ -36,13 +41,18 @@ const DevSkillCards = () => {
 
               {frontend.frameworks.map((skill, index) => (
                 <span key={skill.tech}>
-                  <a
-                    className="skill-item"
-                    key={skill.tech}
-                    href={skill.url || "#"}
-                  >
-                    {skill.tech}
-                  </a>
+                  {skill.url ? (
+                    <a
+                      className="skill-item"
+                      href={skill.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {skill.tech}
+                    </a>
+                  ) : (
+                    <span className="skill-item">{skill.tech}</span>
+                  )}
                   {index < frontend.frameworks.length - 1 && ", "}
                 </span>
               ))}
@@ -63,13 +73,18 @@ const DevSkillCards = () => {
 
               {backend.lang.map((skill, index) => (
                 <span key={skill.tech}>
-                  <a
-                    className="skill-item"
-                    key={skill.tech}
-                    href={skill.url || "#"}
-                  >
-                    {skill.tech}
-                  </a>
+                  {skill.url ? (
+                    <a
+                      className="skill-item"
+                      href={skill.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {skill.tech}
+                    </a>
+                  ) : (
+                    <span className="skill-item">{skill.tech}</span>
+                  )}
                   {index < backend.lang.length - 1 && ", "}
                 </span>
               ))}
@@ -77,13 +92,18 @@ const DevSkillCards = () => {
 
               {backend.frameworks.map((skill, index) => (
                 <span key={skill.tech}>
-                  <a
-                    className="skill-item"
-                    key={skill.tech}
-                    href={skill.url || "#"}
-                  >
-                    {skill.tech}
-                  </a>
+                  {skill.url ? (
+                    <a
+                      className="skill-item"
+                      href={skill.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {skill.tech}
+                    </a>
+                  ) : (
+                    <span className="skill-item">{skill.tech}</span>
+                  )}
                   {index < backend.frameworks.length - 1 && ", "}
                 </span>
               ))}
@@ -104,13 +124,18 @@ const DevSkillCards = () => {
 
               {tools.map((skill, index) => (
                 <span key={skill.tech}>
-                  <a
-                    className="skill-item"
-                    key={skill.tech}
-                    href={skill.url || "#"}
-                  >
-                    {skill.tech}
-                  </a>
+                  {skill.url ? (
+                    <a
+                      className="skill-item"
+                      href={skill.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {skill.tech}
+                    </a>
+                  ) : (
+                    <span className="skill-item">{skill.tech}</span>
+                  )}
                   {index < tools.length - 1 && ", "}
                 </span>
               ))}
