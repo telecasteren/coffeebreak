@@ -11,7 +11,7 @@ Welcome! Grab a cup and let's get to work!
 ---
 
 ```bash
-E N J O Y
+    E N J O Y
 
   \  \    /   /
 ___________________
@@ -35,6 +35,10 @@ ___________________
 | CSS        | _Java_      | Node.js      | MYSQL Workbench  |
 | Tailwind   |             | Express      |                  |
 | MUI        |             |              |                  |
+
+<br/>
+---
+<br/>
 
 | \_libraries/tools | \_tools |
 | :---------------- | :------ |
