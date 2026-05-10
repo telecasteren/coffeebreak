@@ -1,7 +1,7 @@
 import Header from "@/components/layout/header/Header";
 import Footer from "@/components/layout/footer/Footer";
 import Typography from "@mui/material/Typography";
-import CurriculumVitae from "@/components/sections/Curriculum";
+import CurriculumVitae from "../../../components/sections/Curriculum";
 import Contact from "@/components/sections/Contact";
 import { useTranslations } from "next-intl";
 
