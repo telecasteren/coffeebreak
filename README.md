@@ -27,26 +27,24 @@ ___________________
 
 ### Experience
 
-| _frontend  | _backend    | _frameworks | _database/cloud |
-| :--------- | :---------- | :---------- | :-------------  |
-| Typescript | SQL / MYSQL | React       | Prisma ORM      |
-| Javascript | _C#_        | Tanstack    | Neon Console    |
-| HTML       | _Rust_      | Next.js     | Bunny Storage   |
-| CSS        | _Java_      | Node.js     | MYSQL Workbench |
-| Tailwind   |             | Express     |                 |
-| MUI        |             |             |                 |
+| \_frontend | \_backend   | \_frameworks | \_database/cloud |
+| :--------- | :---------- | :----------- | :--------------- |
+| Typescript | SQL / MYSQL | React        | Prisma ORM       |
+| Javascript | _C#_        | Tanstack     | Neon Console     |
+| HTML       | _Rust_      | Next.js      | Bunny Storage    |
+| CSS        | _Java_      | Node.js      | MYSQL Workbench  |
+| Tailwind   |             | Express      |                  |
+| MUI        |             |              |                  |
 
+---
 
-
-| _libraries/tools       | _tools            |
-| :----------------      | :---------------- |
-| Redux Toolkit          |    Git            |
-| Zod                    |    VS Code        |
-| Zustand                |    Zed            |
-|                        |    Postman        |
-|                        |    Docker         |
-
-
+| \_libraries/tools | \_tools |
+| :---------------- | :------ |
+| Redux Toolkit     | Git     |
+| Zod               | VS Code |
+| Zustand           | Zed     |
+|                   | Postman |
+|                   | Docker  |
 
 ### Tech stack (this site)
 
