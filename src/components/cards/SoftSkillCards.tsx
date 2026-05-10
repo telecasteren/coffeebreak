@@ -18,11 +18,7 @@ export const SoftSkillCards = () => {
               <Typography variant="h4" component="h4">
                 Project and Product Management
               </Typography>
-              <p>
-                Leading small and large projects has made me structured and
-                taught me the importance of good planning, architectural
-                thinking and design.
-              </p>
+              <p>Structure, planning, architectural thinking and design.</p>
               <div className="slider-container">
                 <InputRange
                   id="project-slider"
@@ -37,11 +33,7 @@ export const SoftSkillCards = () => {
               <Typography variant="h4" component="h4">
                 Communication and Leadership
               </Typography>
-              <p>
-                I view communication as a continuous growth cycle that enables
-                me to always become a better person and colleague,{" "}
-                <i>and therefore a better developer</i>.
-              </p>
+              <p>A continuous investment in growth</p>
               <div className="slider-container">
                 <InputRange id="comms-slider" label="comms-slider" value={80} />
               </div>
@@ -52,11 +44,7 @@ export const SoftSkillCards = () => {
               <Typography variant="h4" component="h4">
                 AI and Agentic Programming
               </Typography>
-              <p>
-                With my project and communication skills, in accordance to my
-                technical skills, I&apos;m learning to reap the benefits of AI
-                and AI driven development.
-              </p>
+              <p>Through rapid prototyping and AI driven development</p>
               <div className="slider-container">
                 <InputRange id="ai-slider" label="ai-slider" value={60} />
               </div>
