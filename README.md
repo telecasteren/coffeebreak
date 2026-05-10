@@ -36,8 +36,6 @@ ___________________
 | Tailwind   |             | Express      |                  |
 | MUI        |             |              |                  |
 
----
-
 | \_libraries/tools | \_tools |
 | :---------------- | :------ |
 | Redux Toolkit     | Git     |
