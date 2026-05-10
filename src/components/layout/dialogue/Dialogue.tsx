@@ -2,19 +2,19 @@
 
 import React, { useRef } from "react";
 import { useState } from "react";
-import type { DialogueProps } from "./types";
-import { BootstrapDialog } from "./BootstrapDialog";
+import type { DialogueProps } from "./index";
+import { BootstrapDialog } from "./index";
 import DialogTitle from "@mui/material/DialogTitle";
 import DialogContent from "@mui/material/DialogContent";
 import DialogActions from "@mui/material/DialogActions";
-import { CloseIcon, IconButton } from "@/components/icons/mui-icons";
-import { Controllers } from "./Controllers";
+import { CloseIcon, IconButton } from "@/components/icons/index";
+import { Controllers } from "./index";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import Link from "next/link";
 import Image from "next/image";
 
-const Dialogue = ({
+export const Dialogue = ({
   className,
   buttonText,
   title,
@@ -211,5 +211,3 @@ const Dialogue = ({
     </React.Fragment>
   );
 };
-
-export default Dialogue;

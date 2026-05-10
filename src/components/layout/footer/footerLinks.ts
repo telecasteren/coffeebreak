@@ -1,4 +1,4 @@
-import { EmailIcon, GitHubIcon, LinkedInIcon } from "../../icons/mui-icons";
+import { EmailIcon, GitHubIcon, LinkedInIcon } from "../../icons/index";
 
 export const footerLinks = [
   {

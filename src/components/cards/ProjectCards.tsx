@@ -4,9 +4,9 @@ import React from "react";
 import { useProjectCardScroll } from "@/hooks/useProjectCardScroll";
 import Image from "next/image";
 import Typography from "@mui/material/Typography";
-import Dialogue from "@/components/layout/dialogue/Dialogue";
+import { Dialogue } from "@/components/layout/dialogue/index";
 
-const ProjectCards = () => {
+export const ProjectCards = () => {
   const { progress, cardData, cardsRef } = useProjectCardScroll();
 
   return (
@@ -57,5 +57,3 @@ const ProjectCards = () => {
     </ul>
   );
 };
-
-export default ProjectCards;

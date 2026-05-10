@@ -1,11 +1,11 @@
 import Header from "@/components/layout/header/Header";
 import Footer from "@/components/layout/footer/Footer";
-import Hero from "@/components/sections/hero";
-import Mission from "@/components/sections/mission";
-import Projects from "@/components/sections/projects";
-import Contact from "@/components/sections/contact";
-import Dev from "@/components/sections/dev";
-import Barista from "@/components/sections/barista";
+import Hero from "@/components/sections/Hero";
+import Mission from "@/components/sections/Mission";
+import Projects from "@/components/sections/Projects";
+import Contact from "@/components/sections/Contact";
+import Dev from "@/components/sections/Dev";
+import Barista from "@/components/sections/Barista";
 
 export default async function App() {
   return (

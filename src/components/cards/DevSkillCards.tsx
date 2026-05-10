@@ -1,9 +1,9 @@
 import Typography from "@mui/material/Typography";
-import { InputRange } from "@/components/layout/input-range";
+import { InputRange } from "@/components/layout/InputRange";
 import { frontend, backend, tools } from "@/data/skills/skills";
 import { useTranslations } from "next-intl";
 
-const DevSkillCards = () => {
+export const DevSkillCards = () => {
   const t = useTranslations("about.dev");
   return (
     <>
@@ -150,5 +150,3 @@ const DevSkillCards = () => {
     </>
   );
 };
-
-export default DevSkillCards;

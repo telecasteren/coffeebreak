@@ -1,8 +1,9 @@
-import Typography from "@mui/material/Typography";
-import { Highlight } from "@/components/Highlight";
-import { CoffeeIcon } from "@/components/icons/coffee-icon";
 import { useTranslations } from "next-intl";
-import SoftSkillCards from "../cards/SoftSkillCards";
+import Typography from "@mui/material/Typography";
+
+import { Highlight } from "@/components/Highlight";
+import { CoffeeIcon } from "@/components/icons/index";
+import { SoftSkillCards } from "@/components/cards/index";
 
 const Barista = () => {
   const t = useTranslations("about.coffee");

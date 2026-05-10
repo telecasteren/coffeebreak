@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import localFont from "next/font/local";
 import { Roboto_Condensed } from "next/font/google";
-import MuiThemeProvider from "@/components/theme/mui-theme-provider";
+import MuiThemeProvider from "@/components/theme/MuiThemeProvider";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import {

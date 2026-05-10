@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { footerLinks } from "./footer-links";
+import { footerLinks } from "./footerLinks";
 import { useTranslations } from "next-intl";
 
 const Footer = () => {

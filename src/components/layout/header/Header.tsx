@@ -1,12 +1,13 @@
 "use client";
 
 import Link from "next/link";
+import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { useActiveNav } from "@/hooks/useActiveNav";
-import { useState, useEffect } from "react";
-import { AlignRightIcon } from "@/components/icons/menu-icon";
-import { BREAKPOINT } from "@/lib/config";
 import { useTranslations } from "next-intl";
+import { BREAKPOINT } from "@/lib/config";
+
+import { AlignRightIcon } from "@/components/icons/index";
 import LangSwitch from "@/components/layout/toggle/LangSwitch";
 
 const Header = () => {

@@ -1,5 +1,5 @@
 import Typography from "@mui/material/Typography";
-import ProjectCards from "@/components/cards/ProjectCards";
+import { ProjectCards } from "@/components/cards/index";
 import { Highlight } from "../Highlight";
 import { useTranslations } from "next-intl";
 

@@ -1,8 +1,8 @@
-import Typography from "@mui/material/Typography";
-import { InputRange } from "@/components/layout/input-range";
 import { useTranslations } from "next-intl";
+import Typography from "@mui/material/Typography";
+import { InputRange } from "@/components/layout/InputRange";
 
-const SoftSkillCards = () => {
+export const SoftSkillCards = () => {
   const t = useTranslations("about.coffee");
   return (
     <>
@@ -67,5 +67,3 @@ const SoftSkillCards = () => {
     </>
   );
 };
-
-export default SoftSkillCards;

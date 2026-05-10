@@ -1,6 +1,6 @@
 import Typography from "@mui/material/Typography";
-import DevSkillCards from "../cards/DevSkillCards";
-import { FolderCodeIcon } from "@/components/icons/code-icon";
+import { DevSkillCards } from "@/components/cards/index";
+import { FolderCodeIcon } from "@/components/icons/index";
 import { Highlight } from "@/components/Highlight";
 import { useTranslations } from "next-intl";
 

@@ -2,7 +2,7 @@
 
 import Typography from "@mui/material/Typography";
 import Link from "next/link";
-import { CoffeeIcon } from "@/components/icons/coffee-icon";
+import { CoffeeIcon } from "@/components/icons/index";
 import { useState } from "react";
 import { Highlight } from "@/components/Highlight";
 import { useTranslations } from "next-intl";

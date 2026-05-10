@@ -1,5 +1,5 @@
 import Typography from "@mui/material/Typography";
-import { WifiIcon } from "@/components/icons/wifi-icon";
+import { WifiIcon } from "@/components/icons/index";
 import { Highlight } from "@/components/Highlight";
 import { useTranslations } from "next-intl";
 

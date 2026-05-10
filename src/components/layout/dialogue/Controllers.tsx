@@ -1,9 +1,9 @@
 import {
   ArrowBackIosNewIcon,
   ArrowForwardIosIcon,
-} from "@/components/icons/mui-icons";
+} from "@/components/icons/index";
 import Button from "@mui/material/Button";
-import type { ControllersProps } from "./types";
+import type { ControllersProps } from "./index";
 
 export const Controllers = ({
   onClick,
