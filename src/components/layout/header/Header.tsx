@@ -14,7 +14,7 @@ const Header = () => {
   const t = useTranslations("nav");
   const items = [
     { id: "hero", label: t("home") },
-    { id: "mission", label: t("projects") },
+    { id: "projects", label: t("projects") },
     { id: "dev", label: t("about") },
     { id: "contact", label: t("contact") },
     { id: "cv", label: t("curriculum") },

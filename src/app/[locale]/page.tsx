@@ -16,10 +16,6 @@ export default async function App() {
         <Hero />
       </section>
 
-      <section id="mission">
-        <Mission />
-      </section>
-
       <section id="projects">
         <Projects />
       </section>
@@ -30,6 +26,10 @@ export default async function App() {
 
       <section id="barista">
         <Barista />
+      </section>
+
+      <section id="mission">
+        <Mission />
       </section>
 
       <section id="contact">
