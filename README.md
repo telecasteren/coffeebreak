@@ -27,20 +27,28 @@ ___________________
 
 ### Experience
 
-| frontend   | backend     | frameworks  | database/cloud | tools   |
-| :--------- | :---------- | :---------- | :------------- | :------ |
-| Typescript | SQL / MYSQL | React       | Prisma ORM     | Git     |
-| Javascript | _C#_        | Next.js     | Neon Console   | VS Code |
-| HTML       | _Rust_      | Node.js     |                | Docker  |
-| CSS        |             | Express     |                | Postman |
-| _Java_     |             | Tanstack    |                |         |
-| _Elm_      |             |             |                |         |
+| _frontend  | _backend    | _frameworks | _database/cloud |
+| :--------- | :---------- | :---------- | :-------------  |
+| Typescript | SQL / MYSQL | React       | Prisma ORM      |
+| Javascript | _C#_        | Tanstack    | Neon Console    |
+| HTML       | _Rust_      | Next.js     | Bunny Storage   |
+| CSS        | _Java_      | Node.js     | MYSQL Workbench |
+| Tailwind   |             | Express     |                 |
+| MUI        |             |             |                 |
 
-- Italic = _beginner_
 
-## The build
 
-### Tech stack
+| _libraries/tools       | _tools            |
+| :----------------      | :---------------- |
+| Redux Toolkit          |    Git            |
+| Zod                    |    VS Code        |
+| Zustand                |    Zed            |
+|                        |    Postman        |
+|                        |    Docker         |
+
+
+
+### Tech stack (this site)
 
 ```bash
 Next.js - React - TypeScript - CSS - MUI
@@ -61,7 +69,5 @@ This portfolio uses next-intl with locale-based routing [locale] and translation
 
 **Typography**<br/>
 
-Heading elements:<br/>
-
-- Font: Newake<br/>
+- Custom font: Newake<br/>
   **Thanks to [indieground](https://indieground.net/product/newake-font/), creator of Newake.**
