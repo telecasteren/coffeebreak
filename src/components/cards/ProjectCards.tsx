@@ -1,38 +1,13 @@
 "use client";
 
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
+import { useProjectCardScroll } from "@/hooks/useProjectCardScroll";
 import Image from "next/image";
 import Typography from "@mui/material/Typography";
-import projectsEn from "@/data/projects/projects.en";
-import projectsNo from "@/data/projects/projects.no";
 import Dialogue from "@/components/layout/dialogue/Dialogue";
-import { useLocale } from "next-intl";
 
 const ProjectCards = () => {
-  const cardsRef = useRef<HTMLUListElement>(null);
-  const [progress, setProgress] = useState(0);
-
-  const locale = useLocale();
-  const cardData = locale === "no" ? projectsNo : projectsEn;
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (!cardsRef.current) return;
-      const rect = cardsRef.current.getBoundingClientRect();
-      const viewportHeight = window.innerHeight;
-      const totalScroll = rect.height + viewportHeight;
-
-      const p = Math.min(
-        Math.max((viewportHeight - rect.top) / totalScroll, 0),
-        1,
-      );
-      setProgress(p);
-    };
-
-    handleScroll();
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  const { progress, cardData, cardsRef } = useProjectCardScroll();
 
   return (
     <ul id="cards" ref={cardsRef}>

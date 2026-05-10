@@ -4,7 +4,8 @@ export const typography: ThemeOptions["typography"] = {
   fontFamily:
     "var(--font-roboto-condensed), system-ui, -apple-system, sans-serif",
   h1: {
-    fontFamily: "Newake, system-ui, -apple-system, sans-serif",
+    fontFamily:
+      "var(--font-newake), var(--font-roboto-condensed), system-ui, sans-serif",
     fontSize: "8rem",
     fontWeight: 400,
     "@media (max-width:600px)": {
@@ -12,7 +13,8 @@ export const typography: ThemeOptions["typography"] = {
     },
   },
   h2: {
-    fontFamily: "Newake, system-ui, -apple-system, sans-serif",
+    fontFamily:
+      "var(--font-newake), var(--font-roboto-condensed), system-ui, sans-serif",
     fontSize: "2.5rem",
     fontWeight: 400,
     "@media (max-width:600px)": {
@@ -20,7 +22,8 @@ export const typography: ThemeOptions["typography"] = {
     },
   },
   h3: {
-    fontFamily: "Newake, system-ui, -apple-system, sans-serif",
+    fontFamily:
+      "var(--font-newake), var(--font-roboto-condensed), system-ui, sans-serif",
     fontSize: "2rem",
     fontWeight: 400,
     "@media (max-width:600px)": {
@@ -28,7 +31,8 @@ export const typography: ThemeOptions["typography"] = {
     },
   },
   h4: {
-    fontFamily: "Newake, system-ui, -apple-system, sans-serif",
+    fontFamily:
+      "var(--font-newake), var(--font-roboto-condensed), system-ui, sans-serif",
     fontSize: "1.5rem",
     fontWeight: 400,
     "@media (max-width:600px)": {

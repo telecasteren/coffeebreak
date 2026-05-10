@@ -1,21 +1,37 @@
-import type { Metadata } from "next";
-import "../css/globals.css";
 import * as React from "react";
+import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { routing } from "@/i18n/routing";
+import localFont from "next/font/local";
 import { Roboto_Condensed } from "next/font/google";
 import MuiThemeProvider from "@/components/theme/mui-theme-provider";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
-import { notFound } from "next/navigation";
-import { routing } from "@/i18n/routing";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import {
   getMessages,
   getTranslations,
   setRequestLocale,
 } from "next-intl/server";
+import "../css/globals.css";
 
 const robotoCondensed = Roboto_Condensed({
   subsets: ["latin"],
   variable: "--font-roboto-condensed",
+});
+
+const newake = localFont({
+  src: [
+    {
+      path: "../../../public/indieground-newake-font/Newake-Font-Regular.otf",
+      weight: "400",
+      style: "normal",
+    },
+  ],
+  variable: "--font-newake",
+  display: "swap",
+  preload: true,
+  fallback: ["system-ui", "Arial", "sans-serif"],
+  // adjustFontFallback: true,
 });
 
 type LayoutProps = {
@@ -59,7 +75,7 @@ export default async function RootLayout({ children, params }: LayoutProps) {
 
   return (
     <html lang={locale} data-scroll-behavior="smooth">
-      <body className={robotoCondensed.variable}>
+      <body className={newake.variable + " " + robotoCondensed.variable}>
         <AppRouterCacheProvider>
           <MuiThemeProvider>
             <NextIntlClientProvider locale={locale} messages={messages}>

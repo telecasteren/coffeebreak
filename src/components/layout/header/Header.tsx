@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useActiveNav } from "@/hooks/use-active-nav";
+import { useActiveNav } from "@/hooks/useActiveNav";
 import { useState, useEffect } from "react";
 import { AlignRightIcon } from "@/components/icons/menu-icon";
 import { BREAKPOINT } from "@/lib/config";
