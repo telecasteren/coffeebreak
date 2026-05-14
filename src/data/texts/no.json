@@ -25,15 +25,15 @@
   "hero": {
     "title": "FRONTEND UTVIKLER OG KAFFENERD",
     "descStart": "Notorisk nysgjerrig",
-    "description": "på alt mulig, strekker meg mot fullstack. Videreutvikler meg en kaffe om gangen. Lever for",
+    "description": "på alt mulig. Bygger på nett en kaffe om gangen. Lever for",
     "descEnd": "brukeropplevelse",
-    "link": "Begynne å brygge"
+    "link": "Fortell meg mer..."
   },
   "mission": {
     "title": "AMBISJON",
     "tagline1": "Alt er enkelt",
-    "description": "en heftig påstand og et av hovedmålene mine når jeg bygger. Jeg liker å lage programvare som er enkel å bruke, intuitiv og som løser problemer.",
-    "content": "Trent i front-end utvikling, jobber over hele stacken. Solid bakgrunn i menneskelig kontakt, struktur og prosjektledelse, med et fokus på å levere høy kvalitet og gjøre det komplekse enkelt.",
+    "description": "en heftig påstand og et av hovedmålene mine. Jeg liker å lage programvare som er enkel å bruke, intuitiv og som løser problemer.",
+    "content": "Trent i front-end utvikling, jobber meg gjennom hele stacken. Solid bakgrunn i menneskelig kontakt, struktur og prosjektledelse, med et fokus på å levere høy kvalitet og gjøre det komplekse enkelt.",
     "tagline2": "Hjelper folk med å lykkes med digitale produkter."
   },
   "projects": {

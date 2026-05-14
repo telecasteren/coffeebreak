@@ -9,6 +9,7 @@ import { BREAKPOINT } from "@/lib/config";
 
 import { AlignRightIcon } from "@/components/icons/index";
 import LangSwitch from "@/components/layout/toggle/LangSwitch";
+import Divider from "@mui/material/Divider";
 
 const Header = () => {
   const t = useTranslations("nav");
@@ -66,6 +67,16 @@ const Header = () => {
               })}
             </div>
           )}
+
+          <Divider
+            aria-hidden="true"
+            orientation="vertical"
+            flexItem
+            sx={{
+              display: isMobile ? "block" : "none",
+              margin: "0 2rem 0 2rem",
+            }}
+          />
 
           {(showMobileMenu || !isMobile) && (
             <LangSwitch className="lang-switch" />

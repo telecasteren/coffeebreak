@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { footerLinks } from "./footerLinks";
 import { useTranslations } from "next-intl";
@@ -8,25 +10,28 @@ const Footer = () => {
     <>
       <div className="footer-container">
         <footer>
-          {footerLinks.map(({ key, icon: Icon, href }) => (
-            <Link
-              key={key}
-              href={href}
-              className={`footer-link footer-${key}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Icon /> {t(key)}
-            </Link>
-          ))}
+          <div className="footer-links-wrapper">
+            {footerLinks.map(({ key, icon: Icon, href }) => (
+              <Link
+                key={key}
+                href={href}
+                className={`footer-link footer-${key}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon /> {t(key)}
+              </Link>
+            ))}
+          </div>
+
+          <p className="footer-version">
+            © {new Date().getFullYear()} {t("author")}. {t("rights")} |
+            <a href="#"> v2</a> |
+            <a href="/v1/" target="_blank" rel="noopener noreferrer">
+              v1
+            </a>
+          </p>
         </footer>
-        <p className="footer-version">
-          © {new Date().getFullYear()} {t("author")}. {t("rights")} |
-          <a href="#"> v2</a> |
-          <a href="/v1/" target="_blank" rel="noopener noreferrer">
-            v1
-          </a>
-        </p>
       </div>
     </>
   );

@@ -25,15 +25,15 @@
   "hero": {
     "title": "FRONTEND DEV AND COFFEE NERD",
     "descStart": "Notoriously curious",
-    "description": "about everything, reaching for fullstack. Looking to improve my skills one coffee at the time. All things",
+    "description": "about everything. Building on the web one coffee at the time. All things",
     "descEnd": "user centric",
-    "link": "Start brewing"
+    "link": "Tell me more..."
   },
   "mission": {
     "title": "MISSION",
     "tagline1": "Everything is simple",
-    "description": "a bold statement and one of my main goals when building. I enjoy creating software that is easy to use, intuitive and solve problems.",
-    "content": "Trained in front-end development, working across the full stack. With a solid background in human connection, structure and project management, I focus on delivering high-quality and make the complex simple.",
+    "description": "a bold statement and one of my main goals. I enjoy creating software that is easy to use, intuitive and solve problems.",
+    "content": "Trained in front-end development, working my way across the full stack. With a solid background in human connection, structure and project management, I focus on delivering high-quality and make the complex simple.",
     "tagline2": "Helping people to succeed with digital products."
   },
   "projects": {

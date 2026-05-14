@@ -1,83 +1,79 @@
 nav {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background-color: var(--nav-bg);
-  font-size: 1.2rem;
-  z-index: 100;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--nav-bg);
+    font-size: 1.2rem;
+    z-index: 100;
 }
 
 .nav-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem 2rem;
-  width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 2rem;
+    width: 100%;
 }
 
 .nav-inner {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
 
-@media screen and (max-width: 465px) {
-  .nav-inner {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
+    @media screen and (max-width: 465px) {
+        display: grid;
+    }
 }
 
 @media screen and (max-width: 768px) {
-  .nav-container {
-    justify-content: center;
-    padding: 1em 3.5rem 1em 1em;
-  }
+    .nav-container {
+        justify-content: center;
+        padding: 1em 0.5rem 1em 1em;
+    }
 
-  .nav-inner {
-    gap: 0.8rem;
-    padding-right: 0;
-  }
+    .nav-inner {
+        gap: 0.8rem;
+        padding-right: 0;
+    }
 
-  .lang-switch {
-    margin-left: 2em;
-    border-left: 1px solid #ffffff82;
-    border-right: 1px solid #ffffff82;
-    padding: 0 0.5em 0 0.5em;
-  }
+    .lang-switch {
+        border-left: 1px solid #ffffff82;
+        border-right: 1px solid #ffffff82;
+        padding: 0 0.5em 0 0.5em;
+    }
 
-  .menu-icon {
-    position: absolute;
-    right: 1rem;
-    top: 1.3rem;
-    transform: none;
-    display: flex;
-    width: fit-content;
-  }
+    .menu-icon {
+        position: absolute;
+        right: 1rem;
+        top: 1.3rem;
+        transform: none;
+        display: flex;
+        width: fit-content;
+    }
 }
 
 .nav-link {
-  position: relative;
+    position: relative;
 }
 
 .nav-link::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -0.4rem;
-  height: 0.3rem;
-  width: 100%;
-  background-color: var(--accent);
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 0.3s;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -0.4rem;
+    height: 0.3rem;
+    width: 100%;
+    background-color: var(--accent);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s;
 }
 
 .nav-link:hover::after,
 .nav-link.active::after {
-  transform: scaleX(1);
+    transform: scaleX(1);
 }

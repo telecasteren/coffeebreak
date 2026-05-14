@@ -55,7 +55,7 @@ const projects = [
     urls: [
       {
         title: "View Grammofon",
-        src: "",
+        src: "https://grammofon.telecasteren.com",
       },
       {
         title: "View Code",
@@ -137,7 +137,7 @@ const projects = [
     urls: [
       {
         title: "View Gamehub",
-        src: "https://gamehub-tele.netlify.app",
+        src: "https://gamehub.telecasteren.com",
       },
       {
         title: "View Code",
