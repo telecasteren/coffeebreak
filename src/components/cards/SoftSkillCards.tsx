@@ -16,6 +16,20 @@ export const SoftSkillCards = () => {
             <div className="skills-card">
               <p>04</p>
               <Typography variant="h4" component="h4">
+                Customer Relations
+              </Typography>
+              <p>
+                Proactive communication, understanding customer experience and
+                needs, building my curiosity in &quot;how people work&quot;.
+              </p>
+              <div className="slider-container">
+                <InputRange id="ai-slider" label="ai-slider" value={60} />
+              </div>
+            </div>
+
+            <div className="skills-card">
+              <p>05</p>
+              <Typography variant="h4" component="h4">
                 Project and Product Management
               </Typography>
               <p>Structure, planning, architectural thinking and design.</p>
@@ -29,24 +43,16 @@ export const SoftSkillCards = () => {
             </div>
 
             <div className="skills-card">
-              <p>05</p>
+              <p>06</p>
               <Typography variant="h4" component="h4">
                 Communication and Leadership
               </Typography>
-              <p>A continuous investment in growth</p>
+              <p>
+                Confidence in leading projects and teams, continuously investing
+                in personal growth.
+              </p>
               <div className="slider-container">
                 <InputRange id="comms-slider" label="comms-slider" value={80} />
-              </div>
-            </div>
-
-            <div className="skills-card">
-              <p>06</p>
-              <Typography variant="h4" component="h4">
-                AI and Agentic Programming
-              </Typography>
-              <p>Through rapid prototyping and AI driven development</p>
-              <div className="slider-container">
-                <InputRange id="ai-slider" label="ai-slider" value={60} />
               </div>
             </div>
           </div>
