@@ -55,7 +55,7 @@ const projects = [
     urls: [
       {
         title: "Se Grammofon",
-        src: "",
+        src: "https://grammofon.telecasternilsen.com",
       },
       {
         title: "Se kode",
@@ -137,7 +137,7 @@ const projects = [
     urls: [
       {
         title: "Se Gamehub",
-        src: "https://gamehub-tele.netlify.app",
+        src: "https://gamehub.telecasternilsen.com",
       },
       {
         title: "Se kode",

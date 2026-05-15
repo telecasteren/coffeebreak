@@ -1,6 +1,5 @@
 ### TO DO
 
-- Move projects to site subdomains: Unwired
 
 
 ### Theme and styles
