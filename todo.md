@@ -1,5 +1,7 @@
 ### TO DO
 
+#### Projects
+- Add FJELL-LMS logo in auth pages
 
 
 ### Theme and styles

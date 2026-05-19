@@ -48,6 +48,65 @@ const projects = [
   },
   {
     id: 2,
+    title: "FJELL-LMS.",
+    tagline: "En læringsplattform og kursverktøy.",
+    desc: "Dette er en flerselskaps (tenants), nettbasert læringsplattform der du kan administrere avdelinger med rollebasert tilgang, kurs (moduler → leksjoner → quizer), fremdriftssporing, samt verktøy for administratorer og innholdsforfattere.",
+    tech: "React, TypeScript, Next.js, NextAuth, Prisma ORM, PostgreSQL, Tailwind and Bunny Storage",
+    urls: [
+      {
+        title: "Se FJELL-LMS",
+        src: "https://www.fjell-lms.no",
+      },
+      {
+        title: "Se kode",
+        src: "https://github.com/telecasteren/fjell-lms",
+      },
+    ],
+    media: [
+      {
+        src: "/fjell-lms/user-profile.png",
+        alt: "Bruker profil",
+      },
+      {
+        src: "/fjell-lms/user-profile-darkmode.png",
+        alt: "Bruker profil i mørk modus",
+      },
+      {
+        src: "/fjell-lms/signin.png",
+        alt: "Innlogging",
+      },
+      {
+        src: "/fjell-lms/dept-hierarchy-list.png",
+        alt: "Avdelingshierarki liste",
+      },
+      {
+        src: "/fjell-lms/author-dashboard.png",
+        alt: "Forfatter dashboard",
+      },
+      {
+        src: "/fjell-lms/dept-config.png",
+        alt: "Avdeling konfigurasjon",
+      },
+      {
+        src: "/fjell-lms/dept-management.png",
+        alt: "Avdeling administrering",
+      },
+      {
+        src: "/fjell-lms/dept-reports.png",
+        alt: "Avdeling rapporter",
+      },
+      {
+        src: "/fjell-lms/dept-reports-detailed.png",
+        alt: "Detaljert avdeling rapporter",
+      },
+      {
+        src: "/fjell-lms/faq.png",
+        alt: "FAQ",
+      },
+    ],
+  },
+  {
+    id: 3,
     title: "GRAMMOFON.",
     tagline: "En musikkatalog for LP plater.",
     desc: "Jeg ønsket å få oversikt over LP-samlingen min, så jeg bygde et digitalt musikkbibliotek. Det håndterer søk i samlingen, sortering av tabellen, og så la jeg til en ønskeliste-funksjon slik at jeg kan registrere LP-ene jeg mangler.",
@@ -82,7 +141,7 @@ const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "BITS AUCTIONS.",
     tagline: "En moderne auksjonsplattform.",
     desc: "En auksjonsplattform der du kan se annonser, opprette konto og selge eller by på andres annonser.",
@@ -129,7 +188,7 @@ const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "GAMEHUB.",
     tagline: "Nettbutikk for gaming.",
     desc: "En spillbutikk på nett hvor brukere kan kjøpe og selge spill, lære mer og knytte kontakt.",

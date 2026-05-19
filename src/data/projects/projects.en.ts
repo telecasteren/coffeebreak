@@ -48,6 +48,65 @@ const projects = [
   },
   {
     id: 2,
+    title: "FJELL-LMS.",
+    tagline: "A learning management system.",
+    desc: "This is a multi-tenant web based learning management application, where you can manage departments with role-based access, courses (modules → lessons → quizzes), progress tracking, and admin/author tooling.",
+    tech: "React, TypeScript, Next.js, NextAuth, Prisma ORM, PostgreSQL, Tailwind and Bunny Storage",
+    urls: [
+      {
+        title: "View FJELL-LMS",
+        src: "https://www.fjell-lms.no",
+      },
+      {
+        title: "View Code",
+        src: "https://github.com/telecasteren/fjell-lms",
+      },
+    ],
+    media: [
+      {
+        src: "/fjell-lms/user-profile.png",
+        alt: "User profile",
+      },
+      {
+        src: "/fjell-lms/user-profile-darkmode.png",
+        alt: "User profile in dark mode",
+      },
+      {
+        src: "/fjell-lms/signin.png",
+        alt: "Sign in page",
+      },
+      {
+        src: "/fjell-lms/dept-hierarchy-list.png",
+        alt: "Department hierarchy list",
+      },
+      {
+        src: "/fjell-lms/author-dashboard.png",
+        alt: "Author dashboard",
+      },
+      {
+        src: "/fjell-lms/dept-config.png",
+        alt: "Department configuration",
+      },
+      {
+        src: "/fjell-lms/dept-management.png",
+        alt: "Department management",
+      },
+      {
+        src: "/fjell-lms/dept-reports.png",
+        alt: "Department reports",
+      },
+      {
+        src: "/fjell-lms/dept-reports-detailed.png",
+        alt: "Detailed department reports",
+      },
+      {
+        src: "/fjell-lms/faq.png",
+        alt: "FAQ",
+      },
+    ],
+  },
+  {
+    id: 3,
     title: "GRAMMOFON.",
     tagline: "A music catalogue.",
     desc: "I struggled with getting an overview of my LP records, so I built this online music library. It handles searching through the collection, sorting the table by column header, and I added a wishlist feature, so I can add the LPs I'm missing.",
@@ -82,7 +141,7 @@ const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "BITS AUCTIONS.",
     tagline: "Online auction platform.",
     desc: "An auction platform where you can view site listings, create an account and sell or bid on items.",
@@ -129,7 +188,7 @@ const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "GAMEHUB.",
     tagline: "Ecommerce Gaming platform.",
     desc: "Ecommerce Gaming platform where users can buy and sell games, learn and get connected.",
