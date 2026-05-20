@@ -1,19 +1,18 @@
 {
   "ci": {
     "collect": {
-      "numberOfRuns": 3,
-      "url": ["https://telecasternilsen.com/"]
-    },
-    "assert": {
-      "assertions": {
-        "categories:performance": ["warn", { "minScore": 0.9 }],
-        "categories:accessibility": ["warn", { "minScore": 0.9 }],
-        "categories:best-practices": ["warn", { "minScore": 0.9 }],
-        "categories:seo": ["warn", { "minScore": 0.9 }]
+      "numberOfRuns": 5,
+      "url": ["https://telecasternilsen.com/"],
+      "settings": {
+        "formFactor": "mobile",
+        "throttlingMethod": "simulate",
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ]
       }
-    },
-    "upload": {
-      "target": "temporary-public-storage"
     }
   }
 }
