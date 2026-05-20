@@ -1,28 +1,32 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { readdir, mkdir, readFile, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 
-const manifestPath = path.join(".lighthouseci", "manifest.json");
-
-if (!existsSync(manifestPath)) {
-  throw new Error("Missing .lighthouseci/manifest.json");
+const lhciDir = ".lighthouseci";
+if (!existsSync(lhciDir)) {
+  throw new Error("Missing .lighthouseci directory");
 }
 
-const manifest = JSON.parse(await readFile(manifestPath, "utf8"));
-if (!Array.isArray(manifest) || manifest.length === 0) {
-  throw new Error("No Lighthouse runs found in manifest");
+const files = await readdir(lhciDir);
+const reportFiles = files
+  .filter(
+    (f) =>
+      f.endsWith(".report.json") || // LHCI
+      /^lhr-.*\.json$/.test(f), // fallback
+  )
+  .map((f) => path.join(lhciDir, f));
+
+if (!reportFiles.length) {
+  throw new Error(`No Lighthouse report JSON files found in ${lhciDir}`);
 }
 
 const reports = await Promise.all(
-  manifest.map(async (entry) => {
-    const raw = await readFile(entry.jsonPath, "utf8");
-    return JSON.parse(raw);
-  }),
+  reportFiles.map(async (file) => JSON.parse(await readFile(file, "utf8"))),
 );
 
-const avgPct = (getScore) => {
-  const values = reports.map((r) => getScore(r) ?? 0);
-  const avg = values.reduce((sum, v) => sum + v, 0) / values.length;
+const avgPct = (pick) => {
+  const values = reports.map((r) => pick(r) ?? 0);
+  const avg = values.reduce((a, b) => a + b, 0) / values.length;
   return Math.round(avg * 100);
 };
 
@@ -33,10 +37,11 @@ const scores = {
   seo: avgPct((r) => r.categories?.seo?.score),
 };
 
-const outDir = path.join("public", "lighthouse");
-const outFile = path.join(outDir, "scores.json");
+await mkdir("public/lighthouse", { recursive: true });
+await writeFile(
+  "public/lighthouse/scores.json",
+  JSON.stringify(scores, null, 2) + "\n",
+  "utf8",
+);
 
-await mkdir(outDir, { recursive: true });
-await writeFile(outFile, JSON.stringify(scores, null, 2) + "\n", "utf8");
-
-console.log("Updated", outFile, scores);
+console.log("Updated public/lighthouse/scores.json:", scores);
