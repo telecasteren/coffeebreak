@@ -2,7 +2,7 @@ export const cvItemsNo = [
   {
     id: 1,
     year: "2024 - now",
-    title: "Devtones Studio - Tele Caster Nilsen",
+    title: "Pixl - Tele Caster Nilsen",
     subtitle: "Hobby- og Frilansutvikler",
     desc: `Bygger ulike prosjekter og designer nettsider, får praktisk erfaring og videreutvikler ferdighetene mine innen webutvikling. Fokusområdene inkluderer React, TypeScript, Next.js, Node.js, Express, MySQL og mer.
     Jeg har integrert KI i utviklingsflyten min, og bruker det til å akselerere prototyping, feilsøking og utvikling, samtidig som jeg beholder en dyp forståelse av teknologien.

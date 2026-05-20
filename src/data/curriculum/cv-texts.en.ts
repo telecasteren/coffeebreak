@@ -2,7 +2,7 @@ export const cvItemsEn = [
   {
     id: 1,
     year: "2024 - now",
-    title: "Devtones Studio - Tele Caster Nilsen",
+    title: "Pixl - Tele Caster Nilsen",
     subtitle: "Hobby and Freelance Web Developer",
     desc: `Building various projects and designing websites, gaining practical experience and honing my skills in web development. Focused technologies include React, TypeScript, Next.js, Node.js, Express, MySQL and more.
     I've integrated AI in my development workflow, using it to accelerate prototyping, debugging and development, while maintaining a deep understanding of the technologies.
