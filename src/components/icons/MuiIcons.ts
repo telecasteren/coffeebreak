@@ -5,6 +5,9 @@ import CloseIcon from "@mui/icons-material/Close";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import IconButton from "@mui/material/IconButton";
+import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore";
+import NavigateNextIcon from "@mui/icons-material/NavigateNext";
+import StarIcon from "@mui/icons-material/Star";
 
 export {
   EmailIcon,
@@ -14,4 +17,7 @@ export {
   ArrowBackIosNewIcon,
   ArrowForwardIosIcon,
   IconButton,
+  NavigateBeforeIcon,
+  NavigateNextIcon,
+  StarIcon,
 };

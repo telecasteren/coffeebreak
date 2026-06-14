@@ -6,6 +6,7 @@ import Projects from "@/components/sections/Projects";
 import Contact from "@/components/sections/Contact";
 import Dev from "@/components/sections/Dev";
 import Barista from "@/components/sections/Barista";
+import { Testimonials } from "@/components/sections/Testimonials";
 
 export default async function App() {
   return (
@@ -26,6 +27,10 @@ export default async function App() {
 
       <section id="barista">
         <Barista />
+      </section>
+
+      <section id="testimonials">
+        <Testimonials />
       </section>
 
       <section id="mission">

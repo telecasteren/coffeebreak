@@ -1,11 +1,18 @@
 ### TO DO
 
 #### Projects
-- Add FJELL-LMS logo in auth pages
+- Add FJELL-LMS logo in FJELL-LMS app auth pages
+- Add most relevant + repo list?
+
+#### Testimonials
+- Make carousel
+- Split out testimonials into a separate file
 
 
-### Theme and styles
+#### Theme and styles
 
-- Refactor possible CSS variables
-- check out #142530(with #308b6f as accent), #1C1C1C, #1f2028 or #191919 as main site background colour (dark)
-- check out #f8fdf7 as main background colour (light)
+- Add tiny dots in half of the background
+
+### Refactoring
+- Refactor possible CSS variables into a separate file
+- Refactor Theme, remove unused dark/light theme
