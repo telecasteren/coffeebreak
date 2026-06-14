@@ -38,7 +38,7 @@ export const Testimonials = () => {
           }
           aria-description={`testimonial-${index}`}
         >
-          <div role="inner-border" className="testimonial-inner">
+          <div role="presentation" className="testimonial-inner">
             <p
               aria-description={`testimonial-${index}-text`}
               className="testimonial-text testimonial-p"
@@ -69,11 +69,19 @@ export const Testimonials = () => {
       ))}
 
       <div className="testimonials-nav">
-        <button className="testimonials-prev" onClick={handlePrev}>
+        <button
+          name="button"
+          className="testimonials-prev"
+          onClick={handlePrev}
+        >
           <NavigateBeforeIcon sx={{ width: 50, height: 50 }} />
         </button>
 
-        <button className="testimonials-next" onClick={handleNext}>
+        <button
+          name="button"
+          className="testimonials-next"
+          onClick={handleNext}
+        >
           <NavigateNextIcon sx={{ width: 50, height: 50 }} />
         </button>
       </div>
