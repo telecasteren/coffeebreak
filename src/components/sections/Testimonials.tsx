@@ -70,7 +70,7 @@ export const Testimonials = () => {
 
       <div className="testimonials-nav">
         <button
-          name="button"
+          aria-label="previous testimonial"
           className="testimonials-prev"
           onClick={handlePrev}
         >
@@ -78,7 +78,7 @@ export const Testimonials = () => {
         </button>
 
         <button
-          name="button"
+          aria-label="next testimonial"
           className="testimonials-next"
           onClick={handleNext}
         >
