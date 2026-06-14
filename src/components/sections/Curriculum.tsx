@@ -42,7 +42,9 @@ const Curriculum = () => {
           {t("fullname")}
         </Typography>
         <Image
-          src="/tele-avatar-blue.webp"
+          id="cv-avatar"
+          // src="/tele-avatar-green-plant.svg"
+          src="/tele-avatar-blackwhite.svg"
           alt="avatar of the author"
           width={200}
           height={200}
