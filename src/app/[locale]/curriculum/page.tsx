@@ -4,6 +4,7 @@ import Typography from "@mui/material/Typography";
 import CurriculumVitae from "../../../components/sections/Curriculum";
 import Contact from "@/components/sections/Contact";
 import { useTranslations } from "next-intl";
+import { Highlight } from "../../../components/Highlight";
 
 export default function Curriculum() {
   const t = useTranslations("cv");
@@ -16,7 +17,7 @@ export default function Curriculum() {
           component="h1"
           sx={{ fontSize: "3rem", mt: 4 }}
         >
-          {t("title")}
+          <Highlight>{t("title")}</Highlight>
         </Typography>
         <p>{t("subtitle")}</p>
         <CurriculumVitae />

@@ -1,13 +1,15 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useTranslations, useLocale } from "next-intl";
+import Image from "next/image";
 import Typography from "@mui/material/Typography";
 import { cvItemsEn } from "@/data/curriculum/cv-texts.en";
 import { cvItemsNo } from "@/data/curriculum/cv-texts.no";
-import Image from "next/image";
-import { useTranslations, useLocale } from "next-intl";
 
 const Curriculum = () => {
+  const [hovered, setHovered] = useState(false);
+
   const t = useTranslations("cv");
   const locale = useLocale();
 
@@ -37,20 +39,36 @@ const Curriculum = () => {
 
   return (
     <>
-      <div className="cv-header">
+      <section className="cv-header">
         <Typography variant="h2" component="h2">
           {t("fullname")}
         </Typography>
-        <Image
-          id="cv-avatar"
-          // src="/tele-avatar-green-plant.svg"
-          src="/tele-avatar-blackwhite.svg"
-          alt="avatar of the author"
-          width={200}
-          height={200}
-          loading="eager"
-        />
-      </div>
+
+        <div
+          className="cv-avatar-wrapper"
+          onMouseEnter={() => setHovered(true)}
+          onMouseLeave={() => setHovered(false)}
+        >
+          <Image
+            className={`cv-avatar-img ${hovered ? " hidden" : ""}`}
+            src="/tele-avatar-blackwhite.svg"
+            alt="avatar of the author"
+            width={200}
+            height={200}
+            loading="eager"
+          />
+
+          <Image
+            className={`cv-avatar-img ${hovered ? "" : " hidden"}`}
+            src="/tele-avatar-green-plant.svg"
+            alt="avatar of the author"
+            width={200}
+            height={200}
+            loading="eager"
+          />
+        </div>
+      </section>
+
       <section className="cv-timeline" ref={timelineRef}>
         <div
           className="cv-timeline-inner"
