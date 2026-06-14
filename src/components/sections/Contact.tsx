@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <>
       <div className="contact-title-wrapper">
-        <span className="hire-me" aria-hidden="true">
+        <span className="hire-me" aria-hidden="true" role="presentation">
           {t("tagline")}
         </span>
         <Typography variant="h2" component="h2">
