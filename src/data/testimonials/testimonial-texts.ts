@@ -35,6 +35,15 @@ export const TestimonialTexts = [
     subject: "Industry Knowledge (cooperative dev course)",
   },
   {
+    name: "Nelly Moseki",
+    company: "Noroff School of Technology & Media",
+    companyUrl: "https://www.noroff.no/",
+    testimonial:
+      "Components look awesome, nice job! The folder structure is immaculately organised.",
+    relation: "Teacher",
+    subject: "Semester Project 2 (Typescript, Tailwind, Figma)",
+  },
+  {
     name: "Martin Krüger",
     company: "Noroff School of Technology & Media",
     companyUrl: "https://www.noroff.no/",
