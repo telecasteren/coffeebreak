@@ -1,53 +1,76 @@
 const projects = [
   {
     id: 1,
-    title: "FOODIEGRAM.",
-    tagline: "A social media platform for foodies.",
-    desc: "A SoMe platform built intentionally for foodies. Providing a space to share recipes, restaurant and food tips, without the modern noise of conventional social media platforms.",
-    tech: "Javascript, HTML, CSS, Tailwind CSS, Noroff REST API",
+    title: "HAIKU COFFEE.",
+    tagline: "A storefront for a coffeeshop.",
+    desc: "Haiku Coffee is a storefront for a coffeeshop, where users can browse products, create an account and manage order history.",
+    tech: "React, Typescript, Next.js, Tailwind CSS, REST API",
     urls: [
       {
-        title: "View Foodiegram",
+        title: "View Haiku Coffee",
         src: "",
       },
       {
         title: "View Code",
-        src: "https://github.com/telecasteren/social-app-noroff/tree/js2",
+        src: "https://github.com/telecasteren/haiku_frontend",
       },
     ],
     media: [
       {
-        src: "/foodiegram/foodiegram_lightmode.webp",
-        alt: "Foodiegram landing page in light theme",
+        src: "/haiku-coffee/haiku_home.png",
+        alt: "Haiku Coffee home page",
       },
       {
-        src: "/foodiegram/landing-dark.png",
-        alt: "Foodiegram landing page in dark theme",
+        src: "/haiku-coffee/haiku_signup.png",
+        alt: "Haiku Coffee signup page",
       },
       {
-        src: "/foodiegram/login.png",
-        alt: "Foodiegram login page",
+        src: "/haiku-coffee/haiku_shop_merch.png",
+        alt: "Haiku Coffee shop merch page",
       },
       {
-        src: "/foodiegram/profile-settings.png",
-        alt: "Foodiegram profile page",
-      },
-      {
-        src: "/foodiegram/feed.png",
-        alt: "Foodiegram posts feed page",
-      },
-      {
-        src: "/foodiegram/search.png",
-        alt: "Foodiegram feed page with search",
-      },
-      {
-        src: "/foodiegram/single-post.png",
-        alt: "Foodiegram single post page",
+        src: "/haiku-coffee/haiku_shop_beans.png",
+        alt: "Haiku Coffee shop beans page",
       },
     ],
   },
   {
     id: 2,
+    title: "GRAMMOFON.",
+    tagline: "A music catalogue.",
+    desc: "I struggled with getting an overview of my LP records, so I built this online music library. It handles searching through the collection, sorting the table by column header, and I added a wishlist feature, so I can add the LPs I'm missing.",
+    tech: "React, Typescript, MUI, Prisma ORM, Neon database",
+    urls: [
+      {
+        title: "View Grammofon",
+        src: "https://grammofon.telecasternilsen.com",
+      },
+      {
+        title: "View Code",
+        src: "https://github.com/telecasteren/music_catalogue/blob/main/README.md",
+      },
+    ],
+    media: [
+      {
+        src: "/grammofon/collection.png",
+        alt: "Grammofon collection page",
+      },
+      {
+        src: "/grammofon/pagination.png",
+        alt: "Grammofon collection list see more",
+      },
+      {
+        src: "/grammofon/new-entry.png",
+        alt: "Grammofon add new entry page",
+      },
+      {
+        src: "/grammofon/wishlist.png",
+        alt: "Grammofon wishlist page",
+      },
+    ],
+  },
+  {
+    id: 3,
     title: "FJELL-LMS.",
     tagline: "A learning management system.",
     desc: "This is a multi-tenant web based learning management application, where you can manage departments with role-based access, courses (modules → lessons → quizzes), progress tracking, and admin/author tooling.",
@@ -106,42 +129,54 @@ const projects = [
     ],
   },
   {
-    id: 3,
-    title: "GRAMMOFON.",
-    tagline: "A music catalogue.",
-    desc: "I struggled with getting an overview of my LP records, so I built this online music library. It handles searching through the collection, sorting the table by column header, and I added a wishlist feature, so I can add the LPs I'm missing.",
-    tech: "React, Typescript, MUI, Prisma ORM, Neon database",
+    id: 4,
+    title: "FOODIEGRAM.",
+    tagline: "A social media platform for foodies.",
+    desc: "A SoMe platform built intentionally for foodies. Providing a space to share recipes, restaurant and food tips, without the modern noise of conventional social media platforms.",
+    tech: "Javascript, HTML, CSS, Tailwind CSS, Noroff REST API",
     urls: [
       {
-        title: "View Grammofon",
-        src: "https://grammofon.telecasternilsen.com",
+        title: "View Foodiegram",
+        src: "",
       },
       {
         title: "View Code",
-        src: "https://github.com/telecasteren/music_catalogue/blob/main/README.md",
+        src: "https://github.com/telecasteren/social-app-noroff/tree/js2",
       },
     ],
     media: [
       {
-        src: "/grammofon/collection.png",
-        alt: "Grammofon collection page",
+        src: "/foodiegram/foodiegram_lightmode.webp",
+        alt: "Foodiegram landing page in light theme",
       },
       {
-        src: "/grammofon/pagination.png",
-        alt: "Grammofon collection list see more",
+        src: "/foodiegram/landing-dark.png",
+        alt: "Foodiegram landing page in dark theme",
       },
       {
-        src: "/grammofon/new-entry.png",
-        alt: "Grammofon add new entry page",
+        src: "/foodiegram/login.png",
+        alt: "Foodiegram login page",
       },
       {
-        src: "/grammofon/wishlist.png",
-        alt: "Grammofon wishlist page",
+        src: "/foodiegram/profile-settings.png",
+        alt: "Foodiegram profile page",
+      },
+      {
+        src: "/foodiegram/feed.png",
+        alt: "Foodiegram posts feed page",
+      },
+      {
+        src: "/foodiegram/search.png",
+        alt: "Foodiegram feed page with search",
+      },
+      {
+        src: "/foodiegram/single-post.png",
+        alt: "Foodiegram single post page",
       },
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "BITS AUCTIONS.",
     tagline: "Online auction platform.",
     desc: "An auction platform where you can view site listings, create an account and sell or bid on items.",
@@ -188,7 +223,7 @@ const projects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "GAMEHUB.",
     tagline: "Ecommerce Gaming platform.",
     desc: "Ecommerce Gaming platform where users can buy and sell games, learn and get connected.",
