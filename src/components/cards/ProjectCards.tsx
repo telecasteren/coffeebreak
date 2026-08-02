@@ -43,13 +43,16 @@ export const ProjectCards = () => {
                   urls={card.urls}
                 />
               </div>
+
+              <div className="card-img-wrapper">
               <Image
                 src={card.media?.[0]?.src || "/noimage.png"}
                 alt={card.media?.[0]?.alt || "Project image"}
                 width={500}
                 height={300}
                 loading="eager"
-              />
+                />
+              </div>
             </div>
           </li>
         );
