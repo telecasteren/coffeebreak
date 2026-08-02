@@ -1,4 +1,8 @@
 {
+  "meta": {
+    "title": "Tele Caster Nilsen",
+    "description": "Portefølje for Tele Caster Nilsen"
+  },
   "nav": {
     "home": "hjem",
     "projects": "prosjekter",
@@ -12,10 +16,6 @@
     "github": "GitHub",
     "email": "E-post",
     "linkedin": "LinkedIn"
-  },
-  "meta": {
-    "title": "Coffebreak Portfolio",
-    "description": "Utviklerportefølje for Tele Caster Nilsen"
   },
   "buttons": {
     "showMore": "Vis prosjekt",
@@ -62,7 +62,7 @@
   },
   "contact": {
     "title": "Ta kontakt",
-    "tagline": "HIRE ME",
+    "tagline": "HYR MEG",
     "descPart1": "Jeg er alltid åpen for",
     "highlightDescLine": "nye muligheter",
     "descPart2": "og samarbeid. Kontakt meg på",
