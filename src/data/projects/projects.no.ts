@@ -1,53 +1,107 @@
 const projects = [
   {
     id: 1,
-    title: "FOODIEGRAM.",
-    tagline: "En sosiale medier-plattform for foodies.",
-    desc: "En SoMe-plattform bygget spesielt for foodies. En plass for å dele oppskrifter, restaurant- og mattips, uten støyen fra dagens tradisjonelle sosiale medier-plattformer.",
-    tech: "Javascript, HTML, CSS, Tailwind CSS, Noroff REST API",
+    title: "HAIKU COFFEE.",
+    tagline: "En nettbutikk for en kaffebar.",
+    desc: "Haiku Coffee er en nettbutikk for en kaffebar, der brukere kan blaa produkter, opprette konto og spore ordrehistorikk.",
+    tech: "React, Typescript, Next.js, Tailwind CSS, REST API",
     urls: [
       {
-        title: "Se Foodiegram",
+        title: "Se Haiku Coffee",
         src: "",
       },
       {
-        title: "Se kode",
-        src: "https://github.com/telecasteren/social-app-noroff/tree/js2",
+        title: "Se koden",
+        src: "https://github.com/telecasteren/haiku_frontend",
       },
     ],
     media: [
       {
-        src: "/foodiegram/foodiegram_lightmode.webp",
-        alt: "Foodiegram landingsside i lyst tema",
+        src: "/haiku-coffee/haiku_home.png",
+        alt: "Haiku Coffee home page",
       },
       {
-        src: "/foodiegram/landing-dark.png",
-        alt: "Foodiegram landingsside i mørkt tema",
+        src: "/haiku-coffee/haiku_signup.png",
+        alt: "Haiku Coffee signup page",
       },
       {
-        src: "/foodiegram/login.png",
-        alt: "Foodiegram innloggingsside",
+        src: "/haiku-coffee/haiku_shop_merch.png",
+        alt: "Haiku Coffee shop merch page",
       },
       {
-        src: "/foodiegram/profile-settings.png",
-        alt: "Foodiegram profilsiden",
-      },
-      {
-        src: "/foodiegram/feed.png",
-        alt: "Foodiegram feed-side med innlegg",
-      },
-      {
-        src: "/foodiegram/search.png",
-        alt: "Foodiegram feed-side med søk",
-      },
-      {
-        src: "/foodiegram/single-post.png",
-        alt: "Foodiegram side for enkeltinnlegg",
+        src: "/haiku-coffee/haiku_shop_beans.png",
+        alt: "Haiku Coffee shop beans page",
       },
     ],
   },
   {
     id: 2,
+    title: "ODA HELEN NILSEN.",
+    tagline: "En innholds-dreven nettside for en selvstendig artist.",
+    desc: "En innholds-dreven nettside for en selvstendig artist for oppdatering av nye utgivelser, turne datoer og showcases, videoer og presse. Designet og bygget for å føles som en kuratert artist-side, og ikke bare en template, med type-sikker datavalidering hele veien.",
+    tech: "React, Typescript, MUI, Zod, Netlify",
+    urls: [
+      {
+        title: "Se nettsiden",
+        src: "https://odahelen.no",
+      },
+      {
+        title: "Se koden",
+        src: "https://github.com/telecasteren/odahelen",
+      },
+    ],
+    media: [
+      {
+        src: "/odahelen/odahelen_hero.png",
+        alt: "Oda Helen Nilsen hero",
+      },
+      {
+        src: "/odahelen/odahelen_eventer.png",
+        alt: "Oda Helen Nilsen event side",
+      },
+      {
+        src: "/odahelen/odahelen_galleri.png",
+        alt: "Oda Helen Nilsen galleri",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "GRAMMOFON.",
+    tagline: "En musikkatalog for LP plater.",
+    desc: "Jeg ønsket å få oversikt over LP-samlingen min, så jeg bygde et digitalt musikkbibliotek. Det håndterer søk i samlingen, sortering av tabellen, og så la jeg til en ønskeliste-funksjon slik at jeg kan registrere LP-ene jeg mangler.",
+    tech: "React, Typescript, MUI, Prisma ORM, Neon database",
+    urls: [
+      {
+        title: "Se Grammofon",
+        src: "https://grammofon.telecasternilsen.com",
+      },
+      {
+        title: "Se koden",
+        src: "https://github.com/telecasteren/music_catalogue/blob/main/README.md",
+      },
+    ],
+    media: [
+      {
+        src: "/grammofon/collection.png",
+        alt: "Grammofon collection page",
+      },
+      {
+        src: "/grammofon/pagination.png",
+        alt: "Grammofon collection list see more",
+      },
+      {
+        src: "/grammofon/new-entry.png",
+        alt: "Grammofon add new entry page",
+      },
+      {
+        src: "/grammofon/wishlist.png",
+        alt: "Grammofon wishlist page",
+      },
+    ],
+  },
+  {
+    id: 4,
     title: "FJELL-LMS.",
     tagline: "En læringsplattform og kursverktøy.",
     desc: "Dette er en flerselskaps (tenants), nettbasert læringsplattform der du kan administrere avdelinger med rollebasert tilgang, kurs (moduler → leksjoner → quizer), fremdriftssporing, samt verktøy for administratorer og innholdsforfattere.",
@@ -55,7 +109,7 @@ const projects = [
     urls: [
       {
         title: "Se FJELL-LMS",
-        src: "https://www.fjell-lms.no",
+        src: "",
       },
       {
         title: "Se kode",
@@ -106,42 +160,54 @@ const projects = [
     ],
   },
   {
-    id: 3,
-    title: "GRAMMOFON.",
-    tagline: "En musikkatalog for LP plater.",
-    desc: "Jeg ønsket å få oversikt over LP-samlingen min, så jeg bygde et digitalt musikkbibliotek. Det håndterer søk i samlingen, sortering av tabellen, og så la jeg til en ønskeliste-funksjon slik at jeg kan registrere LP-ene jeg mangler.",
-    tech: "React, Typescript, MUI, Prisma ORM, Neon-database",
+    id: 5,
+    title: "FOODIEGRAM.",
+    tagline: "En sosiale medier-plattform for foodies.",
+    desc: "En SoMe-plattform bygget spesielt for foodies. En plass for å dele oppskrifter, restaurant- og mattips, uten støyen fra dagens tradisjonelle sosiale medier-plattformer.",
+    tech: "Javascript, HTML, CSS, Tailwind CSS, Noroff REST API",
     urls: [
       {
-        title: "Se Grammofon",
-        src: "https://grammofon.telecasternilsen.com",
+        title: "Se Foodiegram",
+        src: "",
       },
       {
         title: "Se kode",
-        src: "https://github.com/telecasteren/music_catalogue/blob/main/README.md",
+        src: "https://github.com/telecasteren/social-app-noroff/tree/js2",
       },
     ],
     media: [
       {
-        src: "/grammofon/collection.png",
-        alt: "Grammofon samlingsside",
+        src: "/foodiegram/foodiegram_lightmode.webp",
+        alt: "Foodiegram landingsside i lyst tema",
       },
       {
-        src: "/grammofon/pagination.png",
-        alt: "Grammofon samlingsliste med paginering",
+        src: "/foodiegram/landing-dark.png",
+        alt: "Foodiegram landingsside i mørkt tema",
       },
       {
-        src: "/grammofon/new-entry.png",
-        alt: "Grammofon side for å legge til ny plate",
+        src: "/foodiegram/login.png",
+        alt: "Foodiegram innloggingsside",
       },
       {
-        src: "/grammofon/wishlist.png",
-        alt: "Grammofon ønskeliste-side",
+        src: "/foodiegram/profile-settings.png",
+        alt: "Foodiegram profilsiden",
+      },
+      {
+        src: "/foodiegram/feed.png",
+        alt: "Foodiegram feed-side med innlegg",
+      },
+      {
+        src: "/foodiegram/search.png",
+        alt: "Foodiegram feed-side med søk",
+      },
+      {
+        src: "/foodiegram/single-post.png",
+        alt: "Foodiegram side for enkeltinnlegg",
       },
     ],
   },
   {
-    id: 4,
+    id: 6,
     title: "BITS AUCTIONS.",
     tagline: "En moderne auksjonsplattform.",
     desc: "En auksjonsplattform der du kan se annonser, opprette konto og selge eller by på andres annonser.",
@@ -187,49 +253,6 @@ const projects = [
       },
     ],
   },
-  {
-    id: 5,
-    title: "GAMEHUB.",
-    tagline: "Nettbutikk for gaming.",
-    desc: "En spillbutikk på nett hvor brukere kan kjøpe og selge spill, lære mer og knytte kontakt.",
-    tech: "Javascript, HTML, CSS, Wordpress, WooCommerce API",
-    urls: [
-      {
-        title: "Se Gamehub",
-        src: "https://gamehub.telecasternilsen.com",
-      },
-      {
-        title: "Se kode",
-        src: "https://github.com/telecasteren/gamehub/blob/main/ReadMe.md",
-      },
-    ],
-    media: [
-      {
-        src: "/gamehub/gamehub-blob.webp",
-        alt: "Gamehub landingsside",
-      },
-      {
-        src: "/gamehub/article-modal.png",
-        alt: "Gamehub åpen artikkelmodal",
-      },
-      {
-        src: "/gamehub/game-view-top.png",
-        alt: "Gamehub visning av enkeltspill",
-      },
-      {
-        src: "/gamehub/games-list.png",
-        alt: "Gamehub spilliste",
-      },
-      {
-        src: "/gamehub/checkout-top.png",
-        alt: "Gamehub utsjekk - øvre del",
-      },
-      {
-        src: "/gamehub/checkout-bottom.png",
-        alt: "Gamehub utsjekk - nedre del",
-      },
-    ],
-  },
-];
+  ];
 
 export default projects;

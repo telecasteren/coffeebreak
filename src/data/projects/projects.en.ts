@@ -36,6 +36,37 @@ const projects = [
   },
   {
     id: 2,
+    title: "ODA HELEN NILSEN.",
+    tagline: "A content-driven site for an independent artist.",
+    desc: "A content-driven site for an independent artist built for updates on new releases, tour dates and showcase work, videos and press. Designed and built to feel like a curated artist page rather than a template, with type-safe data validation end-to-end.",
+    tech: "React, Typescript, MUI, Zod, Netlify",
+    urls: [
+      {
+        title: "View website",
+        src: "https://odahelen.no",
+      },
+      {
+        title: "View Code",
+        src: "https://github.com/telecasteren/odahelen",
+      },
+    ],
+    media: [
+      {
+        src: "/odahelen/odahelen_hero.png",
+        alt: "Oda Helen Nilsen hero",
+      },
+      {
+        src: "/odahelen/odahelen_eventer.png",
+        alt: "Oda Helen Nilsen event side",
+      },
+      {
+        src: "/odahelen/odahelen_galleri.png",
+        alt: "Oda Helen Nilsen galleri",
+      },
+    ],
+  },
+  {
+    id: 3,
     title: "GRAMMOFON.",
     tagline: "A music catalogue.",
     desc: "I struggled with getting an overview of my LP records, so I built this online music library. It handles searching through the collection, sorting the table by column header, and I added a wishlist feature, so I can add the LPs I'm missing.",
@@ -70,7 +101,7 @@ const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "FJELL-LMS.",
     tagline: "A learning management system.",
     desc: "This is a multi-tenant web based learning management application, where you can manage departments with role-based access, courses (modules → lessons → quizzes), progress tracking, and admin/author tooling.",
@@ -78,7 +109,7 @@ const projects = [
     urls: [
       {
         title: "View FJELL-LMS",
-        src: "https://www.fjell-lms.no",
+        src: "",
       },
       {
         title: "View Code",
@@ -129,7 +160,7 @@ const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "FOODIEGRAM.",
     tagline: "A social media platform for foodies.",
     desc: "A SoMe platform built intentionally for foodies. Providing a space to share recipes, restaurant and food tips, without the modern noise of conventional social media platforms.",
@@ -176,7 +207,7 @@ const projects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "BITS AUCTIONS.",
     tagline: "Online auction platform.",
     desc: "An auction platform where you can view site listings, create an account and sell or bid on items.",
@@ -219,49 +250,6 @@ const projects = [
       {
         src: "/bits-auctions/create-listing.png",
         alt: "Bits Auctions create new listing modal",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "GAMEHUB.",
-    tagline: "Ecommerce Gaming platform.",
-    desc: "Ecommerce Gaming platform where users can buy and sell games, learn and get connected.",
-    tech: "Javascript, HTML, CSS, Wordpress, WooCommerce API",
-    urls: [
-      {
-        title: "View Gamehub",
-        src: "https://gamehub.telecasternilsen.com",
-      },
-      {
-        title: "View Code",
-        src: "https://github.com/telecasteren/gamehub/blob/main/ReadMe.md",
-      },
-    ],
-    media: [
-      {
-        src: "/gamehub/gamehub-blob.webp",
-        alt: "Gamehub landing page",
-      },
-      {
-        src: "/gamehub/article-modal.png",
-        alt: "Gamehub open article modal",
-      },
-      {
-        src: "/gamehub/game-view-top.png",
-        alt: "Gamehub single game view",
-      },
-      {
-        src: "/gamehub/games-list.png",
-        alt: "Gamehub list of games",
-      },
-      {
-        src: "/gamehub/checkout-top.png",
-        alt: "Gamehub checkout top view",
-      },
-      {
-        src: "/gamehub/checkout-bottom.png",
-        alt: "Gamehub checkout bottom view",
       },
     ],
   },
