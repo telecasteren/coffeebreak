@@ -4,13 +4,13 @@ export const cvItemsNo = [
     year: "2024 - now",
     title: "Pixl - Tele Caster Nilsen",
     subtitle: "Hobby- og Frilansutvikler",
-    desc: `Bygger ulike prosjekter og designer nettsider, får praktisk erfaring og videreutvikler ferdighetene mine innen webutvikling. Fokusområdene inkluderer React, TypeScript, Next.js, Node.js, Express, MySQL og mer.
-    Jeg har integrert KI i utviklingsflyten min, og bruker det til å akselerere prototyping, feilsøking og utvikling, samtidig som jeg beholder en dyp forståelse av teknologien.
-    For meg er læring den ultimate aktiviteten, og jeg er ikke redd for å ta på meg prosjekter eller introdusere nye teknologier.`,
+    desc: `Leder varierte prosjekter og nettside design, bygger og vedlikeholder applikasjoner. Videreutvikler ferdighetene mine innen web- og produktutvikling.
+    KI er integrert i utviklingsflyten min, for å akselerere prototyping, feilsøking og design, samtidig som jeg opprettholder dyp forståelse av teknologien bak.
+    Jeg er ikke redd for å ta på meg prosjekter eller introdusere nye teknologier.`,
   },
   {
     id: 2,
-    year: "Mars 2023 - nå",
+    year: "Mars 2023 - Oktober 2026",
     title: "Noroff University",
     subtitle: "Front-End Utvikling",
     desc: "Studier i front-end utvikling, hvor jeg bygger et solid fundament i moderne webteknologier som HTML, CSS, TypeScript, React, Express.js og SQL.",

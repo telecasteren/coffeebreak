@@ -15,9 +15,9 @@ const Dev = () => {
         <FolderCodeIcon variant="animate" size={110} />
       </div>
       <Typography variant="h2" component="h3">
-        <Highlight>{t("devTagline")}</Highlight> {t("devSubtitle")}
+        <Highlight>{t("devTagline1")}</Highlight> {t("devSubtitle")}
       </Typography>
-      <p className="paragraph-text">{t("devDescription")}</p>
+      <p className="paragraph-text">{t("devDescription")}{" "}<Highlight>{t("devTagline2")}</Highlight></p>
 
       <DevSkillCards />
     </div>

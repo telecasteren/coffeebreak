@@ -7,6 +7,7 @@
     "home": "home",
     "projects": "projects",
     "about": "about",
+    "mission": "mission",
     "contact": "contact",
     "curriculum": "cv"
   },
@@ -25,16 +26,9 @@
   "hero": {
     "title": "FRONTEND DEV AND COFFEE NERD",
     "descStart": "Notoriously curious",
-    "description": "about everything. Building on the web one coffee at the time. All things",
+    "description": "about everything. Building software one coffee at the time. All things",
     "descEnd": "user centric",
-    "link": "Tell me more..."
-  },
-  "mission": {
-    "title": "MISSION",
-    "tagline1": "Everything is simple",
-    "description": "a bold statement and one of my main goals. I enjoy creating software that is easy to use, intuitive and solve problems.",
-    "content": "Trained in front-end development, working my way across the full stack. With a solid background in human connection, structure and project management, I focus on delivering high-quality and make the complex simple.",
-    "tagline2": "Helping people to succeed with digital products."
+    "link": ""
   },
   "projects": {
     "title": "Selected projects",
@@ -44,9 +38,10 @@
   "about": {
     "dev": {
       "devTitle": "THE FRONTEND NERD",
-      "devTagline": "User focused, playful and efficient.",
+      "devTagline1": "User focused, playful and efficient.",
       "devSubtitle": "Turning ideas into actual performant interfaces.",
-      "devDescription": "I enjoy building modern web applications, focusing on clarity, accessibility and consistency. My client facing background helps me translate real user needs into simple flows and clean components. I care about naming, structure and patterns that make it easy for others to read, extend and maintain the code.",
+      "devDescription": "I enjoy building modern web applications, focusing on clarity, accessibility and consistency. My client facing background helps me translate real user needs into simple flows and clean components. I care about naming, structure and patterns that make it easy for others to read and maintain the code.",
+      "devTagline2": "Making complex systems feel like a breeze.",
       "experience": "Experience and technologies"
     },
     "coffee": {
@@ -54,11 +49,18 @@
       "coffeeTagline": "Barista for over a decade.",
       "coffeeSubtitle": "Drinking coffee fulltime.",
       "coffeeDescPart1": "Rocked the grinder behind the espresso machine, and brewed coffee for over a decade. Managed cafés in fast-paced environments, serving the people their daily dose of caffeine. Those years taught me to listen, understand needs quickly and simplify choices.",
-      "highlightCoffeeLine": "Now I bring that mindset into tech",
+      "highlightCoffeeLine": "I bring that same mindset into tech",
       "coffeeDescPart2": "focusing on a digital customer experience and building interfaces that feel as friendly and intuitive as a good coffee shop.",
       "experience": "Experience"
     },
     "testimonials": "Don't take my word for it"
+  },
+  "mission": {
+    "title": "MISSION",
+    "tagline1": "Everything is simple",
+    "description": "a bold statement and one of my main goals. I enjoy creating software that is easy to use, intuitive and solve problems.",
+    "content": "Trained in front-end development, working my way across the full stack. With a solid background in human connection, structure and project management, I focus on delivering high-quality and make the complex simple.",
+    "tagline2": "Helping people to succeed with digital products."
   },
   "contact": {
     "title": "REACH OUT",

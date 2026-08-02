@@ -7,6 +7,7 @@
     "home": "hjem",
     "projects": "prosjekter",
     "about": "om",
+    "mission": "ambisjon",
     "contact": "kontakt",
     "curriculum": "cv"
   },
@@ -25,16 +26,9 @@
   "hero": {
     "title": "FRONTEND UTVIKLER OG KAFFENERD",
     "descStart": "Notorisk nysgjerrig",
-    "description": "på alt mulig. Bygger på nett en kaffe om gangen. Lever for",
+    "description": "på alt mulig. Bygger programvare en kaffe om gangen. Lever for",
     "descEnd": "brukeropplevelse",
-    "link": "Fortell meg mer..."
-  },
-  "mission": {
-    "title": "AMBISJON",
-    "tagline1": "Alt er enkelt",
-    "description": "en heftig påstand og et av hovedmålene mine. Jeg liker å lage programvare som er enkel å bruke, intuitiv og som løser problemer.",
-    "content": "Trent i front-end utvikling, jobber meg gjennom hele stacken. Solid bakgrunn i menneskelig kontakt, struktur og prosjektledelse, med et fokus på å levere høy kvalitet og gjøre det komplekse enkelt.",
-    "tagline2": "Hjelper folk med å lykkes med digitale produkter."
+    "link": ""
   },
   "projects": {
     "title": "Utvalgte prosjekter",
@@ -44,9 +38,10 @@
   "about": {
     "dev": {
       "devTitle": "FRONTEND NERDEN",
-      "devTagline": "Brukerfokusert, leken og effektiv.",
+      "devTagline1": "Brukerfokusert, leken og effektiv.",
       "devSubtitle": "Gjør ideer om til intuitive og kraftige brukergrensesnitt.",
       "devDescription": "Jeg liker å bygge moderne webapplikasjoner, med fokus på tydelighet, tilgjengelighet og konsekvent kode. Erfaringen min fra kunde fokusert arbeid hjelper meg å oversette reelle behov til enkle flyter og ryddige komponenter. Jeg bryr meg om navngivning, struktur og mønstre som gjør kode lett å lese, utvide og vedlikeholde.",
+      "devTagline2": "Får komplekse systemer til å gi mening.",
       "experience": "Erfaring og teknologier"
     },
     "coffee": {
@@ -54,11 +49,18 @@
       "coffeeTagline": "Barista i over et tiår.",
       "coffeeSubtitle": "Kaffedrikker på fulltid.",
       "coffeeDescPart1": "Rocket kverna bak espressomaskinen og brygget kaffe i over et tiår. Drevet kafeer i høyt tempo og servert folk sin daglige dose med koffein. De årene lærte meg å lytte, forstå behov raskt og gjøre valgene enkle.",
-      "highlightCoffeeLine": "Nå har jeg med det samme tankesettet inn i tech",
+      "highlightCoffeeLine": "Jeg har med meg det samme tankesettet inn i tech",
       "coffeeDescPart2": "med fokus på digitale kundeopplevelser og grensesnitt som føles like vennlige og intuitive som en god kaffebar.",
       "experience": "Erfaring"
     },
     "testimonials": "Ikke ta meg på ordet"
+  },
+  "mission": {
+    "title": "AMBISJON",
+    "tagline1": "Alt er enkelt",
+    "description": "en heftig påstand og likevel hovedmålet mitt. Jeg liker å lage programvare som er enkel å bruke, intuitiv og som løser problemer.",
+    "content": "Trent i front-end utvikling, jobber med hele verdikjeden. Solid bakgrunn i menneskelig kontakt, struktur og prosjektledelse, med et fokus på å levere høy kvalitet og gjøre det komplekse enkelt.",
+    "tagline2": "Hjelper folk med å lykkes med digitale produkter."
   },
   "contact": {
     "title": "Ta kontakt",

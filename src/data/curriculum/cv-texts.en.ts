@@ -4,13 +4,13 @@ export const cvItemsEn = [
     year: "2024 - now",
     title: "Pixl - Tele Caster Nilsen",
     subtitle: "Hobby and Freelance Web Developer",
-    desc: `Building various projects and designing websites, gaining practical experience and honing my skills in web development. Focused technologies include React, TypeScript, Next.js, Node.js, Express, MySQL and more.
-    I've integrated AI in my development workflow, using it to accelerate prototyping, debugging and development, while maintaining a deep understanding of the technologies.
-    To me, learning is the ultimate activity, and I'm not shy about taking on projects or introduce new technologies.`,
+    desc: `Managing various projects and website designs, building and maintaining websites. Honing my skills in web- and product development.
+    AI is integrated in my development workflow, accelerating prototyping, debugging and design, while maintaining a deep understanding of the technologies underneath.
+    I'm not shy about taking on projects or introduce new technologies.`,
   },
   {
     id: 2,
-    year: "March 2023 - now",
+    year: "March 2023 - October 2026",
     title: "Noroff University",
     subtitle: "Front-End Development",
     desc: "Studies in front-end development, gaining a strong foundation in modern web technologies including HTML, CSS, TypeScript, React, Express.js and SQL.",

@@ -29,12 +29,12 @@ export default async function App() {
         <Barista />
       </section>
 
-      <section id="testimonials">
-        <Testimonials />
-      </section>
-
       <section id="mission">
         <Mission />
+      </section>
+
+      <section id="testimonials">
+        <Testimonials />
       </section>
 
       <section id="contact">

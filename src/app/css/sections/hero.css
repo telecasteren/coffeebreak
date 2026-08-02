@@ -1,0 +1,7 @@
+.hero-link {
+    display: inline-flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
