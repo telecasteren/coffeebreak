@@ -34,11 +34,7 @@ const Footer = () => {
           </div>
 
           <p className="footer-version">
-            © {new Date().getFullYear()} {t("author")}. {t("rights")} |
-            <a href="#"> v2</a> |
-            <a href="/v1/" target="_blank" rel="noopener noreferrer">
-              v1
-            </a>
+            © {new Date().getFullYear()} {t("author")}. {t("rights")}
           </p>
         </footer>
 
