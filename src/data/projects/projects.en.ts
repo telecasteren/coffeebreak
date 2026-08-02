@@ -17,19 +17,19 @@ const projects = [
     ],
     media: [
       {
-        src: "/haiku-coffee/haiku_home.png",
+        src: "/projects/haiku-coffee/haiku_home.png",
         alt: "Haiku Coffee home page",
       },
       {
-        src: "/haiku-coffee/haiku_signup.png",
+        src: "/projects/haiku-coffee/haiku_signup.png",
         alt: "Haiku Coffee signup page",
       },
       {
-        src: "/haiku-coffee/haiku_shop_merch.png",
+        src: "/projects/haiku-coffee/haiku_shop_merch.png",
         alt: "Haiku Coffee shop merch page",
       },
       {
-        src: "/haiku-coffee/haiku_shop_beans.png",
+        src: "/projects/haiku-coffee/haiku_shop_beans.png",
         alt: "Haiku Coffee shop beans page",
       },
     ],
@@ -52,15 +52,15 @@ const projects = [
     ],
     media: [
       {
-        src: "/odahelen/odahelen_hero.png",
+        src: "/projects/odahelen/odahelen_hero.png",
         alt: "Oda Helen Nilsen hero",
       },
       {
-        src: "/odahelen/odahelen_eventer.png",
+        src: "/projects/odahelen/odahelen_eventer.png",
         alt: "Oda Helen Nilsen event side",
       },
       {
-        src: "/odahelen/odahelen_galleri.png",
+        src: "/projects/odahelen/odahelen_galleri.png",
         alt: "Oda Helen Nilsen galleri",
       },
     ],
@@ -83,19 +83,19 @@ const projects = [
     ],
     media: [
       {
-        src: "/grammofon/collection.png",
+        src: "/projects/grammofon/collection.png",
         alt: "Grammofon collection page",
       },
       {
-        src: "/grammofon/pagination.png",
+        src: "/projects/grammofon/pagination.png",
         alt: "Grammofon collection list see more",
       },
       {
-        src: "/grammofon/new-entry.png",
+        src: "/projects/grammofon/new-entry.png",
         alt: "Grammofon add new entry page",
       },
       {
-        src: "/grammofon/wishlist.png",
+        src: "/projects/grammofon/wishlist.png",
         alt: "Grammofon wishlist page",
       },
     ],
@@ -118,44 +118,40 @@ const projects = [
     ],
     media: [
       {
-        src: "/fjell-lms/user-profile.png",
+        src: "/projects/fjell-lms/user-profile.png",
         alt: "User profile",
       },
       {
-        src: "/fjell-lms/user-profile-darkmode.png",
+        src: "/projects/fjell-lms/user-profile-darkmode.png",
         alt: "User profile in dark mode",
       },
       {
-        src: "/fjell-lms/signin.png",
+        src: "/projects/fjell-lms/signin.png",
         alt: "Sign in page",
       },
       {
-        src: "/fjell-lms/dept-hierarchy-list.png",
+        src: "/projects/fjell-lms/dept-hierarchy-list.png",
         alt: "Department hierarchy list",
       },
       {
-        src: "/fjell-lms/author-dashboard.png",
+        src: "/projects/fjell-lms/author-dashboard.png",
         alt: "Author dashboard",
       },
       {
-        src: "/fjell-lms/dept-config.png",
+        src: "/projects/fjell-lms/dept-config.png",
         alt: "Department configuration",
       },
       {
-        src: "/fjell-lms/dept-management.png",
+        src: "/projects/fjell-lms/dept-management.png",
         alt: "Department management",
       },
       {
-        src: "/fjell-lms/dept-reports.png",
+        src: "/projects/fjell-lms/dept-reports.png",
         alt: "Department reports",
       },
       {
-        src: "/fjell-lms/dept-reports-detailed.png",
+        src: "/projects/fjell-lms/dept-reports-detailed.png",
         alt: "Detailed department reports",
-      },
-      {
-        src: "/fjell-lms/faq.png",
-        alt: "FAQ",
       },
     ],
   },
@@ -177,31 +173,31 @@ const projects = [
     ],
     media: [
       {
-        src: "/foodiegram/foodiegram_lightmode.webp",
+        src: "/projects/foodiegram/foodiegram_lightmode.webp",
         alt: "Foodiegram landing page in light theme",
       },
       {
-        src: "/foodiegram/landing-dark.png",
+        src: "/projects/foodiegram/landing-dark.png",
         alt: "Foodiegram landing page in dark theme",
       },
       {
-        src: "/foodiegram/login.png",
+        src: "/projects/foodiegram/login.png",
         alt: "Foodiegram login page",
       },
       {
-        src: "/foodiegram/profile-settings.png",
+        src: "/projects/foodiegram/profile-settings.png",
         alt: "Foodiegram profile page",
       },
       {
-        src: "/foodiegram/feed.png",
+        src: "/projects/foodiegram/feed.png",
         alt: "Foodiegram posts feed page",
       },
       {
-        src: "/foodiegram/search.png",
+        src: "/projects/foodiegram/search.png",
         alt: "Foodiegram feed page with search",
       },
       {
-        src: "/foodiegram/single-post.png",
+        src: "/projects/foodiegram/single-post.png",
         alt: "Foodiegram single post page",
       },
     ],
@@ -224,31 +220,31 @@ const projects = [
     ],
     media: [
       {
-        src: "/bits-auctions/bits-landing.png",
+        src: "/projects/bits-auctions/bits-landing.png",
         alt: "Bits Auctions landing page dark theme",
       },
       {
-        src: "/bits-auctions/landing.png",
+        src: "/projects/bits-auctions/landing.png",
         alt: "Bits Auctions landing page light theme",
       },
       {
-        src: "/bits-auctions/listings.png",
+        src: "/projects/bits-auctions/listings.png",
         alt: "Bits Auctions listings page",
       },
       {
-        src: "/bits-auctions/overview.png",
+        src: "/projects/bits-auctions/overview.png",
         alt: "Bits Auctions overview page",
       },
       {
-        src: "/bits-auctions/single-listing.png",
+        src: "/projects/bits-auctions/single-listing.png",
         alt: "Bits Auctions single listing page",
       },
       {
-        src: "/bits-auctions/account.png",
+        src: "/projects/bits-auctions/account.png",
         alt: "Bits Auctions account page",
       },
       {
-        src: "/bits-auctions/create-listing.png",
+        src: "/projects/bits-auctions/create-listing.png",
         alt: "Bits Auctions create new listing modal",
       },
     ],

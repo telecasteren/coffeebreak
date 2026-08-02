@@ -17,19 +17,19 @@ const projects = [
     ],
     media: [
       {
-        src: "/haiku-coffee/haiku_home.png",
+        src: "/projects/haiku-coffee/haiku_home.png",
         alt: "Haiku Coffee home page",
       },
       {
-        src: "/haiku-coffee/haiku_signup.png",
+        src: "/projects/haiku-coffee/haiku_signup.png",
         alt: "Haiku Coffee signup page",
       },
       {
-        src: "/haiku-coffee/haiku_shop_merch.png",
+        src: "/projects/haiku-coffee/haiku_shop_merch.png",
         alt: "Haiku Coffee shop merch page",
       },
       {
-        src: "/haiku-coffee/haiku_shop_beans.png",
+        src: "/projects/haiku-coffee/haiku_shop_beans.png",
         alt: "Haiku Coffee shop beans page",
       },
     ],
@@ -52,15 +52,15 @@ const projects = [
     ],
     media: [
       {
-        src: "/odahelen/odahelen_hero.png",
+        src: "/projects/odahelen/odahelen_hero.png",
         alt: "Oda Helen Nilsen hero",
       },
       {
-        src: "/odahelen/odahelen_eventer.png",
+        src: "/projects/odahelen/odahelen_eventer.png",
         alt: "Oda Helen Nilsen event side",
       },
       {
-        src: "/odahelen/odahelen_galleri.png",
+        src: "/projects/odahelen/odahelen_galleri.png",
         alt: "Oda Helen Nilsen galleri",
       },
     ],
@@ -83,19 +83,19 @@ const projects = [
     ],
     media: [
       {
-        src: "/grammofon/collection.png",
+        src: "/projects/grammofon/collection.png",
         alt: "Grammofon collection page",
       },
       {
-        src: "/grammofon/pagination.png",
+        src: "/projects/grammofon/pagination.png",
         alt: "Grammofon collection list see more",
       },
       {
-        src: "/grammofon/new-entry.png",
+        src: "/projects/grammofon/new-entry.png",
         alt: "Grammofon add new entry page",
       },
       {
-        src: "/grammofon/wishlist.png",
+        src: "/projects/grammofon/wishlist.png",
         alt: "Grammofon wishlist page",
       },
     ],
@@ -118,44 +118,40 @@ const projects = [
     ],
     media: [
       {
-        src: "/fjell-lms/user-profile.png",
+        src: "/projects/fjell-lms/user-profile.png",
         alt: "Bruker profil",
       },
       {
-        src: "/fjell-lms/user-profile-darkmode.png",
+        src: "/projects/fjell-lms/user-profile-darkmode.png",
         alt: "Bruker profil i mørk modus",
       },
       {
-        src: "/fjell-lms/signin.png",
+        src: "/projects/fjell-lms/signin.png",
         alt: "Innlogging",
       },
       {
-        src: "/fjell-lms/dept-hierarchy-list.png",
+        src: "/projects/fjell-lms/dept-hierarchy-list.png",
         alt: "Avdelingshierarki liste",
       },
       {
-        src: "/fjell-lms/author-dashboard.png",
+        src: "/projects/fjell-lms/author-dashboard.png",
         alt: "Forfatter dashboard",
       },
       {
-        src: "/fjell-lms/dept-config.png",
+        src: "/projects/fjell-lms/dept-config.png",
         alt: "Avdeling konfigurasjon",
       },
       {
-        src: "/fjell-lms/dept-management.png",
+        src: "/projects/fjell-lms/dept-management.png",
         alt: "Avdeling administrering",
       },
       {
-        src: "/fjell-lms/dept-reports.png",
+        src: "/projects/fjell-lms/dept-reports.png",
         alt: "Avdeling rapporter",
       },
       {
-        src: "/fjell-lms/dept-reports-detailed.png",
+        src: "/projects/fjell-lms/dept-reports-detailed.png",
         alt: "Detaljert avdeling rapporter",
-      },
-      {
-        src: "/fjell-lms/faq.png",
-        alt: "FAQ",
       },
     ],
   },
@@ -177,31 +173,31 @@ const projects = [
     ],
     media: [
       {
-        src: "/foodiegram/foodiegram_lightmode.webp",
+        src: "/projects/foodiegram/foodiegram_lightmode.webp",
         alt: "Foodiegram landingsside i lyst tema",
       },
       {
-        src: "/foodiegram/landing-dark.png",
+        src: "/projects/foodiegram/landing-dark.png",
         alt: "Foodiegram landingsside i mørkt tema",
       },
       {
-        src: "/foodiegram/login.png",
+        src: "/projects/foodiegram/login.png",
         alt: "Foodiegram innloggingsside",
       },
       {
-        src: "/foodiegram/profile-settings.png",
+        src: "/projects/foodiegram/profile-settings.png",
         alt: "Foodiegram profilsiden",
       },
       {
-        src: "/foodiegram/feed.png",
+        src: "/projects/foodiegram/feed.png",
         alt: "Foodiegram feed-side med innlegg",
       },
       {
-        src: "/foodiegram/search.png",
+        src: "/projects/foodiegram/search.png",
         alt: "Foodiegram feed-side med søk",
       },
       {
-        src: "/foodiegram/single-post.png",
+        src: "/projects/foodiegram/single-post.png",
         alt: "Foodiegram side for enkeltinnlegg",
       },
     ],
@@ -224,31 +220,31 @@ const projects = [
     ],
     media: [
       {
-        src: "/bits-auctions/bits-landing.png",
+        src: "/projects/bits-auctions/bits-landing.png",
         alt: "Bits Auctions landingsside i mørkt tema",
       },
       {
-        src: "/bits-auctions/landing.png",
+        src: "/projects/bits-auctions/landing.png",
         alt: "Bits Auctions landingsside i lyst tema",
       },
       {
-        src: "/bits-auctions/listings.png",
+        src: "/projects/bits-auctions/listings.png",
         alt: "Bits Auctions annonseoversikt",
       },
       {
-        src: "/bits-auctions/overview.png",
+        src: "/projects/bits-auctions/overview.png",
         alt: "Bits Auctions oversiktsside",
       },
       {
-        src: "/bits-auctions/single-listing.png",
+        src: "/projects/bits-auctions/single-listing.png",
         alt: "Bits Auctions side for enkeltannonse",
       },
       {
-        src: "/bits-auctions/account.png",
+        src: "/projects/bits-auctions/account.png",
         alt: "Bits Auctions kontoside",
       },
       {
-        src: "/bits-auctions/create-listing.png",
+        src: "/projects/bits-auctions/create-listing.png",
         alt: "Bits Auctions modal for å opprette ny annonse",
       },
     ],
