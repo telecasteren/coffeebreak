@@ -8,7 +8,7 @@ const projects = [
     urls: [
       {
         title: "Se Haiku Coffee",
-        src: "",
+        src: "https://haiku-coffee.telecasternilsen.com",
       },
       {
         title: "Se koden",
