@@ -1,79 +1,79 @@
 {
-  "meta": {
-    "title": "Tele Caster Nilsen",
-    "description": "Portfolio for Tele Caster Nilsen"
-  },
-  "nav": {
-    "home": "home",
-    "projects": "projects",
-    "about": "about",
-    "mission": "mission",
-    "contact": "contact",
-    "curriculum": "cv"
-  },
-  "footer": {
-    "author": "Tele Caster Nilsen",
-    "rights": "All rights reserved.",
-    "github": "GitHub",
-    "email": "Email",
-    "linkedin": "LinkedIn"
-  },
-  "buttons": {
-    "showMore": "Show project",
-    "liveSite": "View site",
-    "github": "View code"
-  },
-  "hero": {
-    "title": "FRONTEND DEV AND COFFEE NERD",
-    "descStart": "Notoriously curious",
-    "description": "about everything. Building software one coffee at the time. All things",
-    "descEnd": "user centric",
-    "link": ""
-  },
-  "projects": {
-    "title": "Selected projects",
-    "seeMore": "Find more projects on",
-    "github": "GitHub"
-  },
-  "about": {
-    "dev": {
-      "devTitle": "THE FRONTEND NERD",
-      "devTagline1": "User focused, playful and efficient.",
-      "devSubtitle": "Turning ideas into actual performant interfaces.",
-      "devDescription": "I enjoy building modern web applications, focusing on clarity, accessibility and consistency. My client facing background helps me translate real user needs into simple flows and clean components. I care about naming, structure and patterns that make it easy for others to read and maintain the code.",
-      "devTagline2": "Making complex systems feel like a breeze.",
-      "experience": "Experience and technologies"
+    "meta": {
+        "title": "Tele Caster Nilsen",
+        "description": "Portfolio for Tele Caster Nilsen"
     },
-    "coffee": {
-      "coffeeTitle": "THE COFFEE NERD",
-      "coffeeTagline": "Barista for over a decade.",
-      "coffeeSubtitle": "Drinking coffee fulltime.",
-      "coffeeDescPart1": "Rocked the grinder behind the espresso machine, and brewed coffee for over a decade. Managed cafés in fast-paced environments, serving the people their daily dose of caffeine. Those years taught me to listen, understand needs quickly and simplify choices.",
-      "highlightCoffeeLine": "I bring that same mindset into tech",
-      "coffeeDescPart2": "focusing on a digital customer experience and building interfaces that feel as friendly and intuitive as a good coffee shop.",
-      "experience": "Experience"
+    "nav": {
+        "home": "home",
+        "projects": "projects",
+        "about": "about",
+        "mission": "mission",
+        "contact": "contact",
+        "curriculum": "cv"
     },
-    "testimonials": "Don't take my word for it"
-  },
-  "mission": {
-    "title": "MISSION",
-    "tagline1": "Everything is simple",
-    "description": "a bold statement and one of my main goals. I enjoy creating software that is easy to use, intuitive and solve problems.",
-    "content": "Trained in front-end development, working my way across the full stack. With a solid background in human connection, structure and project management, I focus on delivering high-quality and make the complex simple.",
-    "tagline2": "Helping people to succeed with digital products."
-  },
-  "contact": {
-    "title": "REACH OUT",
-    "tagline": "HIRE ME",
-    "descPart1": "I'm always open to",
-    "highlightDescLine": "new opportunities",
-    "descPart2": "and collaborations. Feel free to reach out on",
-    "email": "email",
-    "mailto": "mailto:nilsen.tele@proton.me"
-  },
-  "cv": {
-    "title": "Curriculum Vitae",
-    "subtitle": "My professional journey.",
-    "fullname": "Tele Caster Nilsen"
-  }
+    "footer": {
+        "author": "Tele Caster Nilsen",
+        "rights": "All rights reserved.",
+        "github": "GitHub",
+        "email": "Email",
+        "linkedin": "LinkedIn"
+    },
+    "buttons": {
+        "showMore": "Show project",
+        "liveSite": "View site",
+        "github": "View code"
+    },
+    "hero": {
+        "title": "FULLSTACK PRODUCT ENGINEER AND COFFEE NERD",
+        "descStart": "Notoriously curious",
+        "description": "about everything. Building software one coffee at the time. All things",
+        "descEnd": "user centric",
+        "link": ""
+    },
+    "projects": {
+        "title": "Selected projects",
+        "seeMore": "Find more projects on",
+        "github": "GitHub"
+    },
+    "about": {
+        "dev": {
+            "devTitle": "THE FRONTEND NERD",
+            "devTagline1": "User focused, playful and efficient.",
+            "devSubtitle": "Turning ideas into actual performant interfaces.",
+            "devDescription": "I enjoy building modern web applications, focusing on clarity, accessibility and consistency. My client facing background helps me translate real user needs into simple flows and clean components. I care about naming, structure and patterns that make it easy for others to read and maintain the code.",
+            "devTagline2": "Making complex systems feel like a breeze.",
+            "experience": "Experience and technologies"
+        },
+        "coffee": {
+            "coffeeTitle": "THE COFFEE NERD",
+            "coffeeTagline": "Barista for over a decade.",
+            "coffeeSubtitle": "Drinking coffee fulltime.",
+            "coffeeDescPart1": "Rocked the grinder behind the espresso machine, and brewed coffee for over a decade. Managed cafés in fast-paced environments, serving the people their daily dose of caffeine. Those years taught me to listen, understand needs quickly and simplify choices.",
+            "highlightCoffeeLine": "I bring that same mindset into tech",
+            "coffeeDescPart2": "focusing on a digital customer experience and building interfaces that feel as friendly and intuitive as a good coffee shop.",
+            "experience": "Experience"
+        },
+        "testimonials": "Don't take my word for it"
+    },
+    "mission": {
+        "title": "MISSION",
+        "tagline1": "Everything is simple",
+        "description": "a bold statement and one of my main goals. I enjoy creating software that is easy to use, intuitive and solve problems.",
+        "content": "Trained in frontend-development, working across the full stack. With a solid background in human connection, structure and project management, I focus on delivering high-quality and make the complex simple.",
+        "tagline2": "Helping people to succeed with digital products."
+    },
+    "contact": {
+        "title": "REACH OUT",
+        "tagline": "HIRE ME",
+        "descPart1": "I'm always open to",
+        "highlightDescLine": "new opportunities",
+        "descPart2": "and collaborations. Feel free to reach out on",
+        "email": "email",
+        "mailto": "mailto:nilsen.tele@proton.me"
+    },
+    "cv": {
+        "title": "Curriculum Vitae",
+        "subtitle": "My professional journey.",
+        "fullname": "Tele Caster Nilsen"
+    }
 }
