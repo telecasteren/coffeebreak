@@ -1,12 +1,10 @@
 # Hi! You deserve a coffee break ☕️
 
-Welcome! Grab a cup and let's get to work!
+Grab a cup and let's connect!
 
 ---
 
 **Author:** Tele Caster Nilsen<br/>
-**Current version:** v2<br/>
-**Previous version:** v1 - [telecasternilsen.com](https://telecasternilsen.com/v1/)
 
 ---
 
@@ -29,8 +27,8 @@ ___________________
 
 | \_frontend | \_backend   | \_frameworks | \_database/cloud |
 | :--------- | :---------- | :----------- | :--------------- |
-| Typescript | SQL / MYSQL | React        | Prisma ORM       |
-| Javascript | _C#_        | Tanstack     | Neon Console     |
+| TypeScript | SQL / MYSQL | React        | Prisma ORM       |
+| JavaScript | _C#_        | TanStack     | Neon Console     |
 | HTML       | _Rust_      | Next.js      | Bunny Storage    |
 | CSS        | _Java_      | Node.js      | MYSQL Workbench  |
 | Tailwind   |             | Express      |                  |
@@ -44,7 +42,7 @@ ___________________
 | :---------------- | :------ |
 | Redux Toolkit     | Git     |
 | Zod               | VS Code |
-| Zustand           | Zed     |
+| _Zustand_         | Zed     |
 |                   | Postman |
 |                   | Docker  |
 
